@@ -412,6 +412,50 @@ footer hr {
   z-index: -1;
 }
 
-
-
 /* banner end */
+
+/* trusted by start */
+.marqueeContainer {
+  max-width: 2500px;
+  margin: auto;
+  padding: 20px 0;
+  background: var(--secondaryColor);
+}
+
+.marqueeContainer.company_slider {
+  background: none;
+}
+
+.marqueeContainer p {
+  font-family: 'ClashDisplay-Semibold';
+  color: var(--buttonColor);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.marquee {
+  white-space: nowrap;
+  min-width: 100%;
+  overflow: hidden;
+}
+
+@keyframes marqueeAnimation {
+  from {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  to {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+.marque_items {
+  display: flex;
+  animation: marqueeAnimation 40s linear infinite;
+  animation-delay: -20s;
+}
+
+/* trusted by end */

@@ -151,6 +151,10 @@ input {
     margin-top: 14px;
 }
 
+.mt_92 {
+    margin-top: 92px;
+}
+
 .mt_56 {
     margin-top: 56px;
 }
@@ -177,6 +181,10 @@ input {
 
 .mb_112 {
     margin-bottom: 112px;
+}
+
+.mb_130 {
+    margin-bottom: 130px;
 }
 
 
@@ -220,11 +228,62 @@ input {
     font-weight: 400;
 }
 
-
-
 /* common buttons design */
 
 
+
+
+
+/* Design Text and SectionHeader Class Start */
+.sectionHeader {
+    color: var(--neutralColor);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 35px;
+}
+
+@media only screen and (max-width:768px) {
+    .sectionHeader {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+}
+
+/* curve text */
+
+.txt_curve {
+    position: relative;
+}
+
+.txt_curve::after {
+    position: absolute;
+    content: "";
+    bottom: -24px;
+    left: -8px;
+    height: 57%;
+    width: 110%;
+    border: 5px;
+    border-style: solid;
+    border-color: var(--primaryColor) transparent transparent transparent;
+    border-radius: 45% 45% 0 0;
+
+}
+
+@media only screen and (max-width:768px) {
+    .txt_curve::after {
+        height: 70%;
+        position: absolute;
+        content: "";
+        bottom: -22px;
+        left: -8px;
+        width: 110%;
+        border: 5px;
+        border-style: solid;
+        border-color: var(--primaryColor) transparent transparent transparent;
+        border-radius: 45% 45% 0 0;
+    }
+}
 
 
 
