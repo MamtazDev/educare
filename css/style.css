@@ -581,3 +581,73 @@ footer hr {
 
 
 /* how it works end */
+
+/* establishing a community start */
+.community_wrapper {
+  padding: 153px 0;
+  background-color: var(--neutralColor);
+}
+
+.community_wrapper h1 {
+  font-size: 44px;
+  font-weight: 700;
+  font-family: 'Syne', sans-serif;
+  color: var(--neutralColor2);
+}
+
+.community_points span {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--neutralColor2);
+  text-transform: capitalize;
+  text-align: start !important;
+}
+
+.community_btns {
+  margin-top: 48px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+/* responsive start */
+@media (max-width:768px) {
+  .community_wrapper {
+    padding: 48px 24px 64px;
+  }
+
+  .community_rows {
+    flex-direction: column-reverse;
+  }
+
+  .community_points {
+    margin-bottom: 18px;
+  }
+
+  .mb_24 {
+    margin-bottom: 0;
+  }
+
+  .community_btns {
+    margin-bottom: 48px;
+    margin-top: 16px;
+    gap: 13px;
+  }
+
+  .know_more_btn {
+    font-size: 14px;
+    width: 157px;
+
+  }
+
+  .phone_btn {
+    font-size: 14px;
+    width: 157px;
+
+  }
+
+}
+
+/* responsive end */
+
+/* establishing a community end */

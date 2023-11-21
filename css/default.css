@@ -5,6 +5,7 @@
 body {
     font-family: 'Outfit', sans-serif;
     font-style: normal;
+    line-height: 150%;
 }
 
 :root {
@@ -14,6 +15,7 @@ body {
     --textColor: #BCBCBC;
     --textColor2: #747474;
     --othercolor2: #1A2224;
+    --secondarycolor: #FFD452;
 }
 
 h1,
@@ -158,6 +160,7 @@ input {
 .mt_56 {
     margin-top: 56px;
 }
+
 .mt_68 {
     margin-top: 68px;
 }
@@ -172,6 +175,14 @@ input {
 
 .mb_14 {
     margin-bottom: 14px;
+}
+
+.mb_24 {
+    margin-bottom: 24px;
+}
+
+.mb_32 {
+    margin-bottom: 32px;
 }
 
 .mb_56 {
@@ -193,6 +204,11 @@ input {
 
 /* margin end */
 
+.greyText {
+    font-size: 18px;
+    color: var(--textColor);
+    font-weight: 400;
+}
 
 /* color start */
 .grey {
@@ -231,6 +247,63 @@ input {
     font-weight: 400;
 }
 
+.about_btn {
+    display: inline-flex;
+    height: 40px;
+    padding: 10px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 11px;
+    background: var(--primaryColor);
+    color: var(--neutralColor);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.fs18400 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.pro_btn {
+    height: 28px;
+    padding: 10px;
+    border-radius: 7px;
+    background: var(--secondarycolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.know_more_btn {
+    display: flex;
+    width: 183px;
+    height: 57px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 11px;
+    background: var(--neutralColor2);
+}
+
+.phone_btn {
+    display: flex;
+    width: 183px;
+    height: 57px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 11px;
+    border: 1px solid var(--neutralColor2);
+    color: var(--neutralColor2);
+}
+
+
+
 /* common buttons design */
 
 
@@ -253,8 +326,11 @@ input {
     }
 }
 
-/* curve text */
+.green_text {
+    color: var(--primaryColor);
+}
 
+/* curve text */
 .txt_curve {
     position: relative;
 }
