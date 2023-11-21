@@ -32,20 +32,20 @@
         justify-content: center;
         align-items: center;
     }
-
-
-
-
     /* banner */
 
 
-
+    
     .mb_56 {
         margin-bottom: 14px !important;
     }
 
     .mt_80 {
         margin-top: 20px;
+    }
+
+    .mb_130 {
+        margin-bottom: 60px;
     }
 
     /* font size  */

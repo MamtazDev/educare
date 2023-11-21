@@ -158,6 +158,9 @@ input {
 .mt_56 {
     margin-top: 56px;
 }
+.mt_68 {
+    margin-top: 68px;
+}
 
 .mt_80 {
     margin-top: 80px;
@@ -223,7 +226,7 @@ input {
 .bannerWatchBtn {
     padding: 13px;
     border-radius: 11px;
-    border: 1px solid var(--color-option-neutral-color-1, #131C1E);
+    border: 1px solid var(--neutralColor);
     font-size: 16px;
     font-weight: 400;
 }
@@ -275,7 +278,7 @@ input {
         height: 70%;
         position: absolute;
         content: "";
-        bottom: -22px;
+        bottom: -30px;
         left: -8px;
         width: 110%;
         border: 5px;
@@ -287,8 +290,7 @@ input {
 
 
 
-
-
-
-
 /*  Theme default css  end */
+
+/* <p class="sectionHeader text-center text-md-start"><span class="txt_curve">Trusted by big brands</span>
+</p> */
