@@ -1,0 +1,59 @@
+@media (max-width:768px) {
+
+    /* banner */
+    .banner_title {
+        font-size: 32px !important;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .banner_wrapper {
+        padding: 0 15px;
+    }
+
+    .greenButton {
+        display: flex;
+        width: 157px;
+        height: 47px;
+        padding: 10px;
+        font-size: 12px;
+
+    }
+
+    .bannerWatchBtn {
+        width: 157px;
+        height: 47px;
+        padding: 11px;
+        border-radius: 11px;
+        border: 1px solid var(--color-option-neutral-color-1, #131C1E);
+        font-size: 14px;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+    /* banner */
+
+
+
+    .mb_56 {
+        margin-bottom: 14px !important;
+    }
+
+    .mt_80 {
+        margin-top: 20px;
+    }
+
+    /* font size  */
+    .fs_18 {
+        font-size: 14px;
+
+    }
+
+    /* font size  */
+
+}

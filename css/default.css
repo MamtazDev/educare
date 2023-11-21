@@ -1,9 +1,19 @@
 /*  Theme default css start */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
 
 body {
     font-family: 'Outfit', sans-serif;
-	font-style: normal;
+    font-style: normal;
+}
+
+:root {
+    --primaryColor: #B6EC3D;
+    --neutralColor: #131C1E;
+    --neutralColor2: #FFF;
+    --textColor: #BCBCBC;
+    --textColor2: #747474;
+    --othercolor2: #1A2224;
 }
 
 h1,
@@ -46,6 +56,7 @@ a {
 .container {
     max-width: 1420px;
 }
+
 /* 
 header,
 footer {
@@ -61,11 +72,13 @@ input {
     background: transparent;
     border: none;
 }
+
 /* font size start */
 .fs_14 {
     font-size: 14px;
     font-style: normal;
 }
+
 .fs_16 {
     font-size: 16px;
     font-style: normal;
@@ -79,6 +92,7 @@ input {
 .fs_20 {
     font-size: 18px;
 }
+
 .fs_22 {
     font-size: 22px;
 }
@@ -86,36 +100,45 @@ input {
 .fs_24 {
     font-size: 24px;
 }
+
 .fs_28 {
     font-size: 28px;
 }
+
 .fs_32 {
     font-size: 32px;
 }
+
 .fs_44 {
     font-size: 44px;
 }
+
 .fs_60 {
     font-size: 60px;
 }
+
 /* font size end */
 
 
 
 /* font weight */
-.fw_400{
+.fw_400 {
     font-weight: 400;
 }
-.fw_500{
+
+.fw_500 {
     font-weight: 500;
 }
-.fw_600{
+
+.fw_600 {
     font-weight: 600;
 }
-.fw_700{
+
+.fw_700 {
     font-weight: 700;
 }
-.fw_800{
+
+.fw_800 {
     font-weight: 800;
 }
 
@@ -124,9 +147,83 @@ input {
 
 
 /* margin start */
+.mt_14 {
+    margin-top: 14px;
+}
+
+.mt_56 {
+    margin-top: 56px;
+}
+
+.mt_80 {
+    margin-top: 80px;
+}
+
+.mt_112 {
+    margin-top: 112px;
+}
+
+.mb_14 {
+    margin-bottom: 14px;
+}
+
+.mb_56 {
+    margin-bottom: 56px;
+}
+
+.mb_80 {
+    margin-bottom: 80px;
+}
+
+.mb_112 {
+    margin-bottom: 112px;
+}
 
 
 /* margin end */
+
+
+/* color start */
+.grey {
+    color: var(--textColor);
+}
+
+.grey2 {
+    color: var(--textColor2);
+}
+
+
+/* color start */
+
+/* common buttons design */
+.greenButton {
+    display: flex;
+    width: 219px;
+    height: 57px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background: var(--primaryColor);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.bannerWatchBtn {
+    padding: 13px;
+    border-radius: 11px;
+    border: 1px solid var(--color-option-neutral-color-1, #131C1E);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+/* common buttons design */
+
 
 
 
