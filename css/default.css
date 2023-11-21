@@ -1,0 +1,138 @@
+/*  Theme default css start */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+	font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+:focus-visible {
+    outline: none;
+}
+
+:focus {
+    outline: none;
+}
+
+
+.container {
+    max-width: 1420px;
+}
+/* 
+header,
+footer {
+    background: var(--primaryColor);
+} */
+
+button {
+    border: none;
+    background: none;
+}
+
+input {
+    background: transparent;
+    border: none;
+}
+/* font size start */
+.fs_14 {
+    font-size: 14px;
+    font-style: normal;
+}
+.fs_16 {
+    font-size: 16px;
+    font-style: normal;
+}
+
+.fs_18 {
+    font-size: 18px;
+    font-style: normal;
+}
+
+.fs_20 {
+    font-size: 18px;
+}
+.fs_22 {
+    font-size: 22px;
+}
+
+.fs_24 {
+    font-size: 24px;
+}
+.fs_28 {
+    font-size: 28px;
+}
+.fs_32 {
+    font-size: 32px;
+}
+.fs_44 {
+    font-size: 44px;
+}
+.fs_60 {
+    font-size: 60px;
+}
+/* font size end */
+
+
+
+/* font weight */
+.fw_400{
+    font-weight: 400;
+}
+.fw_500{
+    font-weight: 500;
+}
+.fw_600{
+    font-weight: 600;
+}
+.fw_700{
+    font-weight: 700;
+}
+.fw_800{
+    font-weight: 800;
+}
+
+/* font weight */
+
+
+
+/* margin start */
+
+
+/* margin end */
+
+
+
+
+
+
+
+
+/*  Theme default css  end */
