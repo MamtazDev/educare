@@ -28,7 +28,7 @@
   --neutralColor: #131C1E;
   --neutralColor2: #FFF;
   --textColor: #BCBCBC;
-  --othercolor2: #1A2224
+  --othercolor2: #1A2224;
 }
 
 /* Header Start */
@@ -44,8 +44,8 @@
 }
 
 .nav-link {
-  color: var(--initialColor);
-  font-size: 18px;
+  color: var(--neutralColor);
+  font-size: 16px;
   font-weight: 400;
   padding: 0;
   font-style: normal;
@@ -55,10 +55,10 @@
 .dropdown-toggle::after {
   display: inline-block;
   margin-left: 2px !important;
-  vertical-align: -2px !important;
+  vertical-align: -5px !important;
   content: "";
-  height: 15px;
-  width: 20px;
+  height: 18px;
+  width: 18px;
   border-top: 0 !important;
   border-right: none !important;
   border-bottom: 0 !important;
@@ -66,19 +66,24 @@
   background-image: url("../assets/arrowDown.png") !important;
 }
 
-.nav-link:hover {
-  color: var(--otherColor2);
+.nav-item :hover {
+  color: var(--primaryColor);
 }
 
-.navbar-nav .nav-link.active,
-.navbar-nav .nav-link.show {
-  color: var(--otherColor2);
+.nav-link :hover {
+  color: var(--primaryColor);
+}
+
+.navbar-nav .nav-link.active
+
+/* .navbar-nav .nav-link.show */
+  {
+  color: var(--primaryColor);
 }
 
 .dropdown-item.active,
 .dropdown-item:active {
-  color: var(--initialColor);
-  background-color: var(--primaryColor) !important;
+  color: var(--primaryColor);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -114,23 +119,15 @@
   transition: 0.6s ease-in-out;
 }
 
-.authBtn a:last-child {
-  background: var(--secondaryColor);
-  color: var(--neutralColor);
+.signup_button {
+  border-radius: 11px;
+  background: var(--color-option-neutral-color-1, #131C1E);
+  box-shadow: 0px 4px 24px 0px rgba(19, 28, 30, 0.25);
+  color: var(--neutralColor2);
 }
 
-.authBtn a:first-child:hover {
-  border: 1px solid var(--secondaryColor);
-}
-
-.authBtn a:last-child:hover {
-  background: transparent !important;
-  color: var(--initialColor) !important;
-  border: 1px solid var(--secondaryColor);
-}
 
 /* Responsive Header Start */
-
 @media only screen and (max-width:1170px) {
   .navbar-nav {
     gap: 25px;
@@ -139,7 +136,7 @@
 
 @media only screen and (max-width:1024px) {
   .navbar-nav {
-    gap: 10px;
+    gap: 30px;
   }
 }
 
@@ -147,19 +144,23 @@
   .authBtn {
     flex-direction: column;
     gap: 25px;
+    justify-content: center;
+    align-items: center;
+
   }
 
   .authBtn a {
     width: max-content;
   }
 
-  .navbar-collapse {
-    padding-bottom: 15px;
-  }
-
   .navbar-nav {
     gap: 25px;
     padding-bottom: 25px;
+  }
+
+  .signup_button {
+    width: 50%;
+    margin: auto;
   }
 }
 
@@ -193,7 +194,7 @@
 /* Footer Start */
 
 footer {
-  padding-top: 95px;
+  padding-top: 106px;
   padding-bottom: 50px;
   background-color: var(--neutralColor);
 }
@@ -219,6 +220,7 @@ footer p:not(:last-child) {
   display: block;
   transition: 0.5s ease-in-out;
 }
+
 footer p:last-child {
   color: var(--textColor) !important;
   font-size: 16px;
@@ -310,7 +312,7 @@ footer button:hover {
 footer hr {
   color: rgba(255, 255, 255, 0.32);
   margin-top: 0;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 
