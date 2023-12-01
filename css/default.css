@@ -18,6 +18,28 @@ body {
     --secondarycolor: #FFD452;
 }
 
+.color_BC{
+    color: var(--textColor);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 h1,
 h2,
 h3,
@@ -176,6 +198,12 @@ input {
 .mb_14 {
     margin-bottom: 14px;
 }
+.mb_18 {
+    margin-bottom: 18px;
+}
+.mb_12 {
+    margin-bottom: 12px;
+}
 
 .mb_24 {
     margin-bottom: 24px;
@@ -184,9 +212,18 @@ input {
 .mb_32 {
     margin-bottom: 32px;
 }
+.mb_30 {
+    margin-bottom: 30px;
+}
 
 .mb_56 {
     margin-bottom: 56px;
+}
+.mb_45 {
+    margin-bottom: 45px;
+}
+.mb_48 {
+    margin-bottom: 48px;
 }
 
 .mb_80 {

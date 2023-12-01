@@ -1,0 +1,53 @@
+.grey_btn {
+  color: var(--neutralColor2);
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: flex;
+  width: 136px;
+  height: 47px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 11px;
+  background: #2B2B2B;
+}
+
+.green_btn {
+  color: var(--neutralColor);
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  text-transform: capitalize;
+  display: flex;
+  /* width: 136px; */
+  height: 47px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 11px;
+  background: var(--primaryColor);
+}
+
+.price_btn {
+  color: var(--neutralColor);
+  text-align: center;
+  font-family: Outfit;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  padding: 10px;
+  height: 52px;
+  border-radius: 8px;
+  background: var(--primaryColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

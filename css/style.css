@@ -653,57 +653,83 @@ footer hr {
 /* establishing a community end */
 
 
-/* Browse Popular Category start */
-
-.category_title {
-  color: var(--neutralColor);
-  font-family: 'Syne', sans-serif;
-  font-size: 44px;
-  font-weight: 700;
-}
-
-.cat_card {
-  padding: 24px;
-  background-color: #B6EC3D;
-  height: 100%;
-}
-
-/* .cat_card {
-  padding: 24px;
-  background-image: url('/assets/whitecurve.png');
-  background-repeat: no-repeat;
-  height: 100%;
-  background-size: contain;
-} */
-
-.cat_card h3 {
-  color: var(--neutralColor);
-  font-family: 'Syne', sans-serif;
-  font-size: 22px;
-  font-weight: 700;
-  margin-top: 22px;
-  margin-bottom: 11px;
-}
-
-.cat_card p {
-  color: var(--neutralColor);
-  font-size: 14px;
-  font-weight: 400;
-  padding-right: 40px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Browse Popular Category start *
 
 
 /* Browse Popular Category end */
+
+
+
+/* featured course start */
+
+.featured_wrapper {
+  padding: 100px;
+  background-color: var(--neutralColor);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured_buttons {
+  display: flex;
+  gap: 42px;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+
+.featured_card {
+  padding: 22px 22px 24px 22px;
+  border-radius: 21px;
+  border: 1px solid #EEE;
+  background: var(--neutralColor2);
+  text-align: left;
+  margin-top: 48px;
+
+
+}
+
+.featured_card h3 {
+  color: var(--neutralColor);
+  font-family: Syne;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.featured_card:hover {
+  border: 1px solid #B6EC3D;
+
+}
+
+.rating {
+  display: flex;
+  width: 81px;
+  height: 42px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 56px;
+  background: #FEFCEF;
+  border: none;
+
+}
+
+.rating_number {
+  color: #747474;
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.rating_number strong {
+  color: #131C1E;
+}
+
+/* featured course end */
