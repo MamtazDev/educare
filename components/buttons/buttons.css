@@ -46,8 +46,21 @@
   padding: 10px;
   height: 52px;
   border-radius: 8px;
-  background: var(--primaryColor);
+  background: #F1F1F1;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.info_links{
+  position: absolute;
+  right: 38px;
+  bottom: 12px;
+  display: flex;
+  gap: 23px;
+  align-items: center;
+}
+
+.price_btn:hover {
+
+  background: var(--primaryColor);
 }
