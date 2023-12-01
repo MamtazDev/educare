@@ -807,15 +807,11 @@ footer hr {
 
 h1 {
   color: var(--color-option-neutral-color-1, #131C1E);
-  /* text-align: center; */
-
-  /* H2/H2(Subtitle Bold) */
   font-family: 'Syne', sans-serif;
   font-size: 44px;
   font-style: normal;
   font-weight: 700;
   line-height: 150%;
-  /* 66px */
 }
 
 .blog_card {
@@ -865,6 +861,8 @@ h1 {
 }
 
 /* feedback end */
+
+/* membership start */
 .membership_wrapper {
   padding: 69px 0;
   border-radius: 56px;
@@ -895,8 +893,82 @@ h1 {
   background: var(--primaryColor);
   margin: auto;
 }
-.email_arrow{
+
+.email_arrow {
   position: absolute;
   top: 2px;
   right: 37%;
+}
+
+
+/* membership end */
+
+
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+  display: block !important;
+}
+
+.owl-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.owl-dots {
+  display: block !important;
+}
+
+.owl-prev,
+.owl-next {
+  border-radius: 11px !important;
+  border: 1px solid #EEE !important;
+  background: var(--neutralColor2) !important;
+  width: 126px;
+  color: #131C1E;
+  height: 57px;
+}
+
+.owl-next:hover,
+.owl-prev:hover {
+  color: #131C1E !important;
+
+}
+
+.owl-dots {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  margin-bottom: 24px;
+}
+
+
+.owl-next::after {
+  content: url('/assets/arrowright1.png');
+  position: absolute;
+}
+
+.owl-prev::after {
+  content: url('/assets/arrowright1.png');
+  position: absolute;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span::after {
+  content: url('/assets/dotactive.png');
+  background-color: none;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: transparent !important;
+  margin: 0;
+}
+.owl-theme .owl-dots .owl-dot span{
+  width: 18px;
+  height: 18px;
 }
