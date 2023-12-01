@@ -651,3 +651,59 @@ footer hr {
 /* responsive end */
 
 /* establishing a community end */
+
+
+/* Browse Popular Category start */
+
+.category_title {
+  color: var(--neutralColor);
+  font-family: 'Syne', sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.cat_card {
+  padding: 24px;
+  background-color: #B6EC3D;
+  height: 100%;
+}
+
+/* .cat_card {
+  padding: 24px;
+  background-image: url('/assets/whitecurve.png');
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: contain;
+} */
+
+.cat_card h3 {
+  color: var(--neutralColor);
+  font-family: 'Syne', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 22px;
+  margin-bottom: 11px;
+}
+
+.cat_card p {
+  color: var(--neutralColor);
+  font-size: 14px;
+  font-weight: 400;
+  padding-right: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Browse Popular Category end */
