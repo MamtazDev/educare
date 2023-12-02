@@ -662,6 +662,11 @@ footer hr {
 
 /* featured course start */
 
+
+.feature_green_btn {
+  width: 141px;
+}
+
 .featured_wrapper {
   padding: 100px 0;
   background-color: var(--neutralColor);
@@ -677,6 +682,8 @@ footer hr {
   gap: 42px;
   justify-content: center;
   margin-top: 48px;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .featured_wrapper h1 {
@@ -702,7 +709,7 @@ footer hr {
 
 .featured_card h3 {
   color: var(--neutralColor);
-  font-family: 'Syne' sans-serif;
+  font-family: 'Syne', sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -883,7 +890,8 @@ h1 {
 
 .membership_wrapper input {
   display: flex;
-  width: 375px;
+  max-width: 375px;
+  width: 100%;
   height: 57px;
   padding: 10px 10px 10px 24px;
   align-items: center;
@@ -953,7 +961,7 @@ h1 {
   position: absolute;
 }
 
-.owl-theme .owl-dots .owl-dot.active span,
+/* .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span::after {
   content: url('/assets/dotactive.png');
   background-color: none;
@@ -961,9 +969,9 @@ h1 {
   height: 18px;
   margin-right: 10px;
 
-}
+} */
 
-.owl-theme .owl-dots .owl-dot.active span,
+/* .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
   background-color: transparent !important;
   margin: 0;
@@ -971,4 +979,195 @@ h1 {
 .owl-theme .owl-dots .owl-dot span{
   width: 18px;
   height: 18px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive design */
+/* extablishing a community */
+@media(max-width:768px) {
+
+  .community_wrapper h1,
+  .featured_wrapper h1,
+  .instructor_wrapper h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    margin-top: 24px;
+  }
+
+  .greyText,
+  .instructor_wrapper p {
+    font-size: 14px;
+  }
+
+  .community_points span,
+  .rating_number {
+    font-size: 16px;
+  }
+
+  /* featured */
+  .green_btn,
+  .grey_btn {
+    font-size: 12px !important;
+  }
+
+  .feature_green_btn {
+    width: 98px;
+
+  }
+
+  .featured_buttons {
+    flex-wrap: wrap;
+  }
+
+  .row>* {
+    /* padding-left: 24px;
+    padding-right: 24px; */
+
+  }
+
+  .featured_wrapper {
+    padding: 48px 0;
+  }
+
+  .featured_buttons {
+    margin-top: 24px;
+  }
+
+  /* 
+  .rating_number {
+    font-size: 16px;
+  } */
+
+  .featured_card h3 {
+    font-size: 18px;
+    margin-bottom: 24px !important;
+  }
+
+  .mb_45 {
+    margin-bottom: 24px;
+  }
+
+  .rating span {
+    font-size: 20px;
+  }
+
+
+  /* explore course start */
+  .explore_courses {
+    font-size: 18px !important;
+    font-weight: 500;
+
+  }
+
+  /* explore course end */
+
+
+
+  /* instructor start */
+  .instructor_wrapper {
+    margin: auto;
+  }
+
+  .instructor_wrapper h2 {
+    margin-bottom: 32px !important;
+  }
+
+  .info_links mg {
+    width: 22px;
+    height: 22px;
+  }
+
+  .info_links {
+    right: -8px !important;
+    bottom: 5px !important;
+    gap: 14px !important;
+
+  }
+
+  .col-lg-4 {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
+  .instructor_wrapper .col-lg-4 {
+    margin-bottom: 32px;
+  }
+
+  .instructor_wrapper h3 {
+    font-size: 22px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+  }
+
+  /* instructor end */
+
+  /* student feedback start */
+  .testimonial_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .community_wrapper {
+    padding: 56px 24px;
+  }
+
+  .profile_details {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .feedback_profile p {
+    text-align: center;
+  }
+
+  /* student feedback end */
+
+
 }
