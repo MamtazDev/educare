@@ -18,7 +18,7 @@ body {
     --secondarycolor: #FFD452;
 }
 
-.color_BC{
+.color_BC {
     color: var(--textColor);
 }
 
@@ -64,7 +64,25 @@ a {
     max-width: 1420px;
 }
 
-/* 
+/* scrollbar */
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #97c532;
+    border-radius: 10px;
+}
+
+/* scrollbar /-end */
+
+/*
 header,
 footer {
     background: var(--primaryColor);
@@ -181,9 +199,11 @@ input {
 .mb_14 {
     margin-bottom: 14px;
 }
+
 .mb_18 {
     margin-bottom: 18px;
 }
+
 .mb_12 {
     margin-bottom: 12px;
 }
@@ -195,6 +215,7 @@ input {
 .mb_32 {
     margin-bottom: 32px;
 }
+
 .mb_30 {
     margin-bottom: 30px;
 }
@@ -202,9 +223,11 @@ input {
 .mb_56 {
     margin-bottom: 56px;
 }
+
 .mb_45 {
     margin-bottom: 45px;
 }
+
 .mb_48 {
     margin-bottom: 48px;
 }
