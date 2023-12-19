@@ -581,7 +581,6 @@ footer hr {
   }
 }
 
-
 /* how it works end */
 
 /* establishing a community start */
@@ -681,7 +680,6 @@ footer hr {
 .popular_categoris .card_wrapper:hover .link_arrow .link-icon{
   display: block !important;
 }
-
 
 .popular_categoris .cat_card {
   padding: 35px;
@@ -1059,6 +1057,10 @@ h1 {
   width: 18px;
   height: 18px;
 } */
+
+.owl-stage{
+  transform: unset !important;
+}
 
 
 
