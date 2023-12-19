@@ -29,6 +29,7 @@
 
 :root {
     --primaryColor: #6663FF;
+    --secondary: #FFD452;
     --neutralColor: #131C1E;
     --neutralColor2: #FFF;
     --textColor: #BCBCBC;
@@ -37,6 +38,37 @@
 }
 
 /* Header Start */
+
+/* color */
+.text-clr-primaryColor {
+    color: var(--primaryColor);
+}
+
+.text-clr-secondary {
+    color: var(--secondary);
+}
+
+.text-clr-neutralColor {
+    color: var(--neutralColor);
+}
+
+.text-clr-neutralColor2 {
+    color: var(--neutralColor2);
+}
+
+.text-clr-textColor {
+    color: var(--textColor);
+}
+
+.text-clr-textColor2 {
+    color: var(--textColor2);
+}
+
+.text-clr-othercolor2 {
+    color: var(--othercolor2);
+}
+
+/* color end */
 
 .navbar {
     padding-top: 17px;
@@ -379,3 +411,170 @@ footer hr {
 
 /* Footer Responsive End */
 /* Footer End */
+
+/* main css start from here */
+body {
+    background-color: #F7F6FF;
+
+}
+
+/* HEADER START */
+header {
+    padding-bottom: 85px;
+}
+
+/* HEADER END */
+
+.section_heading {
+    font-family: 'Syne', sans-serif;
+}
+
+.section_heading h2 {
+    color: var(--neutralColor);
+    font-family: Syne;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-bottom: 48px;
+}
+
+/* BANNER START */
+.banner_title {
+    font-family: 'Syne', sans-serif;
+    color: var(--neutralColor);
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.banner_title span {
+    color: var(--primaryColor);
+}
+
+.right_wrapper .category_items {
+    padding: 16px 32px;
+    border-radius: 100px;
+    border: 1px solid #EEE;
+    background: #FFF;
+}
+
+/* BANNER END */
+
+/* QUALITES START */
+.qualites .qualites_wrapper {
+    margin: 128px 0;
+    background-color: #131C1E;
+    border-radius: 50px;
+    padding: 66px 120px;
+}
+
+.qualites .qualites_wrapper .qualites_content {
+    font-family: 'Syne', sans-serif;
+}
+
+/* QUALITES END */
+
+/* TOP CATEGORIES START */
+.top_categories {
+    padding-bottom: 130px;
+    background-image: url(../assets/home2/top-cateImg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom -450px;
+}
+
+.top_categories .section_heading h2 {
+    color: var(--neutralColor);
+    font-family: Syne;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-bottom: 48px;
+}
+
+.top_categories .card-item {
+    padding: 36px;
+    border-radius: 12px;
+    border: 1px solid #EEE;
+    transition: all linear 0.2s;
+    cursor: pointer;
+}
+
+.top_categories .card-item:hover {
+    background: #FFF;
+    box-shadow: 0px 20px 20px 0px rgba(102, 99, 255, 0.08);
+}
+
+.top_categories .card-item .card_content img {
+    padding-bottom: 32px;
+}
+
+.top_categories .card-item .card_content h2 {
+    color: #131C1E;
+    font-family: Syne;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    padding-bottom: 12px;
+    transition: all linear 0.2s;
+}
+
+.top_categories .card-item:hover h2 {
+    color: #6663FF;
+}
+
+.top_categories .card-item .card_content p {
+    color: #747474;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-bottom: 40px;
+    transition: all linear 0.2s;
+}
+
+.top_categories .card-item:hover p {
+    color: #2B2B2B;
+}
+
+.top_categories .card-item button {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #EEE;
+    border-radius: 50%;
+    background-color: white;
+    transition: all linear 0.2s;
+}
+
+.top_categories .card-item:hover button .arrowRight {
+    display: none !important;
+}
+
+.top_categories .card-item:hover button .arrowRightTwo {
+    text-align: center;
+    display: block !important;
+}
+
+.top_categories .card-item:hover button {
+    background-color: #6663FF;
+}
+
+
+/* TOP CATEGORIES END  */
+
+
+/* WHAT WE ARE START */
+.whatweare {
+    background-color: #131C1E;
+    padding: 140px 0 160px;
+}
+
+/* WHAT WE ARE /-END */
+
+
+
+
+
+/* main css end here */
