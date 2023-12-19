@@ -1,3 +1,17 @@
+.home3::-webkit-scrollbar {
+    width: 10px;
+}
+
+.home3::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.home3::-webkit-scrollbar-thumb {
+    background:#FFD452;
+    border-radius: 10px;
+}
+
 .grey_text_1 {
     color: var(--Color-Option-Text-Color-2, #BCBCBC);
     /* B1/Body 1 (Regular) */
@@ -355,19 +369,20 @@
         margin-top: 24px;
     }
 
-    .home3 .membership_wrapper{
+    .home3 .membership_wrapper {
         padding: 24px;
     }
-    .home3 .membership_wrapper h1{
+
+    .home3 .membership_wrapper h1 {
         font-size: 22px;
     }
-    
-.email_arrow {
-    position: absolute;
-    top: 2px;
-    right: 0%;
-  }
-  
+
+    .email_arrow {
+        position: absolute;
+        top: 2px;
+        right: 0%;
+    }
+
 }
 
 .owl-carousel {

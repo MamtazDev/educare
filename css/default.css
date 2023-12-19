@@ -77,20 +77,6 @@ a {
 
 /* scrollbar */
 
-body::-webkit-scrollbar {
-    width: 10px;
-}
-
-body::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 10px;
-}
-
-body::-webkit-scrollbar-thumb {
-    background: #97c532;
-    border-radius: 10px;
-}
-
 /* scrollbar /-end */
 
 /*
