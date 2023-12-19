@@ -22,6 +22,17 @@ body {
     color: var(--textColor);
 }
 
+.wc {
+    color: var(--neutralColor2) !important;
+}
+
+.yc {
+    color: var(--secondarycolor);
+}
+
+.bg_yellow {
+    background-color: var(--secondarycolor) !important;
+}
 
 h1,
 h2,
@@ -101,17 +112,18 @@ input {
 /* font size start */
 .fs_14 {
     font-size: 14px;
-    font-style: normal;
 }
 
 .fs_16 {
     font-size: 16px;
-    font-style: normal;
+}
+
+.fs_17 {
+    font-size: 17px;
 }
 
 .fs_18 {
     font-size: 18px;
-    font-style: normal;
 }
 
 .fs_20 {
@@ -169,11 +181,15 @@ input {
 
 /* font weight */
 
-
-
 /* margin start */
 .mt_14 {
     margin-top: 14px;
+}
+.mt_37 {
+    margin-top: 37px;
+}
+.mt_45 {
+    margin-top: 45px;
 }
 
 .mt_92 {
@@ -304,10 +320,6 @@ input {
     font-weight: 400;
 }
 
-.fs18400 {
-    font-size: 18px;
-    font-weight: 400;
-}
 
 .pro_btn {
     height: 28px;
@@ -374,7 +386,9 @@ input {
 }
 
 /* curve text */
-.txt_curve {
+
+.txt_curve,
+.txt_curve_yellow {
     position: relative;
 }
 
@@ -392,6 +406,20 @@ input {
 
 }
 
+.txt_curve_yellow::after {
+    position: absolute;
+    content: "";
+    bottom: -34px;
+    left: -8px;
+    height: 57%;
+    width: 110%;
+    border: 5px;
+    border-style: solid;
+    border-color: var(--secondarycolor) transparent transparent transparent;
+    border-radius: 45% 45% 0 0;
+
+}
+
 @media only screen and (max-width:768px) {
     .txt_curve::after {
         height: 70%;
@@ -403,6 +431,19 @@ input {
         border: 5px;
         border-style: solid;
         border-color: var(--primaryColor) transparent transparent transparent;
+        border-radius: 45% 45% 0 0;
+    }
+
+    .txt_curve_yellow::after {
+        height: 70%;
+        position: absolute;
+        content: "";
+        bottom: -30px;
+        left: -8px;
+        width: 110%;
+        border: 5px;
+        border-style: solid;
+        border-color: var(--secondarycolor) transparent transparent transparent;
         border-radius: 45% 45% 0 0;
     }
 }

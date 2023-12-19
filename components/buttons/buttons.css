@@ -63,6 +63,8 @@
 }
 
 .price_btn:hover {
-
   background: var(--primaryColor);
+}
+.price_btn1 {
+  background: var(--secondarycolor) !important;
 }
