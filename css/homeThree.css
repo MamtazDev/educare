@@ -1,3 +1,21 @@
+.grey_text_1 {
+    color: var(--Color-Option-Text-Color-2, #BCBCBC);
+    /* B1/Body 1 (Regular) */
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+}
+
+.home3_bg {
+    background: #1A2224;
+    padding: 100px 0;
+}
+
+
+
 .home3 ul>li>a {
     color: #fff !important;
 }
@@ -155,21 +173,135 @@
     background: var(--secondarycolor);
 }
 
-.grey_text_1 {
-    color: var(--Color-Option-Text-Color-2, #BCBCBC);
-    /* B1/Body 1 (Regular) */
-    font-family: Outfit;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-    /* 27px */
-}
 
 /* provide_best_wrapper end */
 
 
+/* upcoming_events_wrapper start */
+.home3 .upcoming_events_wrapper .events_header h2 {
+    color: var(--neutralColor2);
+    font-family: Syne;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.events_card_wrapper .events_title {
+    color: var(--neutralColor2);
+    font-family: 'Syne', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-top: 25px;
+    /* 48px */
+}
+
+.events_card_wrapper .events_card {
+    border-radius: 28px;
+    border: 1px solid var(--other-color-option-other-color-2-stroke, #464646);
+    background: var(--Color-Option-Neutral-color-1, #131C1E);
+    margin-bottom: 30px;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.events_card:hover {
+    background-color: var(--neutralColor2);
+    transition: ease-in-out 0.3s;
+
+}
+
+.events_card:hover .events_title {
+    color: var(--neutralColor);
+    transition: ease-in-out 0.3s;
+}
+
+.events_card:hover .grey_text_1 {
+    color: var(--neutralColor);
+    transition: ease-in-out 0.3s;
+}
+
+
+/* upcoming_events_wrapper end */
+
+/* testimonial section start  */
+.border_bottom {
+    width: fit-content;
+    border-bottom: 1px solid #464646;
+    margin: auto;
+}
+
+/* testimonial section end */
+
+/* blog start */
+.blog_btn {
+    display: flex;
+    width: 142px;
+    height: 40px;
+    padding: 10px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background: #FFF;
+}
+
+.blog_card_body {
+    transition: ease-in-out 0.3s;
+}
+
+.blog_card_body:hover .blog_btn {
+    background: #FFEDB6;
+    transition: ease-in-out 0.3s;
+}
+
+.blog_card_body:hover .blog_details_arrow {
+    background: var(--secondarycolor);
+    transition: ease-in-out 0.3s;
+}
+
+.home3 .blog_card {
+    border-radius: 18px;
+    border: 1px solid #747474;
+    background: #131C1E;
+}
+
+.blog_card_body {
+    padding: 24px;
+}
+
+.blog_card_body h3 {
+    color: var(--neutralColor2);
+    font-family: Syne;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.blog_details_arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+
+/* blog end */
+.home3 .membership_wrapper {
+    background-color: var(--secondarycolor);
+}
+
 @media(max-width:768px) {
+    .home3_bg {
+        background: #1A2224;
+        padding: 48px 0;
+    }
 
     .home3 .popular_categoris {
         padding: 56px 24px 24px 24px !important;
@@ -199,4 +331,37 @@
     }
 
     /*  */
+    .events_card_wrapper .events_title {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .events_header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home3 .upcoming_events_wrapper .events_header h2 {
+        font-size: 24px;
+        margin-top: 24px;
+    }
+}
+
+.owl-carousel {
+    display: block !important;
+}
+
+.home3 footer ul>li> a {
+    color: var(--Color-Option-Text-Color-2, #BCBCBC) !important;
+
+    /* B2/Body 2 (Regular) */
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
 }

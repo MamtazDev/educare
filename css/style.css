@@ -975,7 +975,7 @@ h1 {
   gap: 100px;
   border-radius: 11px;
   border: 1px solid var(--neutralColor);
-  background: var(--primaryColor);
+  background: transparent;
   margin: auto;
 }
 
@@ -988,7 +988,7 @@ h1 {
 
 /* membership end */
 
-
+/* 
 .owl-carousel .owl-dots.disabled,
 .owl-carousel .owl-nav.disabled {
   display: block !important;
@@ -1036,7 +1036,7 @@ h1 {
 .owl-prev::after {
   content: url('/assets/arrowright1.png');
   position: absolute;
-}
+} */
 
 /* .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span::after {
