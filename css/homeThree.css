@@ -298,6 +298,7 @@
 }
 
 @media(max-width:768px) {
+
     .home3_bg {
         background: #1A2224;
         padding: 48px 0;
@@ -330,6 +331,11 @@
 
     }
 
+    .home3 .category_title {
+        font-size: 24px;
+        margin-top: 24px;
+    }
+
     /*  */
     .events_card_wrapper .events_title {
         font-size: 18px;
@@ -348,14 +354,28 @@
         font-size: 24px;
         margin-top: 24px;
     }
+
+    .home3 .membership_wrapper{
+        padding: 24px;
+    }
+    .home3 .membership_wrapper h1{
+        font-size: 22px;
+    }
+    
+.email_arrow {
+    position: absolute;
+    top: 2px;
+    right: 0%;
+  }
+  
 }
 
 .owl-carousel {
     display: block !important;
 }
 
-.home3 footer ul>li> a {
-    color: var(--Color-Option-Text-Color-2, #BCBCBC) !important;
+.home3 footer ul>li>a {
+    color: #BCBCBC !important;
 
     /* B2/Body 2 (Regular) */
     font-family: Outfit;
@@ -364,4 +384,8 @@
     font-weight: 400;
     line-height: 150%;
     /* 24px */
+}
+
+.home3 .authBtn a:first-child {
+    color: #131C1E;
 }
