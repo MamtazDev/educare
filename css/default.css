@@ -18,9 +18,25 @@ body {
     --secondarycolor: #FFD452;
 }
 
+.membership_wrapper {
+    padding: 24px;
+}
+
+.membership_wrapper h1 {
+    font-size: 22px;
+}
+
+.email_arrow {
+    position: absolute;
+    top: 2px;
+    right: 0%;
+}
+
+
 .color_BC {
     color: var(--textColor);
 }
+
 .color_74 {
     color: var(--textColor2);
 }
@@ -174,18 +190,23 @@ input {
 .mt_14 {
     margin-top: 14px;
 }
+
 .mt_37 {
     margin-top: 37px;
 }
+
 .mt_45 {
     margin-top: 45px;
 }
+
 .mt_61 {
     margin-top: 61px;
 }
+
 .mt_32 {
     margin-top: 32px;
 }
+
 .mt_24 {
     margin-top: 24px;
 }
@@ -257,6 +278,7 @@ input {
 .mb_130 {
     margin-bottom: 130px;
 }
+
 .mt_130 {
     margin-top: 130px;
 }
@@ -380,6 +402,21 @@ input {
         font-size: 24px;
         margin-bottom: 25px;
     }
+
+    .email_arrow {
+        position: absolute;
+        top: 2px;
+        right: 0% !important;
+    }
+
+    .membership_wrapper {
+        border-radius: 32px;
+    }
+
+    .membership_wrapper  {
+        padding: 26px 24px !important;
+    }
+
 }
 
 .green_text {
