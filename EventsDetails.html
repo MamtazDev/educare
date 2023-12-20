@@ -19,21 +19,23 @@
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/aboutUs.css">
+    <link rel="stylesheet" href="css/events.css">
     <!-- my css -->
 
 </head>
 
-<body>
-    <header>
+<body class="about archive">
+    <header class="position-relative">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
-                    <img class="img-fluid logoImg" src="./assets/greenlogo1.png" alt="Logo" />
+                    <img class="img-fluid logoImg" src="./assets/home1/greenlogo1.png" alt="Logo" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <img src="./assets/mi_menu.png" alt="Menu" />
+                    <img src="./assets/home1/mi_menu.png" alt="Menu" />
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto text-center">
@@ -79,7 +81,7 @@
                                 <li><a class="dropdown-item" href="/EventsGrid.html">Events Grid</a></li>
                                 <li><a class="dropdown-item" href="/EventsList.html">Events List</a></li>
                                 <li><a class="dropdown-item" href="/EventsDetails.html">Events Details</a></li>
-                                <li><a class="dropdown-item" href="/Gallary.html">Gallery</a></li>
+                                <li><a class="dropdown-item" href="Gallary.html">Gallery</a></li>
                                 <li><a class="dropdown-item" href="/Testimonial.html">Testimonial</a></li>
                                 <li><a class="dropdown-item" href="/ContactUs.html">Contact Us</a></li>
                                 <li><a class="dropdown-item" href="/404.html">404 page</a></li>
@@ -102,7 +104,7 @@
                     <form class="d-flex gap-4 authBtn">
                         <a href="SignUp.html" class="" type="submit">Login</a>
                         <button class="signup_button">
-                            <a href="Login.html" class="" type="submit"><img src="/assets/user-circle.png" alt="">
+                            <a href="Login.html" class="" type="submit"><img src="/assets/home1/user-circle.png" alt="">
                                 Create Account</a>
                         </button>
                     </form>
@@ -111,27 +113,104 @@
         </nav>
     </header>
     <main>
-        <!-- banner section start -->
-        <section>
+        <!-- section header start -->
+        <section class="">
+            <div class="sectionHeader_wrapper shadow_wrapper">
+                <h3>Events</h3>
+                <div class="d-flex align-items-center justify-content-center ">
+                    <p>Home</p>
+                    <img src="/assets/about/arrow-right.png" alt="">
+                    <p>Events</p>
+                    <img src="/assets/about/arrow-right.png" alt="">
+                    <p>Event Details</p>
+                </div>
+            </div>
+        </section>
+        <!-- section header end -->
+
+
+        <!-- featured course start -->
+        <section class="container p-0">
+
+            <div class="container">
+                <div>
+                    <img src="/assets/events/event1.png" alt="">
+                </div>
+                <div class="event_details_wrapper">
+                    <h1>Education with equity and <br>
+                        high standards</h1>
+                    <p class="details_txt">Education is a fundamental pillar of any society, serving as a pathway to
+                        individual growth,
+                        societal progress, and economic
+                        development. To ensure that education truly fulfills its potential, it must be characterized by
+                        both equity and high standards.
+                        This combination creates an educational system that is fair, inclusive, and effective in
+                        preparing all students for success in
+                        an ever-changing world.</p>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="/assets/events/event2.png" class="w-100 mt_48" alt="">
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="/assets/events/event3.png" class="w-100 mt_48" alt="">
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3>Four major elements that we offer:</h3>
+                        <div class="d-flex flex-column gap_24 mb_32 elements">
+                            <p class="d-flex gap-2"><img src="/assets/events/tick.png" alt=""> Cutting-Edge Products and
+                                Services</p>
+                            <p class="d-flex gap-2"><img src="/assets/events/tick.png" alt="">Exceptional Customer
+                                Support
+                            </p>
+                            <p class="d-flex gap-2"><img src="/assets/events/tick.png" alt="">Sustainable Practices</p>
+                            <p class="d-flex gap-2"><img src="/assets/events/tick.png" alt="">Innovation and Research &
+                                Development</p>
+                        </div>
+
+                        <p class="details_txt">These four major elements reflect our organization's dedication to
+                            excellence,
+                            sustainability, and customer satisfaction.
+                            We are committed to providing you with top-notch products, outstanding support, eco-friendly
+                            practices, and innovative
+                            solutions that will help you thrive in your endeavors.</p>
+                    </div>
+                    <hr>
+
+                    <div>
+                        <h4>Venue</h4>
+                        <p><img src="/assets/events/loca.png" alt=""> <span>Washington DC, EK 3642</span></p>
+                    </div>
+                    <hr>
+                    <div>
+                        <h4>Date</h4>
+                        <p><img src="/assets/events/date.png" alt=""> <span>Nov 10th, 2023 to Nov 11th, 2018</span></p>
+                    </div>
+                    <hr>
+                </div>
+
+            </div>
+            <!--  -->
+
+
+            </div>
+
 
 
 
         </section>
 
 
-        <!-- banner section end -->
-
-
-
     </main>
 
-    <footer>
+    <footer class="mt_130">
         <div class="container">
             <div class="row gy-3">
                 <div class="col-lg-3">
                     <div class="text-center text-lg-start">
                         <a href="index.html">
-                            <img class="img-fluid" src="./assets/FOOTERLOGO.png" alt="Logo">
+                            <img class="img-fluid" src="./assets/home1/FOOTERLOGO.png" alt="Logo">
                         </a>
                         <p class="mt-3 mb-4">
                             It is a long established fact that a reader
@@ -142,16 +221,16 @@
                         <div class="footerEnd text-center text-md-start">
                             <div
                                 class="socialLink d-flex justify-content-center justify-content-md-start align-items-center ">
-                                <a href="#" class="footer_icon d-block overflow-hidden"><img src="./assets/finsta.png"
-                                        alt="instagram"></a>
                                 <a href="#" class="footer_icon d-block overflow-hidden"><img
-                                        src="./assets/f-facebook.png" alt="facebook"></a>
-                                <a href="#" class="footer_icon d-block overflow-hidden"><img src="./assets/ftwitter.png"
-                                        alt="Twitter"></a>
-                                <a href="#" class="footer_icon d-block overflow-hidden"><img src="./assets/flinkdin.png"
-                                        alt="Linkdin"></a>
-                                <a href="#" class="footer_icon d-block overflow-hidden"><img src="./assets/fyoutube.png"
-                                        alt="Youtube"></a>
+                                        src="./assets/home1/finsta.png" alt="instagram"></a>
+                                <a href="#" class="footer_icon d-block overflow-hidden"><img
+                                        src="./assets/home1/f-facebook.png" alt="facebook"></a>
+                                <a href="#" class="footer_icon d-block overflow-hidden"><img
+                                        src="./assets/home1/ftwitter.png" alt="Twitter"></a>
+                                <a href="#" class="footer_icon d-block overflow-hidden"><img
+                                        src="./assets/home1/flinkdin.png" alt="Linkdin"></a>
+                                <a href="#" class="footer_icon d-block overflow-hidden"><img
+                                        src="./assets/home1/fyoutube.png" alt="Youtube"></a>
                             </div>
 
                         </div>
@@ -183,11 +262,11 @@
                         <li class="d-block mb-3">Contact Info</li>
                         <li>
                             <a href="#" class="d-flex flex-lg-row flex-column gap-2 align-items-center"><img
-                                    src="/assets/location.png" alt="location"> 275 Quadra Street Victoria <br>
+                                    src="/assets/home1/location.png" alt="location"> 275 Quadra Street Victoria <br>
                                 Road, New York</a>
                         </li>
                         <li class="d-flex flex-lg-row flex-column align-items-center gap-2">
-                            <img src="/assets/call.png" alt="call">
+                            <img src="/assets/home1/call.png" alt="call">
                             <div>
                                 <a href="#">+1 (237) 382-2839</a>
                                 <a href="#">+1(237) 382-2840</a>
@@ -195,7 +274,7 @@
                         </li>
                         <li>
                             <a href="#" class="d-flex flex-lg-row flex-column gap-2 align-items-center"> <img
-                                    src="/assets/gmail.png" alt="gmail"> youremailaddress@example.com</a>
+                                    src="/assets/home1/gmail.png" alt="gmail"> youremailaddress@example.com</a>
                         </li>
                     </ul>
                 </div>
