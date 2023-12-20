@@ -219,6 +219,8 @@
     margin-bottom: 30px;
     transition: ease-in-out 0.3s;
     cursor: pointer;
+    border: 1px solid var(--other-color-option-other-color-4-stroke, #EEE);
+
 }
 
 .events_card:hover {

@@ -1,0 +1,66 @@
+.ticket_btn {
+    display: flex;
+    width: 166px;
+    height: 57px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    border: 1px solid var(--other-color-option-other-color-4-stroke, #EEE);
+    color: var(--Color-Option-Neutral-color-1, #131C1E);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    text-transform: capitalize;
+}
+
+.event_date {
+    position: absolute;
+    top: 0;
+    border-radius: 0px 5px 5px 0px;
+    background: var(--other-color-option-other-color-2-stroke, #464646);
+    color: var(--Color-Option-Neutral-color-2, #FFF);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 6px;
+    left: 7px;
+
+}
+
+/* .events_card_wr:hover .event_date{
+    background:var(--primaryColor);
+    
+}
+.events_card_wr:hover .ticket_btn{
+    background-color: #131C1E;
+    color: white;
+    
+} */
+
+/* events list */
+.event_list_cards .events_card_wrapper .events_card{
+    background-color: white;
+}
+
+.events_card {
+    background-color: var(--neutralColor2);
+    transition: ease-in-out 0.3s;
+
+}
+
+.events_card .events_title {
+    color: var(--neutralColor);
+    transition: ease-in-out 0.3s;
+}
+
+.events_card .grey_text_1 {
+    color: var(--neutralColor);
+    transition: ease-in-out 0.3s;
+}
