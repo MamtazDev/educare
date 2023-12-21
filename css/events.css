@@ -66,13 +66,22 @@
 }
 
 /* event_details_wrapper */
+.events_parent {
+    /* margin-top: -100px; */
+    position: relative;
+}
+
 .event_details_wrapper {
     padding: 48px 58px 48px 58px;
     border-radius: 18px;
-    background: var(--Color-Option-Neutral-color-2, #FFF);
-
-    /* Shadow 3 */
+    background: var(--neutralColor2);
     box-shadow: 0px 20px 20px 0px rgba(147, 147, 147, 0.08);
+    max-width: 1095px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+
 }
 
 .event_details_wrapper h1 {
@@ -98,6 +107,7 @@
     font-weight: 600;
     line-height: 150%;
     margin-bottom: 20px;
+    margin-top: 32px;
 }
 
 .mt_48 {
@@ -129,4 +139,133 @@
     font-weight: 400;
     line-height: 150%;
     /* 27px */
+}
+
+.hr_design {
+    border-bottom: 1px solid #EEE;
+    color: #EEE;
+    margin: 32px 0;
+}
+
+.vanue_timing h4 {
+    color: var(--neutralColor);
+    font-family: Syne;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 12px;
+}
+
+.vanue_timing p {
+    color: #747474;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.add_calender_btn {
+    display: inline-flex;
+    height: 57px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 11px;
+    border: 1px solid #EEE;
+    color: var(--neutralColor);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.social_links {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.price_border_btn {
+    display: flex;
+    width: 202px;
+    height: 57px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    border: 1px solid var(--Color-Option-Primary-Color, #B6EC3D);
+    background: var(--Color-Option-Neutral-color-2, #FFF);
+    color: var(--Color-Option-Neutral-color-1, #131C1E);
+
+    /* B2/Body 2 (Medium) */
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 24px */
+}
+
+
+.price_btn {
+    display: flex;
+    width: 202px;
+    height: 57px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 11px;
+    background: var(--primaryColor);
+    color: var(--neutralColor);
+    /* B2/Body 2 (Medium) */
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 24px */
+}
+
+.event_details_padding {
+    margin-top: 130px;
+}
+
+@media(max-width:768px) {
+    .event_details_padding {
+        margin-top: 44px;
+    }
+
+    .event_details_wrapper h1 {
+        font-size: 18px;
+    }
+
+    .event_details_wrapper {
+        padding: 20px 30px 48px 18px;
+        margin-top: -33px;
+    }
+
+    .events_parent {
+        margin: 0 24px;
+    }
+
+    .event_details_wrapper h3 {
+        font-size: 18px;
+    }
+
+    .event_details_wrapper .elements p,
+    .event_details_wrapper .details_txt,
+    .vanue_timing p,
+    .add_calender_btn {
+        font-size: 14px;
+    }
+
+    .vanue_timing h4 {
+        font-size: 18px;
+    }
 }
