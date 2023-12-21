@@ -1381,6 +1381,7 @@ h1 {
 .contact_bg {
   position: absolute;
   /* width: 1133px; */
+  /* width: 100%; */
   left: 37%;
   /* height: 1451px; */
   object-fit: cover;
