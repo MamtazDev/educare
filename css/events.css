@@ -146,6 +146,12 @@
     color: #EEE;
     margin: 32px 0;
 }
+.hr_design1 {
+    border-bottom: 1px solid #EEE;
+    color: #EEE;
+    margin: 32px 0;
+    width:50%;
+}
 
 .vanue_timing h4 {
     color: var(--neutralColor);

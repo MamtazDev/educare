@@ -26,6 +26,25 @@
 
 
 */
+.common_heading {
+  color: var(--Color-Option-Neutral-color-1, #131C1E);
+  font-family: 'Syne', sans-serif;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+
+}
+
+.common_para {
+  color: var(--Color-Option-Text-Color-1, #747474);
+  text-align: center;
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 27px */
+}
 
 .home1::-webkit-scrollbar {
   width: 10px;
@@ -687,11 +706,11 @@ footer hr {
   bottom: 0;
 }
 
-.popular_categoris .card_wrapper:hover .link_arrow .linkIconTwo{
+.popular_categoris .card_wrapper:hover .link_arrow .linkIconTwo {
   display: none;
 }
 
-.popular_categoris .card_wrapper:hover .link_arrow .link-icon{
+.popular_categoris .card_wrapper:hover .link_arrow .link-icon {
   display: block !important;
 }
 
@@ -724,6 +743,7 @@ footer hr {
   font-weight: 400;
   line-height: 150%;
 }
+
 /* popular categoris */
 
 /* Browse Popular Category end */
@@ -1072,56 +1092,19 @@ h1 {
   height: 18px;
 } */
 
-.owl-stage{
+.owl-stage {
   transform: unset !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 /* responsive design */
 /* extablishing a community */
 @media(max-width:768px) {
+  .common_heading {
+    font-size: 24px;
+    margin-top: 24px !important;
+  }
 
   .community_wrapper h1,
   .featured_wrapper h1,
@@ -1263,4 +1246,143 @@ h1 {
   }
 
   /* student feedback end */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* testimonial */
+.border_bottom {
+  border-bottom: 1px solid #464646;
+  width: fit-content;
+  margin: auto;
+}
+
+.test_card {
+  padding: 27px 23px;
+  border-radius: 8px;
+  border: 1px solid #EEE;
+  background: var(--neutralColor2);
+  text-align: left;
+}
+
+.mt_51 {
+  margin-top: 51px;
+}
+
+.profile_details_test h4 {
+  color: var(--Color-Option-Neutral-color-1, #131C1E);
+  /* text-align: center; */
+  font-family: 'Syne', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.profile_details_test p {
+  color: var(--Color-Option-Text-Color-1, #747474);
+  /* text-align: center; */
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.gap_10 {
+  gap: 10px;
+}
+
+
+
+
+/* contact us */
+.contact_wrapper {
+  border-radius: 15px;
+  border: 1.758px solid var(--Linear-Linear-4, rgba(245, 245, 245, 0.80));
+  background: var(--Linear-Linear, linear-gradient(107deg, #FFF 38.07%, rgba(255, 255, 255, 0.50) 86.86%));
+
+  /* Effect 1 */
+  box-shadow: 14.647px 17.576px 29.294px 0px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(10.252809524536133px);
+  padding: 48px;
+}
+
+.contact_wrapper .common_heading h2 {
+  color: var(--Color-Option-Neutral-color-1, #131C1E);
+
+  /* H1/H1 (Header Semibold) */
+  font-family: Syne;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  /* 90px */
+}
+
+.contact_wrapper .common_heading p {
+  color: var(--Color-Option-Text-Color-1, #747474);
+
+  /* B2/Body 2 (Regular) */
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+
+}
+
+.contact_form {
+  margin-top: 40px;
+
+}
+
+.contact_form label {
+  color: var(--Color-Option-Neutral-color-1, #131C1E);
+  font-family: 'Outfit', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+
+}
+
+.contact_form input {
+  border-radius: 11px;
+  border: 1px solid #EEE;
+  background: var(--neutralColor2);
+  height: 50px;
+  margin-top: 12px;
+
+  margin-bottom: 24px;
+
+}
+
+.contact_form select {
+  height: 50px;
+  margin-bottom: 24px;
+  margin-top: 12px;
+}
+
+.contact_form textarea {
+  height: 250px;
+  margin-top: 12px;
+}
+
+.contact_bg {
+  position: absolute;
+  /* width: 1133px; */
+  left: 37%;
+  /* height: 1451px; */
+  object-fit: cover;
+
 }
