@@ -578,3 +578,119 @@ header {
 
 
 /* main css end here */
+
+
+.home2Feature_course .about_btn {
+    background-color: var(--primaryColor) !important;
+    color: white;
+}
+
+.home2Feature_course .featured_wrapper {
+    padding: 100px 0;
+    /* background-color: var(--neutralColor); */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home2Feature_course .featured_buttons {
+    display: flex;
+    gap: 42px;
+    justify-content: center;
+    margin-top: 48px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.home2Feature_course .featured_wrapper h1 {
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.home2Feature_course .featured_card {
+    padding: 22px 22px 24px 22px;
+    border-radius: 21px;
+    border: 1px solid #EEE;
+    background: var(--neutralColor2);
+    text-align: left;
+    margin-top: 48px;
+}
+
+.home2Feature_course .featured_card h3 {
+    color: var(--neutralColor);
+    font-family: 'Syne', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.home2Feature_course .featured_card:hover {
+    border: 1px solid var(--primaryColor);
+}
+
+.home2Feature_course .rating {
+    display: flex;
+    width: 81px;
+    height: 42px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 56px;
+    background: #FEFCEF;
+    border: none;
+}
+
+.home2Feature_course .rating_number {
+    color: #747474;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.home2Feature_course .rating_number strong {
+    color: #131C1E;
+}
+
+.home2Feature_course .grey_btn:hover {
+    background-color: #6663FF !important;
+    color: #FFF;
+    transition: ease-in-out 0.3s;
+}
+
+.home2Feature_course .grey_btn {
+    border-radius: 11px;
+    background: var(--Color-Option-Color-6, #EAEAFF) !important;
+    color: var(--Color-Option-Neutral-color-1, #131C1E);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    transition: ease-in-out 0.3s;
+}
+
+.home2Feature_course .explore_courses_btn {
+    border-radius: 11px;
+    background: var(--primaryColor);
+    display: flex;
+    width: 219px;
+    height: 57px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #FFF;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: capitalize;
+}
