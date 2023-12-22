@@ -46,20 +46,19 @@
   /* 27px */
 }
 
-.home1::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 10px;
 }
 
-.home1::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   background: #f1f1f1;
   border-radius: 10px;
 }
 
-.home1::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background: #97c532;
   border-radius: 10px;
 }
-
 
 :root {
   --primaryColor: #B6EC3D;
@@ -882,7 +881,6 @@ footer hr {
 /* instructor section start */
 .instructor_wrapper h3 {
   color: var(--neutralColor);
-  /* font-family: 'Syne' sans-serif; */
   font-family: 'Syne', sans-serif;
   font-size: 32px;
   font-style: normal;
