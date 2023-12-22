@@ -571,18 +571,32 @@ header {
     padding: 140px 0 160px;
 }
 
+/* provide */
+.text_dark {
+    color: #131C1E;
+}
+
+.we_provide .offer_item {
+
+    border-radius: 21px;
+    background: var(--Color-Option-Neutral-color-2, #FFF) !important;
+    box-shadow: 0px 20px 20px 0px rgba(102, 99, 255, 0.08);
+    padding: 20px;
+
+}
+
 /* WHAT WE ARE /-END */
-
-
-
 
 
 /* main css end here */
 
-
-.home2Feature_course .about_btn {
+ .about_btn {
     background-color: var(--primaryColor) !important;
     color: white;
+}
+
+.home2Feature_course .price_btn:hover {
+    color: #FFF;
 }
 
 .home2Feature_course .featured_wrapper {
@@ -694,3 +708,173 @@ header {
     font-weight: 500;
     text-transform: capitalize;
 }
+
+.home2_course_timing {
+    border-radius: 0px 5px 5px 0px;
+    background: var(--primaryColor);
+    width: 118px;
+    height: 36px;
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 26px;
+}
+
+.bg_primary {
+    background-color: var(--primaryColor);
+}
+
+.free_workshop_btn {
+    border-radius: 11px;
+    background: var(--secondary);
+    padding: 10px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.workshop_wrapper {
+    padding: 150px 0;
+}
+
+.workshop h2 {
+    color: var(--Color-Option-Neutral-color-2, #FFF);
+    font-family: 'Syne', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.workshop h2>span {
+    color: var(--secondary);
+}
+
+.workshop p {
+    color: #FFF;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.workshop .explore_course_btn {
+    border-radius: 11px;
+    background: #131C1E;
+    display: flex;
+    width: 219px;
+    height: 57px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #FFF;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+  /* student feedback start */
+  .testimonial_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .community_wrapper {
+    padding: 56px 24px;
+  }
+
+  .profile_details {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .feedback_profile p {
+    text-align: center;
+  }
+
+
+  .common_heading {
+    color: var(--Color-Option-Neutral-color-1, #131C1E);
+    font-family: 'Syne', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+  
+  }
+  
+  .common_para {
+    color: var(--Color-Option-Text-Color-1, #747474);
+    text-align: center;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+  }
+
+  
+
+/* testimonial */
+.border_bottom {
+    border-bottom: 1px solid #464646;
+    width: fit-content;
+    margin: auto;
+  }
+  
+  .test_card {
+    padding: 27px 23px;
+    border-radius: 8px;
+    border: 1px solid #EEE;
+    background: var(--neutralColor2);
+    text-align: left;
+  }
+  
+  .mt_51 {
+    margin-top: 51px;
+  }
+  
+  .profile_details_test h4 {
+    color: var(--Color-Option-Neutral-color-1, #131C1E);
+    /* text-align: center; */
+    font-family: 'Syne', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .profile_details_test p {
+    color: var(--Color-Option-Text-Color-1, #747474);
+    /* text-align: center; */
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  
+  .gap_10 {
+    gap: 10px;
+  }
+  
+  
