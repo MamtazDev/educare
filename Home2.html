@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/hometwo.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="/components/buttons/buttons.css">
+    <link rel="stylesheet" href="css/aboutUs.css">
     <!-- <link rel="stylesheet" href="css/style.css"> -->
     <!-- my css -->
 
@@ -127,8 +128,8 @@
                                     Grow Your
                                     <span>
                                         Skill
-                                    </span> And <br>
-                                    Find the <br>
+                                    </span> And <br class="d-lg-block d-none">
+                                    Find the <br class="d-lg-block d-none">
                                     Best online
                                     <span>
                                         Course
@@ -151,15 +152,16 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 d-lg-block d-none">
                         <div class="banner_img text-center">
-                            <img src="/assets/home2/banner-img.png" alt="">
+                            <img class="img-fluid" src="/assets/home2/banner-img.png" alt="">
                         </div>
                     </div>
 
                     <div class="col-lg-2">
                         <div class="right_wrapper d-flex flex-column justify-content-between h-100">
-                            <button class="d-flex align-items-center gap-2 fs_18 fw-medium text-clr-neutralColor">
+                            <button
+                                class="d-flex align-items-center justify-content-lg-start justify-content-center gap-2 fs_18 fw-medium text-clr-neutralColor lets_talk_btns">
                                 <img src="assets/home2/link_icon.png" alt="link-icon">
                                 Lets talk
                             </button>
@@ -185,14 +187,19 @@
                             </div>
 
                             <div class="banner_message">
-                                <p class="m-0 fs_18 fw-normal text-clr-neutralColor">
+                                <p class="m-0 fs_18 fw-normal text-clr-neutralColor d-lg-block d-none">
                                     Students success form
                                 </p>
-                                <img src="assets/home2/line.svg" alt="">
-                                <p class="m-0 fs_18 fw-normal text-clr-neutralColor">
+                                <p class="m-0 fs_18 fw-normal text-clr-neutralColor d-lg-block d-none">
+                                    <img class="d-lg-block d-none" src="assets/home2/line.svg" alt="">
                                     ouronline courses.
                                 </p>
                             </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-lg-none d-block">
+                        <div class="banner_img text-center">
+                            <img class="img-fluid" src="/assets/home2/banner-img.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -207,18 +214,20 @@
                     <div class="row align-items-center">
                         <div class="col-lg-5">
                             <div class="qualites_content">
-                                <h3 class="fs_44 fw-bold text-white m-0">
+                                <h3 class="m-0">
                                     Interesting <br>
                                     Qualities
                                 </h3>
-                                <img src="assets/home2/line.svg" alt="">
+                                <div class="text-lg-start text-center">
+
+                                    <img class="" src="assets/home2/line.svg" alt="">
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-7">
                             <div class="row justify-content-between h-100">
                                 <div class="col-lg-6">
-                                    <div class="qualites_items d-flex align-items-center gap-3"
-                                        style="padding-bottom: 80px;">
+                                    <div class="qualites_items d-flex align-items-center gap-3 pb_80">
                                         <span class="fs_32 fw-semibold text-clr-secondary">
                                             01
                                         </span>
@@ -278,7 +287,7 @@
                     </button>
 
                     <h2 class="category_title">
-                        Course Categories
+                        Course <span class="category_title_green">Categories</span>
                     </h2>
                 </div>
 
@@ -287,20 +296,21 @@
                         <div class="col-lg-4">
                             <div class="card-item mb-4">
 
-                                <div class="card_content">
+                                <div class="card_content text-lg-start text-center">
                                     <img src="assets/home2/course1.png" alt="img">
                                     <h2>
                                         UI/UX <br>
                                         Design
                                     </h2>
                                     <p>
-                                        How to apply design thinking to your <br>
-                                        onder t generate innov the and uner-centric <br>
+                                        How to apply design thinking to your <br class="d-lg-block d-none">
+                                        onder t generate innov the and uner-centric
+                                        <br class="d-lg-block d-none">
                                         solution
                                     </p>
                                 </div>
 
-                                <div class="d-flex justify-content-end">
+                                <div class="d-flex justify-content-lg-end justify-content-center">
                                     <button class="d-flex align-items-center justify-content-center">
                                         <img class="arrowRight" src="assets/home2/arrow-right.svg" alt="">
                                         <img class="arrowRightTwo d-none" src="assets/home2/right-arrow.png" alt="">
@@ -313,7 +323,7 @@
                         <div class="col-lg-4">
                             <div class="card-item mb-4">
 
-                                <div class="card_content">
+                                <div class="card_content text-lg-start text-center">
                                     <img src="assets/home2/course2.png" alt="img">
                                     <h2>
                                         Data <br>
@@ -325,8 +335,7 @@
                                         solution
                                     </p>
                                 </div>
-
-                                <div class="d-flex justify-content-end">
+                                <div class="d-flex justify-content-lg-end justify-content-center">
                                     <button class="d-flex align-items-center justify-content-center">
                                         <img class="arrowRight" src="assets/home2/arrow-right.svg" alt="">
                                         <img class="arrowRightTwo d-none" src="assets/home2/right-arrow.png" alt="">
@@ -339,7 +348,7 @@
                         <div class="col-lg-4">
                             <div class="card-item mb-4">
 
-                                <div class="card_content">
+                                <div class="card_content text-lg-start text-center">
                                     <img src="assets/home2/course3.png" alt="img">
                                     <h2>
                                         Web <br>
@@ -352,7 +361,7 @@
                                     </p>
                                 </div>
 
-                                <div class="d-flex justify-content-end">
+                                <div class="d-flex justify-content-lg-end justify-content-center">
                                     <button class="d-flex align-items-center justify-content-center">
                                         <img class="arrowRight" src="assets/home2/arrow-right.svg" alt="">
                                         <img class="arrowRightTwo d-none" src="assets/home2/right-arrow.png" alt="">
@@ -365,7 +374,7 @@
                         <div class="col-lg-4">
                             <div class="card-item mb-4">
 
-                                <div class="card_content">
+                                <div class="card_content text-lg-start text-center">
                                     <img src="assets/home2/course4.png" alt="img">
                                     <h2>
                                         Strategy & <br>
@@ -378,19 +387,18 @@
                                     </p>
                                 </div>
 
-                                <div class="d-flex justify-content-end">
+                                <div class="d-flex justify-content-lg-end justify-content-center">
                                     <button class="d-flex align-items-center justify-content-center">
                                         <img class="arrowRight" src="assets/home2/arrow-right.svg" alt="">
                                         <img class="arrowRightTwo d-none" src="assets/home2/right-arrow.png" alt="">
                                     </button>
                                 </div>
-
                             </div>
                         </div>
 
                         <div class="col-lg-4">
                             <div class="card-item mb-4">
-                                <div class="card_content">
+                                <div class="card_content text-lg-start text-center">
                                     <img src="assets/home2/course5.png" alt="img">
                                     <h2>
                                         Business <br>
@@ -403,7 +411,7 @@
                                     </p>
                                 </div>
 
-                                <div class="d-flex justify-content-end">
+                                <div class="d-flex justify-content-lg-end justify-content-center">
                                     <button class="d-flex align-items-center justify-content-center">
                                         <img class="arrowRight" src="assets/home2/arrow-right.svg" alt="">
                                         <img class="arrowRightTwo d-none" src="assets/home2/right-arrow.png" alt="">
@@ -414,7 +422,7 @@
 
                         <div class="col-lg-4">
                             <div class="card-item mb-4">
-                                <div class="card_content">
+                                <div class="card_content text-lg-start text-center">
                                     <img src="assets/home2/course6.png" alt="img">
                                     <h2>
                                         Sales <br>
@@ -427,7 +435,7 @@
                                     </p>
                                 </div>
 
-                                <div class="d-flex justify-content-end">
+                                <div class="d-flex justify-content-lg-end justify-content-center">
                                     <button class="d-flex align-items-center justify-content-center">
                                         <img class="arrowRight" src="assets/home2/arrow-right.svg" alt="">
                                         <img class="arrowRightTwo d-none" src="assets/home2/right-arrow.png" alt="">
@@ -444,7 +452,7 @@
         <!-- what we are start -->
         <section class="whatweare">
             <div class="container">
-                <div class="row">
+                <div class="row flex-lg-row flex-column-reverse">
 
                     <div class="col-lg-6">
                         <div class="whatweare_img">
@@ -461,7 +469,7 @@
                                 </button>
 
                                 <h2 class="category_title text-white">
-                                    We Offer The Best <br>
+                                    We Offer The Best <br class="">
                                     <span class="text-clr-primaryColor">
                                         Carrier
                                     </span>
@@ -476,7 +484,8 @@
                                 </p>
                             </div>
 
-                            <div class="offer_item d-flex gap-3 mb-3">
+                            <div
+                                class="offer_item d-flex flex-lg-row flex-column justify-content-lg-start justify-content-center align-items-center text-lg-start text-center gap-3 mb-3">
 
                                 <div class="offer_item_img">
                                     <img class="pt-2" src="assets/home2/whatweare-icon1.png" alt="icon">
@@ -496,7 +505,9 @@
 
                             </div>
 
-                            <div class="offer_item d-flex gap-3 mb-3">
+
+                            <div
+                                class="offer_item d-flex flex-lg-row flex-column justify-content-lg-start justify-content-center align-items-center text-lg-start text-center gap-3 mb-3">
 
                                 <div class="offer_item_img">
                                     <img class="pt-2" src="assets/home2/whatweare-icon2.png" alt="icon">
@@ -513,10 +524,9 @@
                                         relevant and valuable education.
                                     </p>
                                 </div>
-
                             </div>
-
-                            <div class="offer_item d-flex gap-3 mb-3">
+                            <div
+                                class="offer_item d-flex flex-lg-row flex-column justify-content-lg-start justify-content-center align-items-center text-lg-start text-center gap-3 mb-3">
                                 <div class="offer_item_img">
                                     <img class="pt-2" src="assets/home2/whatweare-icon3.png" alt="icon">
                                 </div>
@@ -534,23 +544,22 @@
                                     </p>
                                 </div>
                             </div>
-
-
-                            <button class="whatweare-btn">
-                                Know more
-                                <span>
-                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M20.5003 12.4998L4.50024 12.4998" stroke="#131C1E" stroke-width="1.5"
-                                            stroke-linecap="round" stroke-linejoin="round" />
-                                        <path
-                                            d="M15.5003 17.5C15.5003 17.5 20.5002 13.8176 20.5002 12.5C20.5003 11.1824 15.5002 7.5 15.5002 7.5"
-                                            stroke="#131C1E" stroke-width="1.5" stroke-linecap="round"
-                                            stroke-linejoin="round" />
-                                    </svg>
-
-                                </span>
-                            </button>
+                            <div
+                                class="d-flex justify-content-lg-start justify-content-center mt-lg-0 mt-4 mb-lg-0 mb-4">
+                                <button class="free_workshop_btn">Know more
+                                    <span>
+                                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M20.5003 12.4998L4.50024 12.4998" stroke="#131C1E"
+                                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M15.5003 17.5C15.5003 17.5 20.5002 13.8176 20.5002 12.5C20.5003 11.1824 15.5002 7.5 15.5002 7.5"
+                                                stroke="#131C1E" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </button>
+                            </div>
                         </div>
                     </div>
 
@@ -562,10 +571,11 @@
         <!-- featured course start -->
         <section class="home2Feature_course container-fluid p-0">
             <div class="featured_wrapper mb_130">
-                <button class="about_btn mb_24"><img src="/assets/star.png" alt="star">Our Popular
+                <button class="about_btn mb_24"><img src="/assets/star.png" alt="star"> Popular
                     Courses</button>
-                <h1 class="mb_12" style="color: #131C1E;"> Our Popular Courses </h1>
-                <p class="color_74">Choose from 213,000 online video courses with <br>
+                <h1 class="mb_12" style="color: #131C1E;">Browse Popular <br class="d-lg-none d-block">
+                    Category</h1>
+                <p class="color_74 d-lg-block d-none">Choose from 213,000 online video courses with <br>
                     new additions published every month</p>
                 <div class="featured_buttons">
                     <button class="grey_btn ">Feature</button>
@@ -763,20 +773,29 @@
                 <div class="row alig-items-center">
                     <div class="col-lg-6">
                         <div class="workshop">
-                            <button class="free_workshop_btn"><img src="/assets/star-workshop.png" alt="star">Workshop
-                                for free</button>
-                            <h2>Participate in Our <br>
+                            <div class="centerd">
+
+                                <button class="free_workshop_btn"><img src="/assets/star-workshop.png"
+                                        alt="star">Workshop
+                                    for free</button>
+                            </div>
+                            <h2>Participate in Our <br class="d-lg-block d-none">
                                 Free <span>Workshops</span></h2>
-                            <p>Come to our "Free Workshop" event to learn more, obtain <br>
-                                fresh perspectives, and meet others who share your interests. <br>
-                                Our knowledgeable speakers will offer insightful commentary <br>
+                            <p>Come to our "Free Workshop" event to learn more, obtain<br class="d-lg-block d-none">
+                                fresh perspectives, and meet others who share your interests.<br
+                                    class="d-lg-block d-none">
+                                Our knowledgeable speakers will offer insightful commentary <br
+                                    class="d-lg-block d-none">
                                 on a variety of subjects.</p>
-                            <button class="explore_course_btn">Explore All Course <img src="/assets/right.png"
-                                    alt=""></button>
+                            <div class="centerd mb-lg-0 mb-4">
+
+                                <button class="explore_course_btn ">Explore All Course <img src="/assets/right.png"
+                                        alt=""></button>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <img src="/assets/workshop.png" alt="">
+                        <img class="img-fluid" src="/assets/workshop.png" alt="">
                     </div>
                 </div>
             </div>
@@ -785,7 +804,7 @@
         <!-- We Provide Best -->
         <section class="mt_130 we_provide">
             <div class="container">
-                <div class="row align-items-center">
+                <div class="row align-items-center  flex-lg-row flex-column-reverse">
                     <div class="col-lg-6">
                         <div class="whatweare_img">
                             <img class="img-fluid" src="assets/providebest-banner.png" alt="img">
@@ -867,11 +886,13 @@
                                 </div>
                             </div>
 
+                            <div class="centerd mt-lg-0 mt-5">
 
-                            <button class=" mb_24  about_btn py-4">
-                                Know more
-                                <img src="/assets/whitearrow.png" alt="">
-                            </button>
+                                <button class=" mb_24  about_btn py-4">
+                                    Know more
+                                    <img src="/assets/whitearrow.png" alt="">
+                                </button>
+                            </div>
                         </div>
                     </div>
 
@@ -879,7 +900,6 @@
             </div>
         </section>
         <!-- what we are /-end -->
-
 
         <section class="home3_bg mt_130 mb_130">
             <div class="container">
@@ -889,7 +909,7 @@
                             <button class="about_btn mb_24 text-center"><img src="/assets/test-start.png" alt="">
                                 Testimonials</button>
                         </div>
-                        <h2 class="common_heading">
+                        <h2 class="common_heading mb-3">
                             Our Students <span style="color:#6663FF;">Feedback</span>
                         </h2>
                         <p class="common_para">87% of people learning for professional development report career
@@ -910,7 +930,7 @@
                                     <div class="d-flex flex-lg-row flex-column gap_10 mt_51 align-items-center">
                                         <img src="/assets/blog/pp.png" alt="">
                                         <div class="profile_details_test text-lg-start text-center">
-                                            <h4>Geraldine D. Anspach</h4>
+                                            <h4 style="color: #6663FF;">Geraldine D. Anspach</h4>
                                             <p>UI/UX Designer</p>
                                         </div>
                                     </div>
@@ -931,7 +951,7 @@
                                     <div class="d-flex flex-lg-row flex-column gap_10 mt_51 align-items-center">
                                         <img src="/assets/blog/pp.png" alt="">
                                         <div class="profile_details_test text-lg-start text-center">
-                                            <h4>Geraldine D. Anspach</h4>
+                                            <h4 style="color: #6663FF;">Geraldine D. Anspach</h4>
                                             <p>UI/UX Designer</p>
                                         </div>
                                     </div>
@@ -952,7 +972,7 @@
                                     <div class="d-flex flex-lg-row flex-column gap_10 mt_51 align-items-center">
                                         <img src="/assets/blog/pp.png" alt="">
                                         <div class="profile_details_test text-lg-start text-center">
-                                            <h4>Geraldine D. Anspach</h4>
+                                            <h4 style="color: #6663FF;">Geraldine D. Anspach</h4>
                                             <p>UI/UX Designer</p>
                                         </div>
                                     </div>
@@ -964,6 +984,27 @@
             </div>
         </section>
 
+
+        <!-- membership -->
+
+
+        <!-- membership start -->
+        <section class="container mb_130">
+            <div class="membership_wrapper home2_membership">
+                <h1 class="mb_12 "><span>Join Membership</span> And <br>
+                    Connect To Every Member</h1>
+                <p>Learn how to take the right decission in critical time to get succes and how to overcome bad times.
+                </p>
+                <div class="position-relative">
+                    <input type="text" name="" id="" placeholder="Enter your email address">
+                    <button class="email_arrow">
+                        <img src="/assets/home1/arrow-right-circle.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+        </section>
+        <!-- membership end -->
     </main>
 
     <footer>

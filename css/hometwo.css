@@ -99,7 +99,7 @@
     border-right: none !important;
     border-bottom: 0 !important;
     border-left: none !important;
-    background-image: url("../assets/arrowDown.png") !important;
+    background-image: url("../assets/home1/arrowDown.png") !important;
 }
 
 .nav-item :hover {
@@ -371,6 +371,8 @@ footer hr {
 
 @media only screen and (max-width:768px) {
 
+
+
     .footerEnd {
         padding-left: 0 !important;
         margin-bottom: 15px;
@@ -470,6 +472,15 @@ header {
 
 .qualites .qualites_wrapper .qualites_content {
     font-family: 'Syne', sans-serif;
+}
+
+.qualites_content h3 {
+    color: #FFF;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 66px */
 }
 
 /* QUALITES END */
@@ -590,7 +601,7 @@ header {
 
 /* main css end here */
 
- .about_btn {
+.about_btn {
     background-color: var(--primaryColor) !important;
     color: white;
 }
@@ -788,41 +799,41 @@ header {
     text-transform: capitalize;
 }
 
-  /* student feedback start */
-  .testimonial_wrapper {
+/* student feedback start */
+.testimonial_wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 32px;
-  }
+}
 
-  .community_wrapper {
+.community_wrapper {
     padding: 56px 24px;
-  }
+}
 
-  .profile_details {
+.profile_details {
     flex-direction: column;
     text-align: center;
     justify-content: center;
     align-content: center;
-  }
+}
 
-  .feedback_profile p {
+.feedback_profile p {
     text-align: center;
-  }
+}
 
 
-  .common_heading {
+.common_heading {
     color: var(--Color-Option-Neutral-color-1, #131C1E);
     font-family: 'Syne', sans-serif;
     font-size: 44px;
     font-style: normal;
     font-weight: 700;
-  
-  }
-  
-  .common_para {
+
+}
+
+.common_para {
     color: var(--Color-Option-Text-Color-1, #747474);
     text-align: center;
     font-family: Outfit;
@@ -831,39 +842,41 @@ header {
     font-weight: 400;
     line-height: 150%;
     /* 27px */
-  }
+}
 
-  
+.category_title_green {
+    color: #6663FF !important;
+}
 
 /* testimonial */
 .border_bottom {
     border-bottom: 1px solid #464646;
     width: fit-content;
     margin: auto;
-  }
-  
-  .test_card {
+}
+
+.test_card {
     padding: 27px 23px;
     border-radius: 8px;
     border: 1px solid #EEE;
     background: var(--neutralColor2);
     text-align: left;
-  }
-  
-  .mt_51 {
+}
+
+.mt_51 {
     margin-top: 51px;
-  }
-  
-  .profile_details_test h4 {
+}
+
+.profile_details_test h4 {
     color: var(--Color-Option-Neutral-color-1, #131C1E);
     /* text-align: center; */
     font-family: 'Syne', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
-  }
-  
-  .profile_details_test p {
+}
+
+.profile_details_test p {
     color: var(--Color-Option-Text-Color-1, #747474);
     /* text-align: center; */
     font-family: 'Outfit', sans-serif;
@@ -871,10 +884,187 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-  }
-  
-  .gap_10 {
+}
+
+.gap_10 {
     gap: 10px;
-  }
-  
-  
+}
+
+
+
+
+
+/* membership start */
+.membership_wrapper {
+    padding: 69px 0;
+    border-radius: 56px;
+    background: var(--primaryColor);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.membership_wrapper p {
+    color: #2B2B2B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 62px;
+}
+
+.membership_wrapper input {
+    display: flex;
+    max-width: 375px;
+    width: 100%;
+    height: 57px;
+    padding: 10px 10px 10px 24px;
+    align-items: center;
+    gap: 100px;
+    border-radius: 11px;
+    border: 1px solid var(--neutralColor);
+    background: transparent;
+    margin: auto;
+    color: #131C1E !important;
+}
+
+.membership_wrapper input::placeholder {
+    color: #131C1E;
+}
+
+.email_arrow {
+    position: absolute;
+    top: 2px;
+    right: 37%;
+}
+
+.home2_membership h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.home2_membership h1>span {
+    color: var(--secondary);
+}
+
+.home2_membership p {
+
+    color: #FFF;
+
+    /* B1/Body 1 (Regular) */
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+}
+
+
+
+
+.pb_80 {
+    padding-bottom: 80px;
+}
+
+
+
+
+@media(max-width:768px) {
+    .home2_membership h1 {
+        font-size: 22px;
+        color: white;
+
+    }
+    .mb_130 {
+        margin-bottom: 66px !important;
+    }
+
+    .mt_130 {
+        margin-top: 66px !important;
+    }
+
+    .centerd {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .workshop {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .workshop_wrapper {
+        padding: 46px;
+    }
+
+    .home2Feature_course .featured_wrapper h1,
+    .common_heading {
+        font-size: 24px;
+    }
+
+    .home2Feature_course .featured_buttons {
+        margin-top: 32px;
+        gap: 12px;
+
+    }
+
+    .qualites .qualites_wrapper {
+        padding: 35px 55px;
+    }
+
+    .pb_80 {
+        padding-bottom: 0;
+    }
+
+    .qualites_items {
+        margin-bottom: 40px;
+        margin-top: 45px;
+    }
+
+    .qualites_content h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .lets_talk_btns {
+        margin-top: 26px;
+        margin-bottom: 39px;
+    }
+
+    .right_wrapper .category_items {
+        width: fit-content;
+    }
+
+    .category_items_wrapper {
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        margin: 39px 0;
+
+    }
+
+    .section_heading {
+        text-align: center;
+    }
+
+    .top_categories .section_heading h2 {
+        font-size: 24px;
+        margin-top: 24px;
+    }
+
+    .whatweare_right .category_title {
+        font-size: 24px !important;
+        margin-top: 32px;
+        margin-bottom: 12px;
+    }
+
+    .workshop h2 {
+        font-size: 24px;
+    }
+}
