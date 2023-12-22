@@ -48,12 +48,11 @@
                                 <li><a class="dropdown-item" href="home3.html">Home 3</a></li>
                             </ul>
                         </li>
-                      <li class="nav-item dropdown">
-                            <a class="nav-link  dropdown-toggle" href="About.html" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                        <li class="nav-item">
+                            <a class="nav-link  " href="About.html">
                                 About
                             </a>
-                            
+
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link  dropdown-toggle" href="Course.html" id="navbarDropdown" role="button"
@@ -91,8 +90,8 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="/Blog.html">Blog</a></li>
-                                <li><a class="dropdown-item" href="/Blog.html">Blog Details</a></li>
-                               
+                                <li><a class="dropdown-item" href="/BlogDetails.html">Blog Details</a></li>
+
                             </ul>
                         </li>
 
@@ -115,7 +114,7 @@
                 <h3>ABOUT US <span>1</span></h3>
                 <div class="d-flex align-items-center justify-content-center ">
                     <p>Home</p>
-                    <img src="/assets/about/arrow-right.png" alt="">
+                    <img src="/assets/about/arrow-right.png" class="sectinHeader_arrow" alt="">
                     <p>About us</p>
                 </div>
             </div>
@@ -192,7 +191,7 @@
         </section>
         <!-- establishing a community end -->
         <!-- how it works start -->
-        <section>
+        <section class="shadow_top_right">
             <div class="container mb_130">
                 <p class="sectionHeader text-center"><span class="txt_curve howItWorks_title">How it’s work</span>
                 </p>
@@ -246,253 +245,258 @@
         <!-- how it works end -->
 
         <!-- featured course start -->
-        <section class="about container-fluid p-0">
-            <div class="featured_wrapper mb_130">
-                <button class="about_btn mb_24"><img src="/assets/home1/greenstart.png" alt="star"><span
-                        class="d-lg-block d-none">Our</span> Course</button>
-                <h1 class="mb_12" style="color: #131C1E;">Features Course </h1>
-                <p class="color_74">Choose from 213,000 online video courses with <br>
-                    new additions published every month</p>
-                <div class="featured_buttons">
-                    <button class="grey_btn feature_green_btn">Feature</button>
-                    <button class="grey_btn ">Resent</button>
-                    <button class="grey_btn">Design</button>
-                    <button class="grey_btn d-lg-block d-none">Data Science</button>
-                    <button class="grey_btn d-lg-block d-none">Marketing</button>
-                    <button class="grey_btn d-lg-block d-none">Development</button>
-                </div>
+        <div class="shadow_middle">
 
-                <div class="container">
-                    <div class="row mb_48">
-                        <div class="col-lg-4">
-                            <div class="featured_card">
-                                <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
-                                <div>
-                                    <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
-                                    <h3 class="mb_30">Web Development : <br>
-                                        The Complete Programming
-                                        Course</h3>
-                                    <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
-                                    <div class="d-flex justify-content-between">
-                                        <div class="d-flex align-items-center gap-2">
-                                            <button class="rating">
-                                                <img class="w-100" src="/assets/home1/start.png" alt="">
-                                                <span>4.8</span>
-                                            </button>
-                                            <p class="rating_number">(4563)</p>
+            <section class="about container-fluid p-0">
+                <div class="featured_wrapper mb_130">
+                    <button class="about_btn mb_24"><img src="/assets/home1/greenstart.png" alt="star"><span
+                            class="d-lg-block d-none">Our</span> Course</button>
+                    <h1 class="mb_12" style="color: #131C1E;"> Features Course </h1>
+                    <p class="color_74">Choose from 213,000 online video courses with <br>
+                        new additions published every month</p>
+                    <div class="featured_buttons">
+                        <button class="grey_btn feature_green_btn">Feature</button>
+                        <button class="grey_btn ">Resent</button>
+                        <button class="grey_btn">Design</button>
+                        <button class="grey_btn d-lg-block d-none">Data Science</button>
+                        <button class="grey_btn d-lg-block d-none">Marketing</button>
+                        <button class="grey_btn d-lg-block d-none">Development</button>
+                    </div>
 
+                    <div class="container">
+                        <div class="row mb_48">
+                            <div class="col-lg-4">
+                                <div class="featured_card">
+                                    <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
+                                    <div>
+                                        <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
+                                        <h3 class="mb_30">Web Development : <br>
+                                            The Complete Programming
+                                            Course</h3>
+                                        <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <button class="rating">
+                                                    <img class="w-100" src="/assets/home1/start.png" alt="">
+                                                    <span>4.8</span>
+                                                </button>
+                                                <p class="rating_number">(4563)</p>
+
+                                            </div>
+                                            <button class="price_btn">$134</button>
                                         </div>
-                                        <button class="price_btn">$134</button>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="featured_card">
-                                <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
-                                <div>
-                                    <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
-                                    <h3 class="mb_30">Web Development : <br>
-                                        The Complete Programming
-                                        Course</h3>
-                                    <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
-                                    <div class="d-flex justify-content-between">
-                                        <div class="d-flex align-items-center gap-2">
-                                            <button class="rating">
-                                                <img class="w-100" src="/assets/home1/start.png" alt="">
-                                                <span>4.8</span>
-                                            </button>
-                                            <p class="rating_number">(4563)</p>
+                            <div class="col-lg-4">
+                                <div class="featured_card">
+                                    <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
+                                    <div>
+                                        <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
+                                        <h3 class="mb_30">Web Development : <br>
+                                            The Complete Programming
+                                            Course</h3>
+                                        <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <button class="rating">
+                                                    <img class="w-100" src="/assets/home1/start.png" alt="">
+                                                    <span>4.8</span>
+                                                </button>
+                                                <p class="rating_number">(4563)</p>
 
+                                            </div>
+                                            <button class="price_btn">$134</button>
                                         </div>
-                                        <button class="price_btn">$134</button>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="featured_card">
-                                <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
-                                <div>
-                                    <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
-                                    <h3 class="mb_30">Web Development : <br>
-                                        The Complete Programming
-                                        Course</h3>
-                                    <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
-                                    <div class="d-flex justify-content-between">
-                                        <div class="d-flex align-items-center gap-2">
-                                            <button class="rating">
-                                                <img class="w-100" src="/assets/home1/start.png" alt="">
-                                                <span>4.8</span>
-                                            </button>
-                                            <p class="rating_number">(4563)</p>
+                            <div class="col-lg-4">
+                                <div class="featured_card">
+                                    <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
+                                    <div>
+                                        <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
+                                        <h3 class="mb_30">Web Development : <br>
+                                            The Complete Programming
+                                            Course</h3>
+                                        <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <button class="rating">
+                                                    <img class="w-100" src="/assets/home1/start.png" alt="">
+                                                    <span>4.8</span>
+                                                </button>
+                                                <p class="rating_number">(4563)</p>
 
+                                            </div>
+                                            <button class="price_btn">$134</button>
                                         </div>
-                                        <button class="price_btn">$134</button>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4 d-lg-block d-none">
-                            <div class="featured_card">
-                                <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
-                                <div>
-                                    <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
-                                    <h3 class="mb_30">Web Development : <br>
-                                        The Complete Programming
-                                        Course</h3>
-                                    <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
-                                    <div class="d-flex justify-content-between">
-                                        <div class="d-flex align-items-center gap-2">
-                                            <button class="rating">
-                                                <img class="w-100" src="/assets/home1/start.png" alt="">
-                                                <span>4.8</span>
-                                            </button>
-                                            <p class="rating_number">(4563)</p>
+                            <div class="col-lg-4 d-lg-block d-none">
+                                <div class="featured_card">
+                                    <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
+                                    <div>
+                                        <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
+                                        <h3 class="mb_30">Web Development : <br>
+                                            The Complete Programming
+                                            Course</h3>
+                                        <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <button class="rating">
+                                                    <img class="w-100" src="/assets/home1/start.png" alt="">
+                                                    <span>4.8</span>
+                                                </button>
+                                                <p class="rating_number">(4563)</p>
 
+                                            </div>
+                                            <button class="price_btn">$134</button>
                                         </div>
-                                        <button class="price_btn">$134</button>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4 d-lg-block d-none">
-                            <div class="featured_card">
-                                <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
-                                <div>
-                                    <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
-                                    <h3 class="mb_30">Web Development : <br>
-                                        The Complete Programming
-                                        Course</h3>
-                                    <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
-                                    <div class="d-flex justify-content-between">
-                                        <div class="d-flex align-items-center gap-2">
-                                            <button class="rating">
-                                                <img class="w-100" src="/assets/home1/start.png" alt="">
-                                                <span>4.8</span>
-                                            </button>
-                                            <p class="rating_number">(4563)</p>
+                            <div class="col-lg-4 d-lg-block d-none">
+                                <div class="featured_card">
+                                    <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
+                                    <div>
+                                        <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
+                                        <h3 class="mb_30">Web Development : <br>
+                                            The Complete Programming
+                                            Course</h3>
+                                        <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <button class="rating">
+                                                    <img class="w-100" src="/assets/home1/start.png" alt="">
+                                                    <span>4.8</span>
+                                                </button>
+                                                <p class="rating_number">(4563)</p>
 
+                                            </div>
+                                            <button class="price_btn">$134</button>
                                         </div>
-                                        <button class="price_btn">$134</button>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4 d-lg-block d-none">
-                            <div class="featured_card">
-                                <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
-                                <div>
-                                    <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
-                                    <h3 class="mb_30">Web Development : <br>
-                                        The Complete Programming
-                                        Course</h3>
-                                    <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
-                                    <div class="d-flex justify-content-between">
-                                        <div class="d-flex align-items-center gap-2">
-                                            <button class="rating">
-                                                <img class="w-100" src="/assets/home1/start.png" alt="">
-                                                <span>4.8</span>
-                                            </button>
-                                            <p class="rating_number">(4563)</p>
+                            <div class="col-lg-4 d-lg-block d-none">
+                                <div class="featured_card">
+                                    <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
+                                    <div>
+                                        <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
+                                        <h3 class="mb_30">Web Development : <br>
+                                            The Complete Programming
+                                            Course</h3>
+                                        <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <button class="rating">
+                                                    <img class="w-100" src="/assets/home1/start.png" alt="">
+                                                    <span>4.8</span>
+                                                </button>
+                                                <p class="rating_number">(4563)</p>
 
+                                            </div>
+                                            <button class="price_btn">$134</button>
                                         </div>
-                                        <button class="price_btn">$134</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!--  -->
+
+                    <button class=" mb_24  explore_courses_btn">
+                        Explore All Course
+                        <img src="/assets/home1/arrowright1.png" alt="">
+
+                    </button>
+
                 </div>
-                <!--  -->
-
-                <button class=" mb_24  explore_courses_btn">
-                    Explore All Course
-                    <img src="/assets/home1/arrowright1.png" alt="">
-
-                </button>
-
-            </div>
 
 
 
 
-        </section>
+            </section>
+        </div>
         <!-- featured course end -->
 
-     <!-- instructor section start -->
-     <section class="container p-0">
-        <div class="instructor_wrapper mb_130">
-            <div class="text-lg-start text-center">
-                <button class="about_btn mb_24"><img src="/assets/home1/greenstart.png" alt="star">Skill
-                    Instructor</button>
-                <h2>Introduce Our <br class="d-lg-none d-block"> Life Instructor</h2>
-            </div>
-
-            <div class="">
-                <div class="row mb_48 m-0">
-
-                    <div class="col-lg-4">
-                        <div class="">
-                            <img class="img-fluid" src="/assets/home1/i1.png" alt="">
-                            <div class="position-relative">
-                                <div class="info_links">
-                                    <img class="img-fluid" src="/assets/home1/dribble.png" alt="">
-                                    <img class="img-fluid" src="/assets/home1/insta.png" alt="">
-                                    <img class="img-fluid" src="/assets/home1/twitter.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="instructor_wrapper">
-                            <h3>Jimmy Sullivan</h3>
-                            <p>UI/UX Designer</p>
-                        </div>
+        <!-- instructor section start -->
+        <div class="shadow_bottom_right">
+            <section class="container p-0">
+                <div class="instructor_wrapper mb_130">
+                    <div class="text-lg-start text-center">
+                        <button class="about_btn mb_24"><img src="/assets/home1/greenstart.png" alt="star">Skill
+                            Instructor</button>
+                        <h2>Introduce Our <br class="d-lg-none d-block"> Life Instructor</h2>
                     </div>
 
-                    <div class="col-lg-4">
-                        <div class="">
-                            <img class="img-fluid" src="/assets/home1/i2.png" alt="">
-                            <div class="position-relative">
-                                <div class="info_links">
-                                    <img class="img-fluid" src="/assets/home1/dribble.png" alt="">
-                                    <img class="img-fluid" src="/assets/home1/insta.png" alt="">
-                                    <img class="img-fluid" src="/assets/home1/twitter.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="instructor_wrapper">
-                            <h3>Jimmy Sullivan</h3>
-                            <p>UI/UX Designer</p>
-                        </div>
-                    </div>
+                    <div class="">
+                        <div class="row mb_48 m-0">
 
-                    <div class="col-lg-4">
-                        <div class="">
-                            <img class="img-fluid" src="/assets/home1/i3.png" alt="">
-                            <div class="position-relative">
-                                <div class="info_links">
-                                    <img class="img-fluid" src="/assets/home1/dribble.png" alt="">
-                                    <img class="img-fluid" src="/assets/home1/insta.png" alt="">
-                                    <img class="img-fluid" src="/assets/home1/twitter.png" alt="">
+                            <div class="col-lg-4">
+                                <div class="">
+                                    <img class="img-fluid" src="/assets/home1/i1.png" alt="">
+                                    <div class="position-relative">
+                                        <div class="info_links">
+                                            <img class="img-fluid" src="/assets/home1/dribble.png" alt="">
+                                            <img class="img-fluid" src="/assets/home1/insta.png" alt="">
+                                            <img class="img-fluid" src="/assets/home1/twitter.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instructor_wrapper">
+                                    <h3>Jimmy Sullivan</h3>
+                                    <p>UI/UX Designer</p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="instructor_wrapper">
-                            <h3>Jimmy Sullivan</h3>
-                            <p>UI/UX Designer</p>
+
+                            <div class="col-lg-4">
+                                <div class="">
+                                    <img class="img-fluid" src="/assets/home1/i2.png" alt="">
+                                    <div class="position-relative">
+                                        <div class="info_links">
+                                            <img class="img-fluid" src="/assets/home1/dribble.png" alt="">
+                                            <img class="img-fluid" src="/assets/home1/insta.png" alt="">
+                                            <img class="img-fluid" src="/assets/home1/twitter.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instructor_wrapper">
+                                    <h3>Jimmy Sullivan</h3>
+                                    <p>UI/UX Designer</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="">
+                                    <img class="img-fluid" src="/assets/home1/i3.png" alt="">
+                                    <div class="position-relative">
+                                        <div class="info_links">
+                                            <img class="img-fluid" src="/assets/home1/dribble.png" alt="">
+                                            <img class="img-fluid" src="/assets/home1/insta.png" alt="">
+                                            <img class="img-fluid" src="/assets/home1/twitter.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instructor_wrapper">
+                                    <h3>Jimmy Sullivan</h3>
+                                    <p>UI/UX Designer</p>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
 
                 </div>
-            </div>
 
+
+
+
+            </section>
         </div>
-
-
-
-
-    </section>
-    <!-- instructor section end -->
+        <!-- instructor section end -->
 
 
 
@@ -527,7 +531,7 @@
                         <div class="feedback_profile">
                             <div class="d-flex align-items-center profile_details">
                                 <img src="/assets/home1/st1.png" alt="">
-                                <div class="text-center">
+                                <div class="text-lg-start text-center">
                                     <h4>Geraldine D. Anspach</h4>
                                     <p>UI/UX Designer</p>
                                     <div>
@@ -548,21 +552,24 @@
         </section>
         <!-- Our Students Feedback end -->
         <!-- membership start -->
-        <section class="container mb_130">
-            <div class="membership_wrapper">
-                <h1 class="mb_12">Join Membership And <br>
-                    Connect To Every Member</h1>
-                <p>Learn how to take the right decission in critical time to get succes and how to overcome bad times.
-                </p>
-                <div class="position-relative">
-                    <input type="text" name="" id="" placeholder="Enter your email address">
-                    <button class="email_arrow">
-                        <img src="/assets/home1/arrow-right-circle.png" alt="">
-                    </button>
+        <div class="shadow_topLeft_bottomRight">
+            <section class="container mb_130">
+                <div class="membership_wrapper">
+                    <h1 class="mb_12">Join Membership And <br>
+                        Connect To Every Member</h1>
+                    <p>Learn how to take the right decission in critical time to get succes and how to overcome bad
+                        times.
+                    </p>
+                    <div class="position-relative">
+                        <input type="text" name="" id="" placeholder="Enter your email address">
+                        <button class="email_arrow">
+                            <img src="/assets/home1/arrow-right-circle.png" alt="">
+                        </button>
+                    </div>
                 </div>
-            </div>
 
-        </section>
+            </section>
+        </div>
         <!-- membership end -->
     </main>
 

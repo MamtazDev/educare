@@ -1,3 +1,92 @@
+.shadow_top_right,.shadow_middle,.shadow_bottom_right,.shadow_topLeft_bottomRight {
+    position: relative;
+}
+
+.shadow_bottom_right:after {
+    position: absolute;
+    content: "";
+    max-width: 382px;
+    width: 100%;
+    height: 382px;
+    background: var(--primaryColor);
+    bottom:0;
+    right: 0;
+    border-radius: 382px;
+    opacity: 0.07;
+    filter: blur(95.5px);
+    z-index: -1;
+}   
+.shadow_top_right:after {
+    position: absolute;
+    content: "";
+    max-width: 382px;
+    width: 100%;
+    height: 382px;
+    background: var(--primaryColor);
+    top:0;
+    right: 0;
+    border-radius: 382px;
+    opacity: 0.07;
+    filter: blur(95.5px);
+    z-index: -1;
+}   
+.shadow_middle::after {
+    position: absolute;
+    content: "";
+    max-width: 382px;
+    width: 100%;
+    height: 382px;
+    background: var(--primaryColor);
+    top: 50% ;
+    right: 0;
+    border-radius: 382px;
+    opacity: 0.07;
+    filter: blur(95.5px);
+    z-index: -1;
+}
+.shadow_middle::before {
+    position: absolute;
+    content: "";
+    max-width: 382px;
+    width: 100%;
+    height: 382px;
+    background: var(--primaryColor);
+    top: 50%;
+    left: 0;
+    border-radius: 382px;
+    opacity: 0.07;
+    filter: blur(95.5px);
+    z-index: -1;
+}
+.shadow_topLeft_bottomRight::after {
+    position: absolute;
+    content: "";
+    max-width: 382px;
+    width: 100%;
+    height: 382px;
+    background: var(--primaryColor);
+    bottom: 0;
+    right: 0;
+    border-radius: 382px;
+    opacity: 0.07;
+    filter: blur(95.5px);
+    z-index: -1;
+}
+.shadow_topLeft_bottomRight::before {
+    position: absolute;
+    content: "";
+    max-width: 382px;
+    width: 100%;
+    height: 382px;
+    background: var(--primaryColor);
+    top: 0;
+    left: 0;
+    border-radius: 382px;
+    opacity: 0.07;
+    filter: blur(95.5px);
+    z-index: -1;
+}
+
 .sectionHeader_wrapper {
     padding: 83px 0;
     display: flex;
@@ -210,7 +299,7 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -222,7 +311,7 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 

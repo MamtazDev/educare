@@ -1429,3 +1429,8 @@ h1 {
   object-fit: cover;
 
 }
+
+.sectinHeader_arrow{
+  margin: 0 8px;
+  margin-top: 5px;
+}
