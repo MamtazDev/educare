@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    $(".slick-slider_blog").slick({
-        slidesToShow: 2,
+    $(".slick-slider").slick({
+        slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
@@ -11,7 +11,7 @@ $(document).ready(function(){
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1
+                    slidesToShow: 2
                 }
             },
             {

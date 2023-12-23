@@ -449,6 +449,7 @@ footer hr {
   filter: blur(95.5px);
   z-index: -1;
 }
+
 .shadow_green_both:after {
   position: absolute;
   content: "";
@@ -605,9 +606,19 @@ footer hr {
 
 .works_wrapper::after {
   position: absolute;
-  content: url(/assets/howitworkescurve.png);
-  top: 41px;
-  left: 207px;
+  content: url(/assets/home1/curve3.png);
+  top: 38px;
+  left: 211px;
+  z-index: -1;
+}
+
+.wrapper_2::after {
+  position: absolute;
+  content: url(/assets/home1/curvemiddle.png);
+  top: 5px;
+  left: 212px;
+
+  /* transform: rotate(180deg); */
 }
 
 .howItWorks_wrapper {
@@ -616,7 +627,9 @@ footer hr {
 }
 
 @media (max-width:1440px) {
-  .works_wrapper::after {
+
+  .works_wrapper::after,
+  .wrapper_2:after {
     content: none;
 
   }
@@ -1428,7 +1441,171 @@ h1 {
 
 }
 
-.sectinHeader_arrow{
+.sectinHeader_arrow {
   margin: 0 8px;
   margin-top: 5px;
+}
+
+
+/* slider */
+
+
+.instructor_wrapper .slick-next {
+  right: 138px !important;
+}
+
+.instructor_wrapper .slick-prev {
+  left: 0px !important;
+}
+
+.instructor_wrapper .slick-next:before {
+  content: "Next" !important;
+  color: black;
+
+
+}
+
+.instructor_wrapper .slick-prev:before {
+  content: "Before " !important;
+
+}
+
+.instructor_wrapper .slick-prev:before,
+.instructor_wrapper .slick-next:before {
+  color: #131C1E !important;
+  display: flex;
+  width: 126px;
+  height: 57px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 11px;
+  border: 1px solid#131C1E;
+  background: #FFF;
+  opacity: 1 !important;
+  margin-bottom: 150px;
+}
+
+.instructor_wrapper .slick-prev,
+.instructor_wrapper .slick-next {
+  top: 122% !important;
+}
+
+/* blog slider */
+
+
+
+.ourlatest_blog .slick-next {
+  right: 138px !important;
+}
+
+.ourlatest_blog .slick-prev {
+  left: 0px !important;
+}
+
+.ourlatest_blog .slick-next:before {
+  content: "Next" !important;
+  color: black;
+
+
+}
+
+.ourlatest_blog .slick-prev:before {
+  content: "Before " !important;
+
+}
+
+.ourlatest_blog .slick-prev:before,
+.ourlatest_blog .slick-next:before {
+  color: #131C1E !important;
+  display: flex;
+  width: 126px;
+  height: 57px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 11px;
+  border: 1px solid#131C1E;
+  background: #FFF;
+  opacity: 1 !important;
+  margin-bottom: 150px;
+}
+
+.ourlatest_blog .slick-prev,
+.ourlatest_blog .slick-next {
+  top: 122% !important;
+}
+
+.slider_margin {
+  margin-top: 330px;
+}
+
+.slick-dots .slick-active button:before {
+  border: 3px solid #B6EC3D;
+  width: 18px !important;
+  height: 18px !important;
+  border-radius: 50%;
+  color: transparent;
+  content: "" !important;
+}
+
+.slick-dots li button:before {
+  font-size: 12px !important;
+}
+.slick-dots{
+  bottom: -70px !important;
+}
+@media(max-width:768px) {
+  .slider_margin {
+    margin-top: 159px;
+  }
+
+  .instructor_wrapper .slick-prev,
+  .ourlatest_blog .slick-prev {
+    left: 33px !important;
+  }
+
+  .blog_date {
+    position: absolute;
+    bottom: 33%;
+    left: -2%;
+  }
+
+  .blog_date button {
+    font-size: 12px;
+    width: 99px;
+    height: 30px;
+  }
+
+  .col-lg-6 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .blog_card h4 {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 16px;
+  }
+
+  .blog_title {
+    font-size: 24px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+
+  }
+
+  .home1 .membership_wrapper h1 {
+    font-size: 22px;
+  }
+
+  .membership_wrapper {
+    border-radius: 32px;
+  }
+
+  .membership_wrapper p {
+    margin-bottom: 24px;
+  }
 }
