@@ -17,7 +17,9 @@ body {
     --othercolor2: #1A2224;
     --secondarycolor: #FFD452;
 }
-
+.dropdown-item:active {
+    background-color: white !important;
+}
 .membership_wrapper {
     padding: 24px;
 }
