@@ -22,6 +22,10 @@
     <link rel="stylesheet" href="css/aboutUs.css">
     <link rel="stylesheet" href="css/Blog.css">
     <!-- my css -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
 
 </head>
 
@@ -45,15 +49,16 @@
                                 Home
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="index.html">Home 1</a></li><li><a class="dropdown-item" href="Home2.html">Home 2</a></li> 
+                                <li><a class="dropdown-item" href="index.html">Home 1</a></li>
+                                <li><a class="dropdown-item" href="Home2.html">Home 2</a></li>
                                 <li><a class="dropdown-item" href="Home3.html">Home 3</a></li>
                             </ul>
                         </li>
-                      <li class="nav-item">
-                            <a class="nav-link  " href="About.html" >
+                        <li class="nav-item">
+                            <a class="nav-link  " href="About.html">
                                 About
                             </a>
-                            
+
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link  dropdown-toggle" href="Course.html" id="navbarDropdown" role="button"
@@ -92,7 +97,7 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="/Blog.html">Blog</a></li>
                                 <li><a class="dropdown-item" href="/BlogDetails.html">Blog Details</a></li>
-                               
+
                             </ul>
                         </li>
 
@@ -174,7 +179,7 @@
         </section>
         <!-- Our Students Feedback end -->
 
-        <section class="home3_bg mb_130">
+        <!-- <section class="home3_bg mb_130">
             <div class="container">
                 <div class="item">
                     <div class="text-center">
@@ -257,9 +262,9 @@
 
                 </div>
             </div>
-        </section>
-        <!-- testimonial section start -->
-        <section class="home3_bg mb_130">
+        </section> -->
+
+        <section class="testimonial home3_bg mt_130 mb_130">
             <div class="container">
                 <div class="item">
                     <div class="text-center">
@@ -267,8 +272,113 @@
                             <button class="about_btn mb_24 text-center"><img src="/assets/home1/greenstart.png" alt="">
                                 Testimonials</button>
                         </div>
-                        <h2 class="  border_bottom common_heading">
-                            Our Students <span class=""> Feedback</span>
+                        <h2 class="common_heading mb-3">
+                            Our Students Feedback
+                        </h2>
+                        <p class="common_para">87% of people learning for professional development report career
+                            benefits <br> like getting a promotion starting a new career in every world</p>
+                        <div class=" slick-slider row mt_32">
+                            <div class="slide col-lg-4">
+                                <div class="test_card">
+                                    <div class="mb_30 d-flex">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                    </div>
+                                    <p class="common_para text-lg-start text-center">"This method is very flexible for
+                                        me who works even outside the city of Bandung. I have access to interactive and
+                                        flexible learning. "</p>
+                                    <div class="d-flex flex-lg-row flex-column gap_10 mt_51 align-items-center">
+                                        <img src="/assets/blog/pp.png" alt="">
+                                        <div class="profile_details_test text-lg-start text-center">
+                                            <h4>Geraldine D. Anspach</h4>
+                                            <p>UI/UX Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide col-lg-4 mb-lg-0 mb-4 mt-lg-0 mt-4">
+                                <div class="test_card">
+                                    <div class="mb_30 d-flex">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                    </div>
+                                    <p class="common_para text-lg-start text-center">"This method is very flexible for
+                                        me who works even outside the city of Bandung. I have access to interactive and
+                                        flexible learning. "</p>
+                                    <div class="d-flex flex-lg-row flex-column gap_10 mt_51 align-items-center">
+                                        <img src="/assets/blog/pp.png" alt="">
+                                        <div class="profile_details_test text-lg-start text-center">
+                                            <h4>Geraldine D. Anspach</h4>
+                                            <p>UI/UX Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide col-lg-4">
+                                <div class="test_card">
+                                    <div class="mb_30 d-flex">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                    </div>
+                                    <p class="common_para text-lg-start text-center">"This method is very flexible for
+                                        me who works even outside the city of Bandung. I have access to interactive and
+                                        flexible learning. "</p>
+                                    <div class="d-flex flex-lg-row flex-column gap_10 mt_51 align-items-center">
+                                        <img src="/assets/blog/pp.png" alt="">
+                                        <div class="profile_details_test text-lg-start text-center">
+                                            <h4>Geraldine D. Anspach</h4>
+                                            <p>UI/UX Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide col-lg-4">
+                                <div class="test_card">
+                                    <div class="mb_30 d-flex">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                    </div>
+                                    <p class="common_para text-lg-start text-center">"This method is very flexible for
+                                        me who works even outside the city of Bandung. I have access to interactive and
+                                        flexible learning. "</p>
+                                    <div class="d-flex flex-lg-row flex-column gap_10 mt_51 align-items-center">
+                                        <img src="/assets/blog/pp.png" alt="">
+                                        <div class="profile_details_test text-lg-start text-center">
+                                            <h4>Geraldine D. Anspach</h4>
+                                            <p>UI/UX Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- testimonial section start -->
+        <section class="home3_bg mb_130 slider_margin1">
+            <div class="container">
+                <div class="item">
+                    <div class="text-center">
+                        <div class="testimonial_wrapper">
+                            <button class="about_btn mb_24 text-center"><img src="/assets/home1/greenstart.png" alt="">
+                                Testimonials</button>
+                        </div>
+                        <h2 class="common_heading">
+                            Our Students Feedback
                         </h2>
                         <p class="common_para mt_61">"Educare is revolutionizing the education sector. The site is
                             creative
@@ -369,5 +479,11 @@
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- slick  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- slick  -->
+<script src="./js/home2WhatweareSlider.js"></script>
 
 </html>

@@ -927,7 +927,7 @@ header {
     border: 1px solid #EEE;
     background: var(--neutralColor2);
     text-align: left;
-    margin: 0 15px;
+    margin: 0 15px !important;
 }
 
 .mt_51 {
