@@ -26,6 +26,22 @@
 
 
 */
+[data-aos="new-animation"] {
+  opacity: 0;
+  transition-property: transform, opacity;
+}
+[data-aos="new-animation"].aos-animate {
+  opacity: 1;
+}
+@media screen and (min-width: 768px) {
+  [data-aos="new-animation"] {
+    transform: translateX(100px);
+  }
+  [data-aos="new-animation"].aos-animate {
+    transform: translateX(0);
+  }
+}
+
 .common_heading {
   color: var(--Color-Option-Neutral-color-1, #131C1E);
   font-family: 'Syne', sans-serif;
@@ -803,7 +819,7 @@ footer hr {
   background-image: unset;
   background-color: #B6EC3D;
   cursor: pointer;
-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
 }
 
 .popular_categoris .cat_card .card_img {
@@ -1689,6 +1705,6 @@ h1 {
   /* dots */
 }
 
-.testimonial .test_card{
+.testimonial .test_card {
   margin: 0 15px;
 }
