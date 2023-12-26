@@ -226,17 +226,22 @@
 .events_card:hover {
     background-color: var(--neutralColor2);
     transition: ease-in-out 0.3s;
+    cursor: pointer;
 
 }
 
 .events_card:hover .events_title {
     color: var(--neutralColor);
     transition: ease-in-out 0.3s;
+        cursor: pointer;
+
 }
 
 .events_card:hover .grey_text_1 {
     color: var(--neutralColor);
     transition: ease-in-out 0.3s;
+        cursor: pointer;
+
 }
 
 

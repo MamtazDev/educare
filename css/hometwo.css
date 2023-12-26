@@ -152,10 +152,14 @@
 
 .nav-item :hover {
     color: var(--primaryColor);
+    cursor: pointer;
+
 }
 
 .nav-link :hover {
     color: var(--primaryColor);
+    cursor: pointer;
+
 }
 
 .navbar-nav .nav-link.active
@@ -302,11 +306,15 @@ footer p:last-child {
 
 footer ul li a:hover {
     color: var(--primaryColor);
+    cursor: pointer;
+
 }
 
 footer span,
 footer ul li:first-child {
     color: var(--neutralColor2);
+    cursor: pointer;
+
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 1.44px;
@@ -376,6 +384,8 @@ footer button:hover {
     background: transparent !important;
     border: 1px solid var(--secondaryColor);
     color: var(--initialColor);
+    cursor: pointer;
+
 }
 
 footer hr {
@@ -486,7 +496,7 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
-    margin-bottom: 48px;
+    margin-bottom: 24px;
 }
 
 /* BANNER START */
@@ -562,6 +572,7 @@ header {
 .top_categories .card-item:hover {
     background: #FFF;
     box-shadow: 0px 20px 20px 0px rgba(102, 99, 255, 0.08);
+    cursor: pointer;
 }
 
 .top_categories .card-item .card_content img {
@@ -643,7 +654,10 @@ header {
     padding: 20px;
 
 }
-
+.offer_item_content h2{
+    font-size: 20px !important  ;
+    margin-bottom: 12px !important;
+}
 /* WHAT WE ARE /-END */
 
 
@@ -656,6 +670,8 @@ header {
 
 .home2Feature_course .price_btn:hover {
     color: #FFF;
+    cursor: pointer;
+
 }
 
 .home2Feature_course .featured_wrapper {
@@ -706,6 +722,7 @@ header {
 
 .home2Feature_course .featured_card:hover {
     border: 1px solid var(--primaryColor);
+    cursor: pointer;
 }
 
 .home2Feature_course .rating {
@@ -737,6 +754,7 @@ header {
     background-color: #6663FF !important;
     color: #FFF;
     transition: ease-in-out 0.3s;
+    cursor: pointer;
 }
 
 .home2Feature_course .grey_btn {
@@ -909,6 +927,7 @@ header {
     border: 1px solid #EEE;
     background: var(--neutralColor2);
     text-align: left;
+    margin: 0 15px;
 }
 
 .mt_51 {
@@ -1117,3 +1136,24 @@ header {
         font-size: 24px;
     }
 }
+.home2_membership{
+    margin-top: 200px;
+}
+
+
+.slick-dots .slick-active button:before {
+    border: 3px solid var(--primaryColor);
+    width: 18px !important;
+    height: 18px !important;
+    border-radius: 50%;
+    color: transparent;
+    content: "" !important;
+  }
+  
+  .slick-dots li button:before {
+    font-size: 12px !important;
+  }
+  
+  .slick-dots {
+    bottom: -70px !important;
+  }

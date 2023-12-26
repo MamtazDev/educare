@@ -106,10 +106,14 @@
 
 .nav-item :hover {
   color: var(--primaryColor);
+  cursor: pointer;
+
 }
 
 .nav-link :hover {
   color: var(--primaryColor);
+  cursor: pointer;
+
 }
 
 .navbar-nav .nav-link.active
@@ -256,6 +260,8 @@ footer p:last-child {
 
 footer ul li a:hover {
   color: var(--primaryColor);
+  cursor: pointer;
+
 }
 
 footer span,
@@ -330,6 +336,8 @@ footer button:hover {
   background: transparent !important;
   border: 1px solid var(--secondaryColor);
   color: var(--initialColor);
+  cursor: pointer;
+
 }
 
 footer hr {
@@ -710,9 +718,10 @@ footer hr {
 
 /* responsive start */
 @media (max-width:768px) {
-  .membership_wrapper p{
+  .membership_wrapper p {
     font-size: 12px !important;
   }
+
   .community_wrapper {
     padding: 48px 24px 64px;
   }
@@ -787,11 +796,14 @@ footer hr {
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(3.571% 0%, 3.571% 0%, 2.992% 0.042%, 2.443% 0.163%, 1.93% 0.357%, 1.462% 0.617%, 1.046% 0.937%, 0.689% 1.309%, 0.399% 1.728%, 0.182% 2.187%, 0.047% 2.679%, 0% 3.198%, 0% 96.802%, 0% 96.802%, 0.047% 97.321%, 0.182% 97.813%, 0.399% 98.272%, 0.689% 98.691%, 1.046% 99.063%, 1.462% 99.383%, 1.93% 99.643%, 2.443% 99.837%, 2.992% 99.958%, 3.571% 100%, 71.211% 100%, 71.211% 100%, 72.261% 99.884%, 73.233% 99.556%, 74.118% 99.043%, 74.91% 98.376%, 75.601% 97.583%, 76.183% 96.692%, 76.648% 95.733%, 76.99% 94.734%, 77.201% 93.724%, 77.273% 92.733%, 77.273% 92.733%, 77.455% 90.705%, 77.984% 88.782%, 78.831% 86.988%, 79.966% 85.35%, 81.362% 83.894%, 82.989% 82.644%, 84.818% 81.628%, 86.821% 80.87%, 88.969% 80.396%, 91.234% 80.233%, 91.234% 80.233%, 92.404% 80.165%, 93.607% 79.965%, 94.806% 79.642%, 95.964% 79.202%, 97.044% 78.653%, 98.011% 78.001%, 98.826% 77.255%, 99.454% 76.42%, 99.857% 75.505%, 100% 74.517%, 100% 3.198%, 100% 3.198%, 99.953% 2.679%, 99.818% 2.187%, 99.601% 1.728%, 99.311% 1.309%, 98.954% 0.937%, 98.538% 0.617%, 98.07% 0.357%, 97.557% 0.163%, 97.008% 0.042%, 96.429% 0%, 3.571% 0%);
+  transition: ease-in-out 0.3s;
 }
 
 .popular_categoris .cat_card:hover {
   background-image: unset;
   background-color: #B6EC3D;
+  cursor: pointer;
+transition: ease-in-out 0.3s;
 }
 
 .popular_categoris .cat_card .card_img {
@@ -869,6 +881,8 @@ footer hr {
 
 .featured_card:hover {
   border: 1px solid #B6EC3D;
+  cursor: pointer;
+
 }
 
 .rating {
@@ -1663,11 +1677,12 @@ h1 {
   .membership_wrapper p {
     margin-bottom: 24px;
   }
-  .popular_categoris h2{
-  font-size: 24px;
-  text-align: center;
-  margin-bottom: 32px;
-  
+
+  .popular_categoris h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 32px;
+
   }
 
   /* dots */
