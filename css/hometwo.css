@@ -757,6 +757,10 @@ header {
     cursor: pointer;
 }
 
+.custom-button1.active {
+    background-color: #6663FF !important;
+    color: #131C1E;
+}
 .home2Feature_course .grey_btn {
     border-radius: 11px;
     background: var(--Color-Option-Color-6, #EAEAFF) !important;

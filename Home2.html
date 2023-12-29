@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Educare</title>
+    <link rel="shortcut icon" href="/assets/small-logo-blue.png" type="image/x-icon">
 
     <!-- bootstrap link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
@@ -154,7 +155,8 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 d-lg-block d-none" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="col-lg-6 d-lg-block d-none" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-delay="200">
                         <div class="banner_img text-center">
                             <img class="img-fluid" src="/assets/home2/banner-img.png" alt="">
                         </div>
@@ -199,7 +201,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 d-lg-none d-block" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="col-lg-6 d-lg-none d-block" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-delay="200">
                         <div class="banner_img text-center">
                             <img class="img-fluid" src="/assets/home2/banner-img.png" alt="">
                         </div>
@@ -228,7 +231,8 @@
                         </div>
                         <div class="col-lg-7">
                             <div class="row justify-content-between h-100">
-                                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000"
+                                    data-aos-delay="200">
                                     <div class="qualites_items d-flex align-items-center gap-3 pb_80">
                                         <span class="fs_32 fw-semibold text-clr-secondary">
                                             01
@@ -239,7 +243,8 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000"
+                                    data-aos-delay="200">
                                     <div class="qualites_items d-flex align-items-center gap-3">
                                         <span class="fs_32 fw-semibold text-clr-secondary">
                                             02
@@ -250,7 +255,8 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000"
+                                    data-aos-delay="200">
                                     <div class="qualites_items d-flex align-items-center gap-3 pb-0">
                                         <span class="fs_32 fw-semibold text-clr-secondary">
                                             03
@@ -261,7 +267,8 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000"
+                                    data-aos-delay="200">
                                     <div class="qualites_items d-flex align-items-center gap-3">
                                         <span class="fs_32 fw-semibold text-clr-secondary">
                                             04
@@ -583,18 +590,28 @@
                         Category</h1>
                     <p class="color_74 d-lg-block d-none">Choose from 213,000 online video courses with <br>
                         new additions published every month</p>
-                    <div class="featured_buttons">
+                    <!-- <div class="featured_buttons">
                         <button data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" class="grey_btn ">Feature</button>
                         <button data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" class="grey_btn ">Recent</button>
                         <button data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" class="grey_btn">Design</button>
                         <button data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" class="grey_btn d-lg-block d-none">Data Science</button>
                         <button data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" class="grey_btn d-lg-block d-none">Marketing</button>
                         <button data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" class="grey_btn d-lg-block d-none">Development</button>
+                    </div> -->
+                    <div class="featured_buttons">
+                        <button data-filter="*"
+                            class="grey_btn feature_green_btn custom-button1 active">Feature</button>
+                        <button data-filter=".recent" class="grey_btn custom-button1">Recent</button>
+
+                        <button data-filter=".design" class="grey_btn custom-button1">Design</button>
+                        <button data-filter=".data-science" class="grey_btn custom-button1">Data Science</button>
+                        <button data-filter=".marketing" class="grey_btn  custom-button1">Marketing</button>
+                        <button data-filter=".development" class="grey_btn custom-button1">Development</button>
                     </div>
 
                     <div class="container">
-                        <div class="row mb_48">
-                            <div   data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="col-lg-4">
+                        <div class="row mb_48 blogall">
+                            <div class="col-lg-4 recent">
                                 <div class="featured_card">
                                     <div class="position-relative">
                                         <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
@@ -622,7 +639,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div   data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="col-lg-4">
+                            <div class="col-lg-4 data-science design development">
                                 <div class="featured_card">
                                     <div class="position-relative">
                                         <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
@@ -650,7 +667,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div   data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="col-lg-4">
+                            <div class="col-lg-4 data-science ">
                                 <div class="featured_card">
                                     <div class="position-relative">
                                         <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
@@ -678,7 +695,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div   data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="col-lg-4 d-lg-block d-none">
+                            <div class="col-lg-4 recent development marketing">
                                 <div class="featured_card">
                                     <div class="position-relative">
                                         <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
@@ -706,7 +723,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div   data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="col-lg-4 d-lg-block d-none">
+                            <div class="col-lg-4  data-science ">
                                 <div class="featured_card">
                                     <div class="position-relative">
                                         <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
@@ -734,7 +751,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div   data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="col-lg-4 d-lg-block d-none">
+                            <div class="col-lg-4 recent development  design">
                                 <div class="featured_card">
                                     <div class="position-relative">
                                         <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
@@ -766,10 +783,12 @@
                         </div>
                     </div>
                     <!--  -->
-                    <button class=" mb_24  explore_courses_btn">
-                        Explore All Course
-                        <img src="/assets/whitearrow.png" alt="">
-                    </button>
+                    <a href="/Course1.html">
+                        <button class=" mb_24  explore_courses_btn">
+                            Explore All Course
+                            <img src="/assets/whitearrow.png" alt="">
+                        </button>
+                    </a>
                 </div>
             </section>
         </div>
@@ -1117,13 +1136,21 @@
 </body>
 <script src="./js/home2WhatweareSlider.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/js/filter.js"></script>
+<script src="/js/home2ActiveButtons.js"></script>
+<script src="/js/jquery-1.12.4.min.js"></script>
+<script src="/js/isotop.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
 <!-- slick  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
     integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<!-- slick  -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><script>
-    AOS.init();
-</script>
 
 </html>

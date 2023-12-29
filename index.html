@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Educare</title>
+    <link rel="shortcut icon" href="/assets/small-logo-green.png" type="image/x-icon">
 
     <!-- bootstrap link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
@@ -548,174 +549,166 @@
                 <h1 class="mb_12 text-light">Features <span class="green_text">Course</span> </h1>
                 <p class="color_BC">Choose from 213,000 online video courses with <br>
                     new additions published every month</p>
-                <div class="featured_buttons" id="isotope-buttons">
-                    <button data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" data-filter="*"
-                        id="filters" class="green_btn feature_green_btn">Feature</button>
-                    <button data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" data-sort-by="recent"
-                        class="grey_btn">Recent</button>
-                    <button data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" data-sort-by="design"
-                        class="grey_btn">Design</button>
-                    <button data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200"
-                        data-sort-by="data-science" class="grey_btn d-lg-block d-none">Data Science</button>
-                    <button data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" data-filter=".marketing"
-                        class="grey_btn d-lg-block d-none">Marketing</button>
-                    <button data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200"
-                        data-filter=".development" class="grey_btn d-lg-block d-none">Development</button>
+                <div class="featured_buttons">
+                    <button data-filter="*" class="grey_btn feature_green_btn custom-button active">Feature</button>
+                    <button data-filter=".recent" class="grey_btn custom-button">Recent</button>
+                    <button data-filter=".design" class="grey_btn custom-button">Design</button>
+                    <button data-filter=".data-science" class="grey_btn custom-button">Data Science</button>
+                    <button data-filter=".marketing" class="grey_btn  custom-button">Marketing</button>
+                    <button data-filter=".development" class="grey_btn custom-button">Development</button>
                 </div>
 
-                <div class="container " id=" isotope-container"">
-                    <div class=" row mb_48 grid1">
-                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"
-                        class="col-lg-4   element-item " data-category="design">
-                        <div class="featured_card">
-                            <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
-                            <div>
-                                <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
-                                <h3 class="mb_30">Web Development : <br>
-                                    The Complete Programming
-                                    Course</h3>
-                                <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
-                                <div class="d-flex justify-content-between">
-                                    <div class="d-flex align-items-center gap-2">
-                                        <button class="rating">
-                                            <img class="w-100" src="/assets/home1/start.png" alt="">
-                                            <span>4.8</span>
-                                        </button>
-                                        <p class="rating_number">(4563)</p>
+                <div class="container">
+                    <div class=" row mb_48 blogall">
+                        <div class="col-lg-4 recent">
+                            <div class="featured_card">
+                                <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
+                                <div>
+                                    <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
+                                    <h3 class="mb_30">Web Development : <br>
+                                        The Complete Programming
+                                        Course</h3>
+                                    <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <button class="rating">
+                                                <img class="w-100" src="/assets/home1/start.png" alt="">
+                                                <span>4.8</span>
+                                            </button>
+                                            <p class="rating_number">(4563)</p>
 
+                                        </div>
+                                        <button class="price_btn">$134</button>
                                     </div>
-                                    <button class="price_btn">$134</button>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"
-                        class="col-lg-4  element-item " data-category="recent">
-                        <div class="featured_card">
-                            <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
-                            <div>
-                                <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
-                                <h3 class="mb_30">Web Development : <br>
-                                    The Complete Programming
-                                    Course</h3>
-                                <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
-                                <div class="d-flex justify-content-between">
-                                    <div class="d-flex align-items-center gap-2">
-                                        <button class="rating">
-                                            <img class="w-100" src="/assets/home1/start.png" alt="">
-                                            <span>4.8</span>
-                                        </button>
-                                        <p class="rating_number">(4563)</p>
+                        <div class="col-lg-4 design data-science">
+                            <div class="featured_card">
+                                <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
+                                <div>
+                                    <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
+                                    <h3 class="mb_30">Web Development : <br>
+                                        The Complete Programming
+                                        Course</h3>
+                                    <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <button class="rating">
+                                                <img class="w-100" src="/assets/home1/start.png" alt="">
+                                                <span>4.8</span>
+                                            </button>
+                                            <p class="rating_number">(4563)</p>
 
+                                        </div>
+                                        <button class="price_btn">$134</button>
                                     </div>
-                                    <button class="price_btn">$134</button>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"
-                        class="col-lg-4  element-item " data-category="recent">
-                        <div class="featured_card">
-                            <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
-                            <div>
-                                <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
-                                <h3 class="mb_30">Web Development : <br>
-                                    The Complete Programming
-                                    Course</h3>
-                                <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
-                                <div class="d-flex justify-content-between">
-                                    <div class="d-flex align-items-center gap-2">
-                                        <button class="rating">
-                                            <img class="w-100" src="/assets/home1/start.png" alt="">
-                                            <span>4.8</span>
-                                        </button>
-                                        <p class="rating_number">(4563)</p>
+                        <div class="col-lg-4 development">
+                            <div class="featured_card">
+                                <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
+                                <div>
+                                    <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
+                                    <h3 class="mb_30">Web Development : <br>
+                                        The Complete Programming
+                                        Course</h3>
+                                    <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <button class="rating">
+                                                <img class="w-100" src="/assets/home1/start.png" alt="">
+                                                <span>4.8</span>
+                                            </button>
+                                            <p class="rating_number">(4563)</p>
 
+                                        </div>
+                                        <button class="price_btn">$134</button>
                                     </div>
-                                    <button class="price_btn">$134</button>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"
-                        class="col-lg-4  element-item  d-lg-block d-none" data-category="design">
-                        <div class="featured_card">
-                            <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
-                            <div>
-                                <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
-                                <h3 class="mb_30">Web Development : <br>
-                                    The Complete Programming
-                                    Course</h3>
-                                <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
-                                <div class="d-flex justify-content-between">
-                                    <div class="d-flex align-items-center gap-2">
-                                        <button class="rating">
-                                            <img class="w-100" src="/assets/home1/start.png" alt="">
-                                            <span>4.8</span>
-                                        </button>
-                                        <p class="rating_number">(4563)</p>
+                        <div class="col-lg-4 marketing  recent">
 
+                            <!-- data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-delay="200" -->
+
+                            <div class="featured_card">
+                                <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
+                                <div>
+                                    <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
+                                    <h3 class="mb_30">Web Development : <br>
+                                        The Complete Programming
+                                        Course</h3>
+                                    <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <button class="rating">
+                                                <img class="w-100" src="/assets/home1/start.png" alt="">
+                                                <span>4.8</span>
+                                            </button>
+                                            <p class="rating_number">(4563)</p>
+
+                                        </div>
+                                        <button class="price_btn">$134</button>
                                     </div>
-                                    <button class="price_btn">$134</button>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"
-                        class="col-lg-4  element-item  d-lg-block d-none" data-category="design">
-                        <div class="featured_card">
-                            <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
-                            <div>
-                                <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
-                                <h3 class="mb_30">Web Development : <br>
-                                    The Complete Programming
-                                    Course</h3>
-                                <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
-                                <div class="d-flex justify-content-between">
-                                    <div class="d-flex align-items-center gap-2">
-                                        <button class="rating">
-                                            <img class="w-100" src="/assets/home1/start.png" alt="">
-                                            <span>4.8</span>
-                                        </button>
-                                        <p class="rating_number">(4563)</p>
+                        <div class="col-lg-4  marketing data-science">
+                            <div class="featured_card">
+                                <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
+                                <div>
+                                    <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
+                                    <h3 class="mb_30">Web Development : <br>
+                                        The Complete Programming
+                                        Course</h3>
+                                    <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <button class="rating">
+                                                <img class="w-100" src="/assets/home1/start.png" alt="">
+                                                <span>4.8</span>
+                                            </button>
+                                            <p class="rating_number">(4563)</p>
 
+                                        </div>
+                                        <button class="price_btn">$134</button>
                                     </div>
-                                    <button class="price_btn">$134</button>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"
-                        class="col-lg-4   element-item d-lg-block d-none" data-category="design">
-                        <div class="featured_card">
-                            <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
-                            <div>
-                                <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
-                                <h3 class="mb_30">Web Development : <br>
-                                    The Complete Programming
-                                    Course</h3>
-                                <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
-                                <div class="d-flex justify-content-between">
-                                    <div class="d-flex align-items-center gap-2">
-                                        <button class="rating">
-                                            <img class="w-100" src="/assets/home1/start.png" alt="">
-                                            <span>4.8</span>
-                                        </button>
-                                        <p class="rating_number">(4563)</p>
+                        <div class="col-lg-4 development">
+                            <div class="featured_card">
+                                <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
+                                <div>
+                                    <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
+                                    <h3 class="mb_30">Web Development : <br>
+                                        The Complete Programming
+                                        Course</h3>
+                                    <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <button class="rating">
+                                                <img class="w-100" src="/assets/home1/start.png" alt="">
+                                                <span>4.8</span>
+                                            </button>
+                                            <p class="rating_number">(4563)</p>
 
+                                        </div>
+                                        <button class="price_btn">$134</button>
                                     </div>
-                                    <button class="price_btn">$134</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!--  -->
-            <a href="Course1.html"> <button class="green_btn explore_courses">
-                    <span> Explore All Course</span>
-                    <img src="/assets/home1/arrowright1.png" alt="">
-                </button></a>
+                <!--  -->
+                <a href="Course1.html"> <button class="green_btn explore_courses">
+                        <span> Explore All Course</span>
+                        <img src="/assets/home1/arrowright1.png" alt="">
+                    </button></a>
             </div>
         </section>
         <!-- featured course end -->
@@ -1242,8 +1235,21 @@
 <script src="/js/instructorslider.js"></script>
 <script src="/js/BlogSlider.js"></script>
 <script src="/js/testimonialSlider.js"></script>
+<script src="./js/active_link.js"></script>
 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <!-- isotop -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/js/filter.js"></script>
+<script src="/js/jquery-1.12.4.min.js"></script>
+<script src="/js/isotop.min.js"></script>
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 
 <!-- slick  -->
@@ -1251,21 +1257,5 @@
     integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!-- slick  -->
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="./js/fillteredCourse.js"></script>
-<!-- isotop -->
-
-
-<!-- <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script> -->
-
-<!-- Include Isotope -->
-<script src="/js/isotope.pkgd.js"></script>
-
-<script src="/js/isotop.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init();
-</script>
 
 </html>

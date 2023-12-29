@@ -30,13 +30,16 @@
   opacity: 0;
   transition-property: transform, opacity;
 }
+
 [data-aos="new-animation"].aos-animate {
   opacity: 1;
 }
+
 @media screen and (min-width: 768px) {
   [data-aos="new-animation"] {
     transform: translateX(100px);
   }
+
   [data-aos="new-animation"].aos-animate {
     transform: translateX(0);
   }
@@ -132,10 +135,10 @@
 
 }
 
-.navbar-nav .nav-link.active
+
 
 /* .navbar-nav .nav-link.show */
-  {
+.navbar-nav .nav-link.active {
   color: var(--primaryColor);
 }
 
