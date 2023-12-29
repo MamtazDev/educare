@@ -135,10 +135,11 @@
     font-style: normal;
     font-weight: 400;
 }
-
+.dropdown-toggle::after{
+    display: none;
+  }
 .dropdown-toggle::after {
-    display: inline-block;
-    margin-left: 2px !important;
+    /* display: inline-block;
     vertical-align: -5px !important;
     content: "";
     height: 18px;
@@ -146,8 +147,8 @@
     border-top: 0 !important;
     border-right: none !important;
     border-bottom: 0 !important;
-    border-left: none !important;
-    background-image: url("../assets/home1/arrowDown.png") !important;
+    border-left: none !important; */
+    /* background-image: url("../assets/home1/arrowDown.png") !important; */
 }
 
 .nav-item :hover {
