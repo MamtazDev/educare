@@ -135,9 +135,11 @@
     font-style: normal;
     font-weight: 400;
 }
-.dropdown-toggle::after{
+
+.dropdown-toggle::after {
     display: none;
-  }
+}
+
 .dropdown-toggle::after {
     /* display: inline-block;
     vertical-align: -5px !important;
@@ -655,10 +657,12 @@ header {
     padding: 20px;
 
 }
-.offer_item_content h2{
-    font-size: 20px !important  ;
+
+.offer_item_content h2 {
+    font-size: 20px !important;
     margin-bottom: 12px !important;
 }
+
 /* WHAT WE ARE /-END */
 
 
@@ -667,6 +671,12 @@ header {
 .about_btn {
     background-color: var(--primaryColor) !important;
     color: white;
+    border: 1px solid var(--primaryColor);
+}
+
+.about_btn:hover {
+    background: #131C1E;
+    border: 1px solid var(--primaryColor);
 }
 
 .home2Feature_course .price_btn:hover {
@@ -762,6 +772,7 @@ header {
     background-color: #6663FF !important;
     color: #131C1E;
 }
+
 .home2Feature_course .grey_btn {
     border-radius: 11px;
     background: var(--Color-Option-Color-6, #EAEAFF) !important;
@@ -823,6 +834,12 @@ header {
     justify-content: center;
     align-items: center;
     gap: 8px;
+}
+
+.free_workshop_btn:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
 }
 
 .workshop_wrapper {
@@ -1050,7 +1067,7 @@ header {
     .community_wrapper {
         padding: 0 !important;
     }
-    
+
     .home2_membership h1 {
         font-size: 22px;
         color: white;
@@ -1145,7 +1162,8 @@ header {
         font-size: 24px;
     }
 }
-.home2_membership{
+
+.home2_membership {
     margin-top: 200px;
 }
 
@@ -1157,12 +1175,25 @@ header {
     border-radius: 50%;
     color: transparent;
     content: "" !important;
-  }
-  
-  .slick-dots li button:before {
+}
+
+.slick-dots li button:before {
     font-size: 12px !important;
-  }
-  
-  .slick-dots {
+}
+
+.slick-dots {
     bottom: -70px !important;
-  }
+}
+
+.d_block_hover {
+    display: none;
+}
+
+.free_workshop_btn:hover .d_block_hover {
+    display: block;
+}
+
+
+.free_workshop_btn:hover .d_block_nohover {
+    display: none;
+}
