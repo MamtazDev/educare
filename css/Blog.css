@@ -58,7 +58,7 @@
     border-radius: 8px;
     background: var(--Color-Option-Color-1, #E1FF9E);
     display: inline-flex;
-    height: 58px;
+    height: 43px;
     padding: 10px;
     justify-content: center;
     align-items: center;
@@ -234,7 +234,7 @@
 .contact_form input,
 .contact_form textarea::placeholder {
     color: var(--textColor);
-    font-family: Work Sans;
+    font-family: 'Work Sans', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -244,7 +244,7 @@
 
 .contact_form label {
     color: var(--buttonColor);
-    font-family: Work Sans;
+    font-family: 'Work Sans', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -370,7 +370,8 @@
 
 .contact_form input,
 textarea {
-    margin-bottom: 32px;
+    margin-top: 0 !important;
+    margin-bottom: 24px;
 }
 
 .contact_form label {
@@ -386,9 +387,7 @@ textarea {
 
 .details_para {
     color: var(--Color-Option-Text-Color-1, #747474);
-
-    /* B1/Body 1 (Regular) */
-    font-family: Outfit;
+    font-family: 'Outfit', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -397,10 +396,8 @@ textarea {
 }
 
 .design_thinking h3 {
-    color: var(--Hompages-1-Button-Color, #1A1A1A);
-
-    /* H3/H3 (Subtitle Bold) */
-    font-family: Syne;
+    color: #1A1A1A;
+    font-family: 'Syne', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;

@@ -423,7 +423,9 @@ footer hr {
 }
 
 @media only screen and (max-width:768px) {
-
+  .d_none_sm{
+    display: none !important;
+  }
   .footerEnd {
     padding-left: 0 !important;
     margin-bottom: 15px;
@@ -1710,6 +1712,10 @@ h1 {
   .slider_margin1 {
     margin-top: 142px !important;
   }
+
+  .community_wrapper {
+    padding: 50px  0 !important;
+}
 
   .community_wrapper .slick-dots {
     bottom: -50px !important;

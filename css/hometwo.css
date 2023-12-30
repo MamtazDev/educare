@@ -1047,6 +1047,10 @@ header {
 
 
 @media(max-width:768px) {
+    .community_wrapper {
+        padding: 0 !important;
+    }
+    
     .home2_membership h1 {
         font-size: 22px;
         color: white;
