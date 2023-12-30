@@ -99,13 +99,15 @@
 .navbar-nav {
   gap: 32px;
 }
-.nav-link i{
+
+.nav-link i {
   font-size: 16px;
   font-weight: 600;
   padding: 0;
   font-style: normal;
   /* color: var(--neutralColor); */
 }
+
 .nav-link {
   color: var(--neutralColor);
   font-size: 16px;
@@ -160,9 +162,10 @@
   background-repeat: no-repeat;
   background-position: center;
 } */
-.dropdown-toggle::after{
+.dropdown-toggle::after {
   display: none;
 }
+
 .dropdown-item.active,
 .dropdown-item:active {
   color: var(--primaryColor);
@@ -798,10 +801,65 @@ footer hr {
 
 }
 
+/* button hover */
+
+.hover_img_block {
+  display: none;
+  transition: ease-in-out 0.3s;
+}
+
+.know_more_btn:hover {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  transition: ease-in-out 0.3s;
+}
+
+.know_more_btn:hover .hover_img_block {
+  display: block;
+  transition: ease-in-out 0.3s;
+}
+
+.know_more_btn:hover .hover_img {
+  display: none;
+  transition: ease-in-out 0.3s;
+}
+
+.greenButton:hover {
+  background-color: #EEE;
+}
+
+.about_btn {
+  transition: ease-in-out 0.3s;
+  border: 1px solid #B6EC3D;
+
+}
+
+.about_btn:hover {
+  background-color: transparent;
+  color: #B6EC3D;
+  border: 1px solid #B6EC3D;
+
+}
+
+/* .phone_btn:hover .hover_img_block {
+  display: block;
+  transition: ease-in-out 0.3s;
+}
+.phone_btn:hover {
+  color: black;
+  background-color: white;
+} */
+.blog_date button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid #131C1E;
+  transition: ease-in 0.3s;
+}
+
 /* responsive end */
 
 /* establishing a community end */
-
 
 /* Browse Popular Category start *
 

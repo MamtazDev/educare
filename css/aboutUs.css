@@ -171,6 +171,7 @@
     border-radius: 11px;
     background: #F1F1F1;
     transition: ease-in-out 0.3s;
+    color: #131C1E;
 }
 
 .about .grey_btn:hover {
