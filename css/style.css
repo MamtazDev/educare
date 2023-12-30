@@ -1603,17 +1603,12 @@ h1 {
 
 .contact_bg .large_contact {
   position: absolute;
-  /* width: 1133px; */
   width: 58% !important;
-  /* left: 37%; */
   right: 0;
-  /* height: 1451px; */
   top: 0;
   object-fit: cover;
   height: 1264px;
   border-radius: 18px 0px 0px 18px;
-
-
 }
 
 .sectinHeader_arrow {
