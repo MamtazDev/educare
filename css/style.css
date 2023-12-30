@@ -423,9 +423,10 @@ footer hr {
 }
 
 @media only screen and (max-width:768px) {
-  .d_none_sm{
+  .d_none_sm {
     display: none !important;
   }
+
   .footerEnd {
     padding-left: 0 !important;
     margin-bottom: 15px;
@@ -761,8 +762,53 @@ footer hr {
   align-items: center;
 }
 
+.contact_footer {
+  margin-top: 530px !important;
+}
+
+.contact_bg_small {
+  display: none;
+}
+
 /* responsive start */
 @media (max-width:768px) {
+  .mt_130 {
+    margin-top: 50px;
+  }
+
+  .contact_footer {
+    margin-top: 773px !important;
+  }
+
+  /* contact us */
+  .contact_bg .large_contact {
+    display: none;
+  }
+
+  .contact_bg .contact_bg_small {
+    display: block;
+    height: 483px;
+  }
+
+  .contact_form_parent {
+    margin-top: -133px !important;
+  }
+
+  .contact_wrapper .col-lg-4 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .contact_wrapper {
+    padding: 22px !important;
+
+  }
+
+  .contact_wrapper .col-lg-6 {
+    padding-left: 0;
+    padding-right: 0
+  }
+
   .membership_wrapper p {
     font-size: 12px !important;
   }
@@ -1480,18 +1526,20 @@ h1 {
 }
 
 
-
-
 /* contact us */
 .contact_wrapper {
   border-radius: 15px;
   border: 1.758px solid var(--Linear-Linear-4, rgba(245, 245, 245, 0.80));
   background: var(--Linear-Linear, linear-gradient(107deg, #FFF 38.07%, rgba(255, 255, 255, 0.50) 86.86%));
-
-  /* Effect 1 */
   box-shadow: 14.647px 17.576px 29.294px 0px rgba(0, 0, 0, 0.05);
   backdrop-filter: blur(10.252809524536133px);
   padding: 48px;
+  max-width: 983px;
+}
+
+.contact_form_parent {
+  margin-top: 182px;
+  margin-left: 283px;
 }
 
 .contact_wrapper .common_heading h2 {
@@ -1553,13 +1601,18 @@ h1 {
   margin-top: 12px;
 }
 
-.contact_bg {
+.contact_bg .large_contact {
   position: absolute;
   /* width: 1133px; */
-  /* width: 100%; */
-  left: 37%;
+  width: 58% !important;
+  /* left: 37%; */
+  right: 0;
   /* height: 1451px; */
+  top: 0;
   object-fit: cover;
+  height: 1264px;
+  border-radius: 18px 0px 0px 18px;
+
 
 }
 
@@ -1568,6 +1621,11 @@ h1 {
   margin-top: 5px;
 }
 
+@media (max-width:1024px) {
+  .contact_form_parent {
+    margin-left: 0;
+  }
+}
 
 /* slider */
 
@@ -1714,8 +1772,8 @@ h1 {
   }
 
   .community_wrapper {
-    padding: 50px  0 !important;
-}
+    padding: 50px 0 !important;
+  }
 
   .community_wrapper .slick-dots {
     bottom: -50px !important;
