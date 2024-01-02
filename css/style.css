@@ -1424,22 +1424,19 @@ h1 {
     gap: 14px !important;
 
   }
-
-  /* .col-lg-4 {
+  .col-lg-4 {
     padding-right: 24px;
     padding-left: 24px;
-  } */
-
-  /* .instructor_wrapper .col-lg-4 {
+  }
+  .instructor_wrapper .col-lg-4 {
     margin-bottom: 32px;
-  } */
+  }
 
   .instructor_wrapper h3 {
     font-size: 22px;
     margin-top: 12px;
     margin-bottom: 8px;
   }
-
   /* instructor end */
 
   /* student feedback start */
@@ -1465,7 +1462,6 @@ h1 {
   .feedback_profile p {
     text-align: center;
   }
-
   /* student feedback end */
 }
 
@@ -1524,9 +1520,7 @@ h1 {
 .gap_10 {
   gap: 10px;
 }
-body{
-  overflow: ;
-}
+
 
 /* contact us */
 .contact_wrapper {
@@ -1807,11 +1801,10 @@ body{
     width: 75px;
     height: 25px;
   }
-
-  /* .col-lg-6 {
+ .col-lg-6 {
     padding-left: 24px;
     padding-right: 24px;
-  } */
+  }
 
   .blog_card h4 {
     font-size: 22px;

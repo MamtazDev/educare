@@ -1,4 +1,7 @@
-.shadow_top_right,.shadow_middle,.shadow_bottom_right,.shadow_topLeft_bottomRight {
+.shadow_top_right,
+.shadow_middle,
+.shadow_bottom_right,
+.shadow_topLeft_bottomRight {
     position: relative;
 }
 
@@ -9,13 +12,14 @@
     width: 100%;
     height: 382px;
     background: var(--primaryColor);
-    bottom:0;
+    bottom: 0;
     right: 0;
     border-radius: 382px;
     opacity: 0.07;
     filter: blur(95.5px);
     z-index: -1;
-}   
+}
+
 .shadow_top_right:after {
     position: absolute;
     content: "";
@@ -23,13 +27,14 @@
     width: 100%;
     height: 382px;
     background: var(--primaryColor);
-    top:0;
+    top: 0;
     right: 0;
     border-radius: 382px;
     opacity: 0.07;
     filter: blur(95.5px);
     z-index: -1;
-}   
+}
+
 .shadow_middle::after {
     position: absolute;
     content: "";
@@ -37,13 +42,14 @@
     width: 100%;
     height: 382px;
     background: var(--primaryColor);
-    top: 50% ;
+    top: 50%;
     right: 0;
     border-radius: 382px;
     opacity: 0.07;
     filter: blur(95.5px);
     z-index: -1;
 }
+
 .shadow_middle::before {
     position: absolute;
     content: "";
@@ -58,6 +64,7 @@
     filter: blur(95.5px);
     z-index: -1;
 }
+
 .shadow_topLeft_bottomRight::after {
     position: absolute;
     content: "";
@@ -72,6 +79,7 @@
     filter: blur(95.5px);
     z-index: -1;
 }
+
 .shadow_topLeft_bottomRight::before {
     position: absolute;
     content: "";
@@ -158,6 +166,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .price_btn {
     color: var(--neutralColor);
     text-align: center;
@@ -173,11 +182,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .price_btn:hover {
+}
+
+.price_btn:hover {
     background: var(--primaryColor);
-    
-  } 
+
+}
+
 .about .grey_btn {
     display: flex;
     width: fit-content;
@@ -197,7 +208,7 @@
     background-color: var(--primaryColor);
     transition: ease-in-out 0.3s;
     cursor: pointer;
-
+    padding: 10px 25px !important; 
 }
 
 .explore_courses_btn {
@@ -224,6 +235,12 @@
     display: flex;
     gap: 23px;
     align-items: center;
+}
+
+@media (max-width:768px) {
+    .featured_buttons {
+        gap: 24px;
+    }
 }
 
 
