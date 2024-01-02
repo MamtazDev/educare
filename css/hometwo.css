@@ -431,7 +431,9 @@ footer hr {
 }
 
 @media only screen and (max-width:768px) {
-
+    .offer_item_img{
+        margin: auto;
+    }
 
 
     .footerEnd {
