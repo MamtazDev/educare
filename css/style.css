@@ -794,20 +794,20 @@ footer hr {
     margin-top: -133px !important;
   }
 
-  .contact_wrapper .col-lg-4 {
+  /* .contact_wrapper .col-lg-4 {
     padding-left: 0 !important;
     padding-right: 0 !important;
-  }
+  } */
 
   .contact_wrapper {
     padding: 22px !important;
 
   }
-
+/* 
   .contact_wrapper .col-lg-6 {
     padding-left: 0;
     padding-right: 0
-  }
+  } */
 
   .membership_wrapper p {
     font-size: 12px !important;
@@ -1425,14 +1425,14 @@ h1 {
 
   }
 
-  .col-lg-4 {
+  /* .col-lg-4 {
     padding-right: 24px;
     padding-left: 24px;
-  }
+  } */
 
-  .instructor_wrapper .col-lg-4 {
+  /* .instructor_wrapper .col-lg-4 {
     margin-bottom: 32px;
-  }
+  } */
 
   .instructor_wrapper h3 {
     font-size: 22px;
@@ -1524,7 +1524,9 @@ h1 {
 .gap_10 {
   gap: 10px;
 }
-
+body{
+  overflow: ;
+}
 
 /* contact us */
 .contact_wrapper {
@@ -1806,10 +1808,10 @@ h1 {
     height: 25px;
   }
 
-  .col-lg-6 {
+  /* .col-lg-6 {
     padding-left: 24px;
     padding-right: 24px;
-  }
+  } */
 
   .blog_card h4 {
     font-size: 22px;
