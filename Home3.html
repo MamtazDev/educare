@@ -24,10 +24,10 @@
     <link rel="stylesheet" href="/components/buttons/buttons.css">
     <!-- my css -->
 
-    <!-- owl carousal cdn -->
-    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
-    <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" /> <!-- aos -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
 </head>
 
 <body class="home3" style="background-color: #131c1e;">
@@ -40,7 +40,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <img src="./assets/menu.png" alt="Menu" />
+                    <img src="./assets/whitemenu.png" alt="Menu" />
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto text-center">
@@ -110,14 +110,13 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="/Blog.html">Blog</a></li>
                                 <li><a class="dropdown-item" href="/BlogDetails.html">Blog Details</a></li>
-
                             </ul>
                         </li>
 
                     </ul>
                     <form class="d-flex gap-4 authBtn">
                         <a href="#" class="" type="submit">Login</a>
-                        <button class="signup_button">
+                        <button class="signup_button " style="border: 1px solid #fff;">
                             <a href="#" class="" type="submit"><img src="/assets/home1/user-circle.png" alt="">
                                 Create Account</a>
                         </button>
@@ -144,12 +143,17 @@
                                 admire do barton vanity itself do in it. Preferred to <br class="d-lg-block d-none">
                                 sportsmen it engrossed listening. Park gate soll they west hard for the.</p>
 
-                            <div class="d-flex gap-4 justify-content-lg-start justify-content-center">
+                            <div class="d-flex gap-4 justify-content-lg-start justify-content-center mt-lg-0 mt-5">
                                 <button class="greenButton">Get Started</button>
                                 <a href="https://youtu.be/TjPFZaMe2yw?si=5jpc0BZK8kAt9UbS"> <button
                                         class="bannerWatchBtn"><img src="/assets/home3/play-square.png" alt="">
                                         <span>Watch
                                             Demo</span></button></a>
+                            </div>
+
+                            <div class="banner_images mt_80">
+                                <img src="/assets/home3/banner_images.png" class="" alt="">
+                                <p><span>99+</span> Explore Course</p>
                             </div>
                         </div>
                         <div class="col-lg-5">
@@ -281,7 +285,7 @@
         <section class="popular_categoris mb_130">
             <div class="container mb_130">
                 <div class="text-lg-start text-center">
-                    <button class="about_btn bg_yellow ">
+                    <button class="home3_button ">
                         <img src="/assets/home3/yellowstart.png" alt="">
                         Top Categories
                     </button>
@@ -300,7 +304,9 @@
                                 class=" w-100 d-flex flex-lg-row flex-column  justify-content-between align-items-center ">
                                 <button><span class="fw_800 fs_18">3 </span>Course</button>
                                 <div class="course_links mt-lg-0 mt-3">
-                                    <a href="#" class=""><img src="./assets/home3/arrow-right.png" alt=""></a>
+                                    <a href="Course1.html" class=""><img src="./assets/home3/arrow-right.png"
+                                            alt=""></a>
+
                                 </div>
                             </div>
                         </div>
@@ -315,7 +321,9 @@
                                 class=" w-100 d-flex  flex-lg-row flex-column  justify-content-between align-items-center ">
                                 <button><span class="fw_800 fs_18">3 </span>Course</button>
                                 <div class="course_links mt-lg-0 mt-3">
-                                    <a href="#" class=""><img src="./assets/home3/arrow-right.png" alt=""></a>
+                                    <a href="Course1.html" class=""><img src="./assets/home3/arrow-right.png"
+                                            alt=""></a>
+
                                 </div>
                             </div>
                         </div>
@@ -330,7 +338,9 @@
                                 class=" w-100 d-flex  flex-lg-row flex-column  justify-content-between align-items-center ">
                                 <button><span class="fw_800 fs_18">3 </span>Course</button>
                                 <div class="course_links mt-lg-0 mt-3">
-                                    <a href="#" class=""><img src="./assets/home3/arrow-right.png" alt=""></a>
+                                    <a href="Course1.html" class=""><img src="./assets/home3/arrow-right.png"
+                                            alt=""></a>
+
                                 </div>
                             </div>
                         </div>
@@ -345,7 +355,9 @@
                                 class=" w-100 d-flex  flex-lg-row flex-column  justify-content-between align-items-center ">
                                 <button><span class="fw_800 fs_18">3 </span>Course</button>
                                 <div class="course_links mt-lg-0 mt-3">
-                                    <a href="#" class=""><img src="./assets/home3/arrow-right.png" alt=""></a>
+                                    <a href="Course1.html" class=""><img src="./assets/home3/arrow-right.png"
+                                            alt=""></a>
+
                                 </div>
                             </div>
                         </div>
@@ -368,7 +380,7 @@
                         <img class="img-fluid" src="./assets/home3/provide1.png" alt="">
                     </div>
                     <div class="col-lg-6 text-lg-start text-center">
-                        <button class="about_btn bg_yellow">
+                        <button class="home3_button">
                             <img src="/assets/home3/yellowstart.png" alt="">
                             About us
                         </button>
@@ -413,8 +425,12 @@
 
                         <!--  -->
                         <div class="d-flex justify-content-lg-start justify-content-center mb-lg-0 mb_48">
-                            <button class="yellow_btn mt_45"><span>Know more</span> <img
-                                    src="/assets/home3/arrow-right.png" alt=""></button>
+                            <a href="About.html">
+                                <button class="yellow_btn mt_45"><span>Know more</span>
+                                    <img class="d_block_hover" src="/assets/home3/arrow-right.png" alt="">
+                                    <img class="d_block_nohover" src="/assets/home3/yellowarrow-right.png" alt="">
+                                </button>
+                            </a>
                         </div>
                     </div>
 
@@ -429,15 +445,23 @@
         <section class=" home3_bg">
             <div class="container p-0">
                 <div class="text-lg-start text-center">
-                    <button class="about_btn mb_24 bg_yellow"><img src="/assets/home3/yellowstart.png"
-                            alt="star">Popular Course</button>
-                    <h1 class="mb_12 text-light">Our Popular Courses </h1>
-                    <div class="d-flex justify-content-lg-between justify-content-center align-items-center">
+                    <button class="home3_button mb_24 "><img src="/assets/home3/yellowstart.png" alt="star">Popular
+                        Course</button>
+                    <h2 class="category_title wc  border-0 mb_12 fs_44 ">
+                        Our Popular <span class="yc"> Courses</span>
+                    </h2>
+                    <div class="d-flex justify-content-lg-between justify-content-center align-items-start">
                         <p class="grey_text_1">Choose from 213,000 online video courses with <br>
                             new additions published every month</p>
                         <div class="d-lg-flex d-none justify-content-lg-start justify-content-center mb-lg-0 mb_48">
-                            <button class="yellow_btn"><span>Explore All Course</span> <img
-                                    src="/assets/home3/arrow-right.png" alt=""></button>
+
+
+                            <a href="Course1.html">
+                                <button class="yellow_btn "><span>Explore All Course</span>
+                                    <img class="d_block_hover" src="/assets/home3/arrow-right.png" alt="">
+                                    <img class="d_block_nohover" src="/assets/home3/yellowarrow-right.png" alt="">
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -538,13 +562,10 @@
             <div class="container mt_130 mb_130">
                 <div class="upcoming_events_wrapper">
                     <div class="events_header mb_48">
-                        <button class="about_btn mb_24 bg_yellow"><img src="/assets/home3/yellowstart.png"
-                                alt="star">Event</button>
-                        <h2>Upcoming Educational Events</h2>
-                        <p class="grey_text_1">Are you eager to expand your knowledge, gain new skills, and connect <br
-                                class="d-lg-block d-none">
-                            with like-minded individuals? Look no further! We're thrilled to announce a series of <br
-                                class="d-lg-block d-none">
+                        <button class="home3_button"><img src="/assets/home3/yellowstart.png" alt="star">Event</button>
+                        <h2>Upcoming <br class="d-lg-none d-block"> Educational Events</h2>
+                        <p class="grey_text_1">Are you eager to expand your knowledge, gain new skills, and connect <br class="d-lg-block d-none">
+                            with like-minded individuals? Look no further! We're thrilled to announce a series of <br class="d-lg-block d-none">
                             upcoming educational events that promise to be both informative and engaging.</p>
                     </div>
                     <!-- events card -->
@@ -664,35 +685,80 @@
         <!-- Upcoming Educational Events end -->
 
         <!-- testimonial section start -->
-        <section class="home3_bg mb_130">
-            <div class="container">
-                <div id="owl-demo" class="owl-carousel owl-theme">
-                    <div class="item">
-                        <div class="text-center">
-                            <button class="about_btn mb_24 bg_yellow"><img src="/assets/home3/yellowstart.png"
-                                    alt="star">Testimonials</button>
-                            <h2 class="category_title wc border_bottom fs_44">
-                                Our Students <span class="yc"> Feedback</span>
-                            </h2>
-                            <p class="grey_text_1 mt_61">"Educare is revolutionizing the education sector. The site is
-                                creative
-                                and <br>
-                                interesting, and the content is of the highest caliber. I value the convenience <br>
-                                of learning from anywhere, and the tailored learning environment has <br>
-                                kept me motivated and on task. The instructors are supportive and
-                                knowledgeable.</p>
+        <section class="testimonial2 home3_bg mb_130" style="overflow: hidden;">
+
+            <div class="container slick-slider_test2  home3_testimonial_slider">
+
+                <div class="slide text-center">
+                    <div class="d-flex justify-content-center flex-column align-items-center">
+                        <button class="home3_button mb_24"><img src="/assets/home3/yellowstart.png"
+                                alt="star">Testimonials</button>
+                        <h2 class="category_title wc border_bottom fs_44">
+                            Our Students <span class="yc"> Feedback</span>
+                        </h2>
+                        <p class="grey_text_1 mt_61">"Educare is revolutionizing the education sector. The site is
+                            creative
+                            and <br>
+                            interesting, and the content is of the highest caliber. I value the convenience <br>
+                            of learning from anywhere, and the tailored learning environment has <br>
+                            kept me motivated and on task. The instructors are supportive and
+                            knowledgeable.</p>
+                        <div class="d-flex justify-content-center">
                             <img class="img-fluid mt_56" src="/assets/home3/testi1.png" alt="">
                         </div>
                     </div>
-
                 </div>
+
+                <div class="slide text-center">
+                    <div class="d-flex justify-content-center flex-column align-items-center">
+                        <button class="home3_button mb_24"><img src="/assets/home3/yellowstart.png"
+                                alt="star">Testimonials</button>
+                        <h2 class="category_title wc border_bottom fs_44">
+                            Our Students <span class="yc"> Feedback</span>
+                        </h2>
+                        <p class="grey_text_1 mt_61">"Educare is revolutionizing the education sector. The site is
+                            creative
+                            and <br>
+                            interesting, and the content is of the highest caliber. I value the convenience <br>
+                            of learning from anywhere, and the tailored learning environment has <br>
+                            kept me motivated and on task. The instructors are supportive and
+                            knowledgeable.</p>
+                        <div class="d-flex justify-content-center">
+                            <img class="img-fluid mt_56" src="/assets/home3/testi1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide text-center">
+                    <div class="d-flex justify-content-center flex-column align-items-center">
+                        <button class="home3_button mb_24"><img src="/assets/home3/yellowstart.png"
+                                alt="star">Testimonials</button>
+                        <h2 class="category_title wc border_bottom fs_44">
+                            Our Students <span class="yc"> Feedback</span>
+                        </h2>
+                        <p class="grey_text_1 mt_61">"Educare is revolutionizing the education sector. The site is
+                            creative
+                            and <br>
+                            interesting, and the content is of the highest caliber. I value the convenience <br>
+                            of learning from anywhere, and the tailored learning environment has <br>
+                            kept me motivated and on task. The instructors are supportive and
+                            knowledgeable.</p>
+                        <div class="d-flex justify-content-center">
+                            <img class="img-fluid mt_56" src="/assets/home3/testi1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
         <!-- testimonial section end -->
-
         <!-- Our Latest Blog start -->
         <section>
             <div class="container mb_130">
+                <button class="home3_button mb_24 "><img src="/assets/home3/yellowstart.png" alt="star">Blog</button>
+                <h2 class="category_title wc border_bottom border-0 pb-5 mb_24 fs_44 ">
+                    Our Latest <span class="yc"> Blog</span>
+                </h2>
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="blog_card">
@@ -710,7 +776,7 @@
                                 </p>
                                 <div class="d-flex justify-content-end">
                                     <div class="blog_details_arrow">
-                                        <a href="#"><img src="/assets/home3/arrow-right.png" alt=""></a>
+                                        <a href="Blog.html"><img src="/assets/home3/arrow-right.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -732,7 +798,7 @@
                                 </p>
                                 <div class="d-flex justify-content-end">
                                     <div class="blog_details_arrow">
-                                        <a href="#"><img src="/assets/home3/arrow-right.png" alt=""></a>
+                                        <a href="Blog.html"><img src="/assets/home3/arrow-right.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -754,7 +820,7 @@
                                 </p>
                                 <div class="d-flex justify-content-end">
                                     <div class="blog_details_arrow">
-                                        <a href="#"><img src="/assets/home3/arrow-right.png" alt=""></a>
+                                        <a href="Blog.html"><img src="/assets/home3/arrow-right.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -887,5 +953,13 @@
 <script>
     AOS.init();
 </script>
+<!-- slick  -->
+<script src="/js/testimonialSlider.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- slick  -->
+
+<script src="./js/testimonial2.js"></script>
 
 </html>

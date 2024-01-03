@@ -83,6 +83,40 @@
 
 .home3 .greenButton {
     background-color: var(--secondarycolor);
+    transition: ease-in 0.3s;
+}
+
+.home3 .greenButton:hover {
+    background-color: transparent;
+    color: #FFD452;
+    border: 1px solid #FFD452;
+    transition: ease-in 0.3s;
+}
+
+.home3_button {
+    background-color: #FFD452;
+    border-radius: 11px;
+    color: #131C1E;
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 12px;
+    transition: ease-in 0.3s;
+}
+
+.home3_button:hover {
+    background-color: transparent;
+    color: #FFD452;
+    border: 1px solid #FFD452;
+    transition: ease-in 0.3s;
+
 }
 
 .home3 .bannerWatchBtn {
@@ -189,7 +223,6 @@
 
 .yellow_btn {
     display: flex;
-    /* width: 183px; */
     height: 57px;
     padding: 10px;
     justify-content: center;
@@ -200,6 +233,28 @@
     background: var(--secondarycolor);
 }
 
+.yellow_btn:hover .d_block_hover {
+    display: none;
+}
+
+.yellow_btn:hover .d_block_nohover {
+    display: block;
+}
+
+.yellow_btn .d_block_nohover {
+    display: none;
+}
+
+.yellow_btn:hover .yellow_btn img {
+    display: none;
+}
+
+.yellow_btn:hover {
+    background-color: transparent;
+    color: #FFD452;
+    border: 1px solid #FFD452;
+    transition: ease-in 0.3s;
+}
 
 /* provide_best_wrapper end */
 
@@ -419,5 +474,61 @@
 }
 
 .home3 .authBtn a:first-child {
-    color: #131C1E;
+    color: #fff !important;
+}
+
+.home3_testimonial_slider .slick-dots .slick-active button:before {
+    border-color: #FFD452;
+}
+
+.home3_testimonial_slider .slick-dots li button:before {
+    color: #747474;
+}
+
+@media(max-width:768px) {
+    .home3_testimonial_slider .slick-dots {
+        bottom: -49px !important;
+    }
+
+    .home3_button {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
+
+    .banner_images {
+        flex-direction: column-reverse;
+        /* margin-top: 48px !important; */
+    }
+    .banner_images p {
+        margin-bottom: 12px !important;
+        margin-top: 48px;
+
+    }
+}
+
+.banner_images {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.banner_images span {
+    color: var(--Color-Option-Neutral-color-2, #FFF);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 24px */
+}
+
+.banner_images p {
+    color: var(--Color-Option-Text-Color-2, #BCBCBC);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
 }
