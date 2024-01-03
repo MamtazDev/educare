@@ -22,7 +22,7 @@
 @media (max-width:768px) {
 
     .gallary .featured_buttons {
-        overflow: scroll !important;
+        /* overflow: scroll !important; */
 
     }
 

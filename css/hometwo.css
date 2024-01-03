@@ -657,7 +657,6 @@ header {
     background: var(--Color-Option-Neutral-color-2, #FFF) !important;
     box-shadow: 0px 20px 20px 0px rgba(102, 99, 255, 0.08);
     padding: 20px;
-
 }
 
 .offer_item_content h2 {
@@ -1041,11 +1040,6 @@ header {
     right: 37%;
 }
 
-@media(width:768px) {
-    .email_arrow {
-        right: 24% !important; 
-    }
-}
 
 .home2_membership h1 {
     color: #FFF;
@@ -1078,6 +1072,50 @@ header {
 
 .pb_80 {
     padding-bottom: 80px;
+}
+
+
+
+.slick-dots .slick-active button:before {
+    border: 3px solid var(--primaryColor);
+    width: 18px !important;
+    height: 18px !important;
+    border-radius: 50%;
+    color: transparent;
+    content: "" !important;
+}
+
+.slick-dots li button:before {
+    font-size: 12px !important;
+}
+
+.slick-dots {
+    bottom: 0 !important;
+}
+
+.d_block_hover {
+    display: none;
+}
+
+.free_workshop_btn:hover .d_block_hover {
+    display: block;
+}
+
+
+.free_workshop_btn:hover .d_block_nohover {
+    display: none;
+}
+
+
+@media(width:768px) {
+    .whatweare {
+        padding-top: 56px !important;
+        padding-bottom: 56px !important;
+    }
+
+    .email_arrow {
+        right: 24% !important;
+    }
 }
 
 @media(max-width:768px) {
@@ -1186,36 +1224,4 @@ header {
     .workshop h2 {
         font-size: 24px;
     }
-}
-
-
-
-.slick-dots .slick-active button:before {
-    border: 3px solid var(--primaryColor);
-    width: 18px !important;
-    height: 18px !important;
-    border-radius: 50%;
-    color: transparent;
-    content: "" !important;
-}
-
-.slick-dots li button:before {
-    font-size: 12px !important;
-}
-
-.slick-dots {
-    bottom: 0 !important;
-}
-
-.d_block_hover {
-    display: none;
-}
-
-.free_workshop_btn:hover .d_block_hover {
-    display: block;
-}
-
-
-.free_workshop_btn:hover .d_block_nohover {
-    display: none;
 }
