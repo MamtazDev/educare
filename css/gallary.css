@@ -20,14 +20,7 @@
 }
 
 @media (max-width:768px) {
-
-    .gallary .featured_buttons {
-        /* overflow: scroll !important; */
-
-    }
-
     .about .grey_btn {
-
         padding: 10px 15px;
     }
 
