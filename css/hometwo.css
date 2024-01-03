@@ -431,7 +431,7 @@ footer hr {
 }
 
 @media only screen and (max-width:768px) {
-    .offer_item_img{
+    .offer_item_img {
         margin: auto;
     }
 
@@ -662,7 +662,7 @@ header {
 
 .offer_item_content h2 {
     font-size: 20px !important;
-    margin-bottom: 12px !important;
+    margin-bottom: 8px !important;
 }
 
 /* WHAT WE ARE /-END */
@@ -828,6 +828,15 @@ header {
     background-color: var(--primaryColor);
 }
 
+.border_white {
+    border: 1px solid #FFD452 !important;
+}
+
+.border_white:hover {
+
+    border: 1px solid #fff !important;
+}
+
 .free_workshop_btn {
     border-radius: 11px;
     background: var(--secondary);
@@ -836,6 +845,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 8px;
+    border: 1px solid #6663FF;
 }
 
 .free_workshop_btn:hover {
@@ -1004,6 +1014,10 @@ header {
     margin-bottom: 62px;
 }
 
+.membership_wrapper input::placeholder {
+    color: #FFF;
+}
+
 .membership_wrapper input {
     display: flex;
     max-width: 375px;
@@ -1013,20 +1027,24 @@ header {
     align-items: center;
     gap: 100px;
     border-radius: 11px;
-    border: 1px solid var(--neutralColor);
+    border: 1px solid #FFF;
     background: transparent;
     margin: auto;
-    color: #131C1E !important;
+    color: #fff !important;
 }
 
-.membership_wrapper input::placeholder {
-    color: #131C1E;
-}
+
 
 .email_arrow {
     position: absolute;
-    top: 2px;
+    top: 6px;
     right: 37%;
+}
+
+@media(width:768px) {
+    .email_arrow {
+        right: 24% !important; 
+    }
 }
 
 .home2_membership h1 {
@@ -1062,12 +1080,17 @@ header {
     padding-bottom: 80px;
 }
 
-
-
-
 @media(max-width:768px) {
+    header {
+        padding-bottom: 0px;
+    }
+
     .community_wrapper {
         padding: 0 !important;
+    }
+
+    .membership_wrapper {
+        border-radius: 32px !important;
     }
 
     .home2_membership h1 {
@@ -1165,9 +1188,6 @@ header {
     }
 }
 
-.home2_membership {
-    margin-top: 200px;
-}
 
 
 .slick-dots .slick-active button:before {
@@ -1184,7 +1204,7 @@ header {
 }
 
 .slick-dots {
-    bottom: -70px !important;
+    bottom: 0 !important;
 }
 
 .d_block_hover {
