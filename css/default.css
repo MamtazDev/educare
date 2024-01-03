@@ -423,6 +423,7 @@ input {
     line-height: 150%;
     margin-bottom: 35px;
 }
+
 .instructor_page .info_links {
     right: 43px;
     bottom: 9px !important;
@@ -430,11 +431,17 @@ input {
 }
 
 @media only screen and (max-width:768px) {
+    .mt_61 {
+        margin-top: 18px;
+
+    }
+
     .instructor_page .info_links {
         right: 0 !important;
         bottom: 9px !important;
         gap: 14px !important;
     }
+
     .sectionHeader {
         font-size: 24px;
         margin-bottom: 25px;
@@ -453,6 +460,7 @@ input {
     .membership_wrapper {
         padding: 26px 24px !important;
     }
+
 
 }
 

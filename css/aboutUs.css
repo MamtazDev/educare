@@ -102,6 +102,8 @@
     justify-content: center;
     text-align: center;
     gap: 11px;
+    margin-bottom: 56px;
+
 }
 
 .sectionHeader_wrapper h3 span {
