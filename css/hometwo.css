@@ -1109,8 +1109,7 @@ header {
 
 @media(width:768px) {
     .whatweare {
-        padding-top: 56px !important;
-        padding-bottom: 56px !important;
+        padding: 50px 0 50px !important;
     }
 
     .email_arrow {
