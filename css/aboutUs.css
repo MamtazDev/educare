@@ -362,3 +362,13 @@
         font-size: 24px;
     }
 }
+
+.about .email_arrow{
+    right: 37% !important;
+}
+@media(max-width:1024px) {
+    .about .email_arrow{
+        right: 32% !important;
+    }
+
+}

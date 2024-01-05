@@ -105,7 +105,6 @@
   font-weight: 600;
   padding: 0;
   font-style: normal;
-  /* color: var(--neutralColor); */
 }
 
 .nav-link {
@@ -118,50 +117,16 @@
   margin: auto;
 }
 
-/* .dropdown-toggle::after {
-  display: inline-block;
-  margin-left: 2px !important;
-  vertical-align: -5px !important;
-  height: 18px;
-  width: 18px;
-  border-top: 0 !important;
-  border-right: none !important;
-  border-bottom: 0 !important;
-  border-left: none !important;
-  background-image: url("../assets/home1/arrowDown.png");
-} */
-
-
-.nav-item :hover .dropdown-toggle::after {
-  /* background-image: url("../assets/green-drop.png") !important; */
-}
-
 .nav-item :hover {
   color: var(--primaryColor);
   cursor: pointer;
 
 }
 
-/* .nav-item:hover .dropdown-toggle::after {
-  background-image: url("../assets/green-drop.png") !important;
-  background-repeat: no-repeat;
-  background-position: center;
-}
- */
-
-
-
-
 .navbar-nav .nav-link.active {
   color: var(--primaryColor);
 }
 
-/* .navbar-nav .nav-item.active .nav-link .dropdown-toggle::after,
-.navbar-nav .nav-link.show .dropdown-toggle::after {
-  background-image: url("../assets/green-drop.png") !important;
-  background-repeat: no-repeat;
-  background-position: center;
-} */
 .dropdown-toggle::after {
   display: none;
 }
@@ -470,6 +435,26 @@ footer hr {
 
 
 /* banner start  */
+.img_rotate {
+  position: absolute;
+  left: -35px;
+  top: 50%;
+  animation: animName 5s linear infinite;
+
+}
+
+@keyframes animName {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
 .banner_wrapper {
   margin-top: 130px;
 }
@@ -724,12 +709,37 @@ footer hr {
 }
 
 @media (max-width:768px) {
+  .img_rotate {
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    height: 62px;
+    animation: animName 5s linear infinite;
+    width: 62px;
+  }
+
   .howItWorks_title {
     font-size: 24px;
     font-weight: 500;
     font-family: 'Syne', sans-serif;
   }
 
+}
+
+.modal-backdrop {
+  position: relative;
+}
+
+.modal-header button {
+  position: absolute;
+  color: white;
+  right: 0;
+  z-index: 1;
+  padding: 0;
+  font-size: 23px;
+}
+.modal_video_h{
+  height: 700px;
 }
 
 /* how it works end */
@@ -772,6 +782,10 @@ footer hr {
 
 /* responsive start */
 @media (max-width:768px) {
+  .modal_video_h{
+    height: 400px;
+  }
+  
   .mt_130 {
     margin-top: 50px;
   }

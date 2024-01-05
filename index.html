@@ -125,7 +125,8 @@
                     <form class="d-flex gap-4 authBtn">
                         <a href="login.html" class="" type="submit">Login</a>
                         <button class="signup_button">
-                            <a href="signup.html" class="" type="submit"><img src="/assets/home1/user-circle.png" alt="">
+                            <a href="signup.html" class="" type="submit"><img src="/assets/home1/user-circle.png"
+                                    alt="">
                                 Create Account</a>
                         </button>
                     </form>
@@ -153,20 +154,43 @@
 
                             <div class="d-flex gap-4 justify-content-lg-start justify-content-center">
                                 <button class="greenButton">Become a Student</button>
-                                <button class="bannerWatchBtn"><img src="/assets/home1/banner_playvideoicon.png" alt="">
-                                    <span><a style="color: black;" target="_blank"
-                                            href="https://youtu.be/TjPFZaMe2yw?si=5jpc0BZK8kAt9UbS">Watch
-                                            Demo</a></span></button>
+                                <button type="button" class="bannerWatchBtn" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal"><img src="/assets/home1/banner_playvideoicon.png"
+                                        alt="">
+                                    Watch
+                                    Demo</button>
+
                             </div>
                         </div>
-                        <div class="col-lg-5" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
-                            <img class="img-fluid" src="/assets/home1/banner1.png" alt="banner">
+                        <div class="col-lg-5 position-relative" data-aos="fade-right" data-aos-duration="1000"
+                            data-aos-delay="200">
+                            <img class="img-fluid " src="/assets/home1/banner1.png" alt="banner">
+                            <img class="img_rotate" src="/assets/bannerrotate.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered  modal-xl">
+                <div class="modal-content position-relative">
+                    <div class="modal-header p-0">
+                        <button type="button" class=" video_close_btn" data-bs-dismiss="modal" aria-label="Close"><i
+                                class="fa-solid fa-xmark"></i></button>
+                    </div>
+                    <div class="modal-body p-0 modal_video_h">
+                        <iframe width="100%" height="100%"
+                            src="https://www.youtube.com/embed/TjPFZaMe2yw?si=yejP3jrWfR9Ff6OI"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
         <!-- banner section end -->
 
         <!-- trusted by start-->
