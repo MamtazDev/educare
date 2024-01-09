@@ -738,8 +738,7 @@ footer hr {
   padding: 0;
   font-size: 23px;
 }
-
-.modal_video_h {
+.modal_video_h{
   height: 700px;
 }
 
@@ -783,7 +782,7 @@ footer hr {
 
 /* responsive start */
 @media (max-width:768px) {
-  .modal_video_h {
+  .modal_video_h{
     height: 400px;
   }
 
@@ -1869,8 +1868,4 @@ h1 {
 
 .testimonial .test_card {
   margin: 0 15px;
-}
-
-.round_star{
-  
 }
