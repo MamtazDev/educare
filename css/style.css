@@ -78,6 +78,9 @@
   background: #97c532;
   border-radius: 10px;
 }
+::-webkit-scrollbar-thumb:hover {
+  background: #aff31d;
+}
 
 :root {
   --primaryColor: #B6EC3D;
@@ -444,6 +447,22 @@ footer hr {
 }
 
 @keyframes animName {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* animation for tag */
+.tagAnimation {
+  animation: tagAni 5s linear infinite;
+
+}
+
+@keyframes tagAni {
   0% {
     transform: rotate(0deg);
   }
@@ -1891,7 +1910,7 @@ h1 {
   overflow: hidden;
   padding: 0px;
   top: 180px;
-  transition: all .3s;
+  transition: all .5s;
 }
 
 .dropdown:hover .dropdown-menu {
