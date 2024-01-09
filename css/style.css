@@ -738,7 +738,8 @@ footer hr {
   padding: 0;
   font-size: 23px;
 }
-.modal_video_h{
+
+.modal_video_h {
   height: 700px;
 }
 
@@ -782,10 +783,10 @@ footer hr {
 
 /* responsive start */
 @media (max-width:768px) {
-  .modal_video_h{
+  .modal_video_h {
     height: 400px;
   }
-  
+
   .mt_130 {
     margin-top: 50px;
   }
@@ -818,7 +819,7 @@ footer hr {
 
   }
 
-  /* 
+  /*
   .contact_wrapper .col-lg-6 {
     padding-left: 0;
     padding-right: 0
@@ -1263,7 +1264,7 @@ h1 {
 
 /* membership end */
 
-/* 
+/*
 .owl-carousel .owl-dots.disabled,
 .owl-carousel .owl-nav.disabled {
   display: block !important;
@@ -1868,4 +1869,8 @@ h1 {
 
 .testimonial .test_card {
   margin: 0 15px;
+}
+
+.round_star{
+  
 }
