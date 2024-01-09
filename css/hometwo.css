@@ -140,18 +140,6 @@
     display: none;
 }
 
-.dropdown-toggle::after {
-    /* display: inline-block;
-    vertical-align: -5px !important;
-    content: "";
-    height: 18px;
-    width: 18px;
-    border-top: 0 !important;
-    border-right: none !important;
-    border-bottom: 0 !important;
-    border-left: none !important; */
-    /* background-image: url("../assets/home1/arrowDown.png") !important; */
-}
 
 .nav-item :hover {
     color: var(--primaryColor);
@@ -165,10 +153,7 @@
 
 }
 
-.navbar-nav .nav-link.active
-
-/* .navbar-nav .nav-link.show */
-    {
+.navbar-nav .nav-link.active {
     color: var(--primaryColor);
 }
 
