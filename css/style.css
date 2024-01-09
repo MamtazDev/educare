@@ -788,7 +788,7 @@ footer hr {
 <<<<<<< HEAD
 
 =======
-  
+
 >>>>>>> 342cce280499bde0887749bcc81d24f74a7bf0c3
   .mt_130 {
     margin-top: 50px;
@@ -825,7 +825,7 @@ footer hr {
 <<<<<<< HEAD
   /*
 =======
-  /* 
+  /*
 >>>>>>> 342cce280499bde0887749bcc81d24f74a7bf0c3
   .contact_wrapper .col-lg-6 {
     padding-left: 0;
@@ -1274,7 +1274,7 @@ h1 {
 <<<<<<< HEAD
 /*
 =======
-/* 
+/*
 >>>>>>> 342cce280499bde0887749bcc81d24f74a7bf0c3
 .owl-carousel .owl-dots.disabled,
 .owl-carousel .owl-nav.disabled {
@@ -1880,4 +1880,23 @@ h1 {
 
 .testimonial .test_card {
   margin: 0 15px;
+}
+
+
+.dropdown-menu {
+  border: none;
+  display: block;
+  transform: scale(1) !important;
+  height: 0px;
+  overflow: hidden;
+  padding: 0px;
+  top: 180px;
+  transition: all .3s;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  top: 100%;
+  height: inherit;
+  background-color: #f8f6f6;
 }
