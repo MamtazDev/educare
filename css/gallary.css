@@ -1,0 +1,27 @@
+.gallary_wrapper img {
+    width: 100%;
+    margin-bottom: 30px !important;
+    /* margin-right: 30px !important; */
+    /* display: flex ; */
+    /* gap: 30px !important; */
+}
+
+.m_32 {
+    margin-bottom: 30px;
+}
+
+.gallary_wrapper {
+    margin-top: 48px;
+}
+
+.gallary .featured_buttons {
+    gap: 24px !important;
+    flex-wrap: nowrap
+}
+
+@media (max-width:768px) {
+    .about .grey_btn {
+        padding: 10px 15px;
+    }
+
+}

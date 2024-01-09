@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Educare</title>
+    <link rel="shortcut icon" href="/assets/small-logo-blue.png" type="image/x-icon">
 
     <!-- bootstrap link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
@@ -16,11 +17,20 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
     <!-- my css -->
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/hometwo.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="/components/buttons/buttons.css">
+    <link rel="stylesheet" href="css/aboutUs.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <!-- my css -->
-
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -28,41 +38,41 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
-                    <img class="img-fluid logoImg" src="./assets/home2/brand-logo.png" alt="Logo" />
+                    <img class="img-fluid logoImg" src="./assets/home2//brand-logo.png" alt="Logo" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <img src="./assets/mi_menu.png" alt="Menu" />
+                    <img src="./assets/menu1.png" alt="Menu" />
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto text-center">
                         <li class="nav-item dropdown">
-                            <a class="nav-link active dropdown-toggle" href="index.html" id="navbarDropdown"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Home
+                            <a class="nav-link active dropdown-toggle d-flex align-items-center gap-2 justify-content-center"
+                                href="index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>Home</span> <i class="fa mt-1">&#xf107;</i>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="home2.html">Home 2</a></li>
-                                <li><a class="dropdown-item" href="home3.html">Home 3</a></li>
+                                <li><a class="dropdown-item" href="index.html">Home 1</a></li>
+                                <li><a class="dropdown-item" href="Home2.html">Home 2</a></li>
+                                <li><a class="dropdown-item" href="Home3.html">Home 3</a></li>
                             </ul>
                         </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link  dropdown-toggle" href="About.html" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                        <li class="nav-item">
+                            <a class="nav-link  d-flex align-items-center gap-2 justify-content-center " href="About.html">
                                 About
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="home2.html">Home 2</a></li>
-                                <li><a class="dropdown-item" href="home3.html">Home 3</a></li>
-                            </ul>
-                        </li>
 
+                        </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link  dropdown-toggle" href="Course.html" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Course
+                            <a class="nav-link  dropdown-toggle  d-flex align-items-center gap-2 justify-content-center"
+                                href="Course.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>
+                                    Course
+                                </span> <i class="fa mt-1">&#xf107;</i>
+
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="Course1.html">Course 1</a></li>
@@ -73,15 +83,18 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Pages
+                            <a class="nav-link dropdown-toggle  d-flex align-items-center gap-2 justify-content-center"
+                                href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>
+                                    Pages
+                                </span> <i class="fa mt-1">&#xf107;</i>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="/EventsGrid.html">Events Grid</a></li>
                                 <li><a class="dropdown-item" href="/EventsList.html">Events List</a></li>
                                 <li><a class="dropdown-item" href="/EventsDetails.html">Events Details</a></li>
-                                <li><a class="dropdown-item" href="/Gallary.html">Gallery</a></li>
+                                <li><a class="dropdown-item" href="Gallary.html">Gallery</a></li>
                                 <li><a class="dropdown-item" href="/Testimonial.html">Testimonial</a></li>
                                 <li><a class="dropdown-item" href="/ContactUs.html">Contact Us</a></li>
                                 <li><a class="dropdown-item" href="/404.html">404 page</a></li>
@@ -89,23 +102,24 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Blog
+                            <a class="nav-link dropdown-toggle  d-flex align-items-center gap-2 justify-content-center"
+                                href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>
+                                    Blog
+                                </span> <i class="fa mt-1">&#xf107;</i>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="/Blog.html">Blog</a></li>
-                                <li><a class="dropdown-item" href="/Blog.html">Blog Details</a></li>
-                                <li><a class="dropdown-item" href="#">Page 2</a></li>
+                                <li><a class="dropdown-item" href="/BlogDetails.html">Blog Details</a></li>
                             </ul>
                         </li>
                     </ul>
                     <form class="d-flex gap-4 authBtn">
-                        <a href="SignUp.html" class="" type="submit">Login</a>
+                        <a href="login.html" class="" type="submit">Login</a>
                         <button class="signup_button">
-                            <a href="Login.html" class="" type="submit"><img src="/assets/user-circle.png" alt="">
-                                Create Account
-                            </a>
+                            <a href="signup.html" class="" type="submit"><img src="/assets/home1/user-circle.png" alt="">
+                                Create Account</a>
                         </button>
                     </form>
                 </div>
@@ -117,15 +131,15 @@
         <section class="banner_wrapper">
             <div class="container">
                 <div class="row justify-content-between">
-                    <div class="col-lg-4">
-                        <div class="left_wrapper d-flex flex-column justify-content-between h-100">
+                    <div class="col-lg-4" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                        <div class="left_wrapper d-flex flex-column  h-100">
                             <div class="left_content">
                                 <h1 class="banner_title text-lg-start text-center">
                                     Grow Your
                                     <span>
                                         Skill
-                                    </span> And <br>
-                                    Find the <br>
+                                    </span> And <br class="d-lg-block d-none">
+                                    Find the <br class="d-lg-block d-none">
                                     Best online
                                     <span>
                                         Course
@@ -148,15 +162,17 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 d-lg-block d-none" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-delay="200">
                         <div class="banner_img text-center">
-                            <img src="/assets/home2/banner-img.png" alt="">
+                            <img class="img-fluid" src="/assets/home2/banner-img.png" alt="">
                         </div>
                     </div>
 
-                    <div class="col-lg-2">
+                    <div class="col-lg-2" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                         <div class="right_wrapper d-flex flex-column justify-content-between h-100">
-                            <button class="d-flex align-items-center gap-2 fs_18 fw-medium text-clr-neutralColor">
+                            <button
+                                class="d-flex align-items-center justify-content-lg-start justify-content-center gap-2 fs_18 fw-medium text-clr-neutralColor lets_talk_btns">
                                 <img src="assets/home2/link_icon.png" alt="link-icon">
                                 Lets talk
                             </button>
@@ -182,14 +198,20 @@
                             </div>
 
                             <div class="banner_message">
-                                <p class="m-0 fs_18 fw-normal text-clr-neutralColor">
+                                <p class="m-0 fs_18 fw-normal text-clr-neutralColor d-lg-block d-none">
                                     Students success form
                                 </p>
-                                <img src="assets/home2/line.svg" alt="">
-                                <p class="m-0 fs_18 fw-normal text-clr-neutralColor">
+                                <p class="m-0 fs_18 fw-normal text-clr-neutralColor d-lg-block d-none">
+                                    <img class="d-lg-block d-none" src="assets/home2/line.svg" alt="">
                                     ouronline courses.
                                 </p>
                             </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-lg-none d-block" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-delay="200">
+                        <div class="banner_img text-center">
+                            <img class="img-fluid" src="/assets/home2/banner-img.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -202,20 +224,23 @@
             <div class="container">
                 <div class="qualites_wrapper">
                     <div class="row align-items-center">
-                        <div class="col-lg-5">
+                        <div class="col-lg-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                             <div class="qualites_content">
-                                <h3 class="fs_44 fw-bold text-white m-0">
+                                <h3 class="m-0">
                                     Interesting <br>
                                     Qualities
                                 </h3>
-                                <img src="assets/home2/line.svg" alt="">
+                                <div class="text-lg-start text-center">
+
+                                    <img class="" src="assets/home2/line.svg" alt="">
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-7">
                             <div class="row justify-content-between h-100">
-                                <div class="col-lg-6">
-                                    <div class="qualites_items d-flex align-items-center gap-3"
-                                        style="padding-bottom: 80px;">
+                                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000"
+                                    data-aos-delay="200">
+                                    <div class="qualites_items d-flex align-items-center gap-3 pb_80">
                                         <span class="fs_32 fw-semibold text-clr-secondary">
                                             01
                                         </span>
@@ -225,7 +250,8 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-6">
+                                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000"
+                                    data-aos-delay="200">
                                     <div class="qualites_items d-flex align-items-center gap-3">
                                         <span class="fs_32 fw-semibold text-clr-secondary">
                                             02
@@ -236,7 +262,8 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-6">
+                                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000"
+                                    data-aos-delay="200">
                                     <div class="qualites_items d-flex align-items-center gap-3 pb-0">
                                         <span class="fs_32 fw-semibold text-clr-secondary">
                                             03
@@ -247,7 +274,8 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-6">
+                                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000"
+                                    data-aos-delay="200">
                                     <div class="qualites_items d-flex align-items-center gap-3">
                                         <span class="fs_32 fw-semibold text-clr-secondary">
                                             04
@@ -266,199 +294,218 @@
         <!-- qualites /-end -->
 
         <!-- top categories start -->
-        <section class="top_categories">
-            <div class="container">
-                <div class="section_heading">
-                    <button class="about_btn text-white">
-                        <img src="/assets/home2/top_categories.png" alt="">
-                        Top Categories
-                    </button>
+        <div class="shadow_yellow" style="overflow-x: hidden;">
+            <section class="top_categories">
+                <div class="container">
+                    <div class="section_heading">
+                        <button class="about_btn text-white">
+                            <img src="/assets/home2/top_categories.png" alt="">
+                            Top Categories
+                        </button>
 
-                    <h2 class="category_title">
-                        Course Categories
-                    </h2>
-                </div>
+                        <h2 class="category_title">
+                            Course <span class="category_title_green">Categories</span>
+                        </h2>
+                    </div>
 
-                <div class="card_wrapper">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="card-item mb-4">
+                    <div class="card_wrapper">
+                        <div class="row">
+                            <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                                <div class="card-item mb-4">
 
-                                <div class="card_content">
-                                    <img src="assets/home2/course1.png" alt="img">
-                                    <h2>
-                                        UI/UX <br>
-                                        Design
-                                    </h2>
-                                    <p>
-                                        How to apply design thinking to your <br>
-                                        onder t generate innov the and uner-centric <br>
-                                        solution
-                                    </p>
-                                </div>
+                                    <div class="card_content text-lg-start text-center">
+                                        <img src="assets/home2/course1.png" alt="img">
+                                        <h2>
+                                            UI/UX <br>
+                                            Design
+                                        </h2>
+                                        <p>
+                                            How to apply design thinking to your <br class="d-lg-block d-none">
+                                            onder t generate innov the and uner-centric
+                                            <br class="d-lg-block d-none">
+                                            solution
+                                        </p>
+                                    </div>
 
-                                <div class="d-flex justify-content-end">
-                                    <button class="d-flex align-items-center justify-content-center">
-                                        <img class="arrowRight" src="assets/home2/arrow-right.svg" alt="">
-                                        <img class="arrowRightTwo d-none" src="assets/home2/right-arrow.png" alt="">
-                                    </button>
-                                </div>
+                                    <div class="d-flex justify-content-lg-end justify-content-center">
+                                        <a href="Course1.html">
+                                            <button class="d-flex align-items-center justify-content-center">
+                                                <img class="arrowRight" src="assets/home2/arrow-right.svg" alt="">
+                                                <img class="arrowRightTwo d-none" src="assets/home2/right-arrow.png"
+                                                    alt="">
+                                            </button>
+                                        </a>
 
-                            </div>
-                        </div>
+                                    </div>
 
-                        <div class="col-lg-4">
-                            <div class="card-item mb-4">
-
-                                <div class="card_content">
-                                    <img src="assets/home2/course2.png" alt="img">
-                                    <h2>
-                                        Data <br>
-                                        Science
-                                    </h2>
-                                    <p>
-                                        How to apply design thinking to your <br>
-                                        onder t generate innov the and uner-centric <br>
-                                        solution
-                                    </p>
-                                </div>
-
-                                <div class="d-flex justify-content-end">
-                                    <button class="d-flex align-items-center justify-content-center">
-                                        <img class="arrowRight" src="assets/home2/arrow-right.svg" alt="">
-                                        <img class="arrowRightTwo d-none" src="assets/home2/right-arrow.png" alt="">
-                                    </button>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="card-item mb-4">
-
-                                <div class="card_content">
-                                    <img src="assets/home2/course3.png" alt="img">
-                                    <h2>
-                                        Web <br>
-                                        development
-                                    </h2>
-                                    <p>
-                                        How to apply design thinking to your <br>
-                                        onder t generate innov the and uner-centric <br>
-                                        solution
-                                    </p>
-                                </div>
-
-                                <div class="d-flex justify-content-end">
-                                    <button class="d-flex align-items-center justify-content-center">
-                                        <img class="arrowRight" src="assets/home2/arrow-right.svg" alt="">
-                                        <img class="arrowRightTwo d-none" src="assets/home2/right-arrow.png" alt="">
-                                    </button>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="card-item mb-4">
-
-                                <div class="card_content">
-                                    <img src="assets/home2/course4.png" alt="img">
-                                    <h2>
-                                        Strategy & <br>
-                                        Research
-                                    </h2>
-                                    <p>
-                                        How to apply design thinking to your <br>
-                                        onder t generate innov the and uner-centric <br>
-                                        solution
-                                    </p>
-                                </div>
-
-                                <div class="d-flex justify-content-end">
-                                    <button class="d-flex align-items-center justify-content-center">
-                                        <img class="arrowRight" src="assets/home2/arrow-right.svg" alt="">
-                                        <img class="arrowRightTwo d-none" src="assets/home2/right-arrow.png" alt="">
-                                    </button>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="card-item mb-4">
-                                <div class="card_content">
-                                    <img src="assets/home2/course5.png" alt="img">
-                                    <h2>
-                                        Business <br>
-                                        Analysis
-                                    </h2>
-                                    <p>
-                                        How to apply design thinking to your <br>
-                                        onder t generate innov the and uner-centric <br>
-                                        solution
-                                    </p>
-                                </div>
-
-                                <div class="d-flex justify-content-end">
-                                    <button class="d-flex align-items-center justify-content-center">
-                                        <img class="arrowRight" src="assets/home2/arrow-right.svg" alt="">
-                                        <img class="arrowRightTwo d-none" src="assets/home2/right-arrow.png" alt="">
-                                    </button>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="col-lg-4">
-                            <div class="card-item mb-4">
-                                <div class="card_content">
-                                    <img src="assets/home2/course6.png" alt="img">
-                                    <h2>
-                                        Sales <br>
-                                        Marketing
-                                    </h2>
-                                    <p>
-                                        How to apply design thinking to your <br>
-                                        onder t generate innov the and uner-centric <br>
-                                        solution
-                                    </p>
+                            <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                                <div class="card-item mb-4">
+
+                                    <div class="card_content text-lg-start text-center">
+                                        <img src="assets/home2/course2.png" alt="img">
+                                        <h2>
+                                            Data <br>
+                                            Science
+                                        </h2>
+                                        <p>
+                                            How to apply design thinking to your <br>
+                                            onder t generate innov the and uner-centric <br class="d-lg-block d-none">
+                                            solution
+                                        </p>
+                                    </div>
+                                    <div class="d-flex justify-content-lg-end justify-content-center">
+                                        <a href="Course1.html">
+                                            <button class="d-flex align-items-center justify-content-center">
+                                                <img class="arrowRight" src="assets/home2/arrow-right.svg" alt="">
+                                                <img class="arrowRightTwo d-none" src="assets/home2/right-arrow.png"
+                                                    alt="">
+                                            </button>
+                                        </a>
+                                    </div>
+
                                 </div>
+                            </div>
 
-                                <div class="d-flex justify-content-end">
-                                    <button class="d-flex align-items-center justify-content-center">
-                                        <img class="arrowRight" src="assets/home2/arrow-right.svg" alt="">
-                                        <img class="arrowRightTwo d-none" src="assets/home2/right-arrow.png" alt="">
-                                    </button>
+                            <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                                <div class="card-item mb-4">
+
+                                    <div class="card_content text-lg-start text-center">
+                                        <img src="assets/home2/course3.png" alt="img">
+                                        <h2>
+                                            Web <br>
+                                            development
+                                        </h2>
+                                        <p>
+                                            How to apply design thinking to your <br>
+                                            onder t generate innov the and uner-centric <br class="d-lg-block d-none">
+                                            solution
+                                        </p>
+                                    </div>
+
+                                    <div class="d-flex justify-content-lg-end justify-content-center">
+                                        <a href="Course1.html">
+                                            <button class="d-flex align-items-center justify-content-center">
+                                                <img class="arrowRight" src="assets/home2/arrow-right.svg" alt="">
+                                                <img class="arrowRightTwo d-none" src="assets/home2/right-arrow.png"
+                                                    alt="">
+                                            </button>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                                <div class="card-item mb-4">
+
+                                    <div class="card_content text-lg-start text-center">
+                                        <img src="assets/home2/course4.png" alt="img">
+                                        <h2>
+                                            Strategy & <br>
+                                            Research
+                                        </h2>
+                                        <p>
+                                            How to apply design thinking to your <br>
+                                            onder t generate innov the and uner-centric <br class="d-lg-block d-none">
+                                            solution
+                                        </p>
+                                    </div>
+
+                                    <div class="d-flex justify-content-lg-end justify-content-center">
+                                        <a href="Course1.html">
+                                            <button class="d-flex align-items-center justify-content-center">
+                                                <img class="arrowRight" src="assets/home2/arrow-right.svg" alt="">
+                                                <img class="arrowRightTwo d-none" src="assets/home2/right-arrow.png"
+                                                    alt="">
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                                <div class="card-item mb-4">
+                                    <div class="card_content text-lg-start text-center">
+                                        <img src="assets/home2/course5.png" alt="img">
+                                        <h2>
+                                            Business <br>
+                                            Analysis
+                                        </h2>
+                                        <p>
+                                            How to apply design thinking to your <br>
+                                            onder t generate innov the and uner-centric <br class="d-lg-block d-none">
+                                            solution
+                                        </p>
+                                    </div>
+
+                                    <div class="d-flex justify-content-lg-end justify-content-center">
+                                        <a href="Course1.html">
+                                            <button class="d-flex align-items-center justify-content-center">
+                                                <img class="arrowRight" src="assets/home2/arrow-right.svg" alt="">
+                                                <img class="arrowRightTwo d-none" src="assets/home2/right-arrow.png"
+                                                    alt="">
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                                <div class="card-item mb-4">
+                                    <div class="card_content text-lg-start text-center">
+                                        <img src="assets/home2/course6.png" alt="img">
+                                        <h2>
+                                            Sales <br>
+                                            Marketing
+                                        </h2>
+                                        <p>
+                                            How to apply design thinking to your <br>
+                                            onder t generate innov the and uner-centric <br class="d-lg-block d-none">
+                                            solution
+                                        </p>
+                                    </div>
+
+                                    <div class="d-flex justify-content-lg-end justify-content-center">
+                                        <a href="Course1.html">
+                                            <button class="d-flex align-items-center justify-content-center">
+                                                <img class="arrowRight" src="assets/home2/arrow-right.svg" alt="">
+                                                <img class="arrowRightTwo d-none" src="assets/home2/right-arrow.png"
+                                                    alt="">
+                                            </button>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
         <!-- top categories /-end -->
 
         <!-- what we are start -->
-        <section class="whatweare">
+        <section class="whatweare" style="overflow-x: hidden;">
             <div class="container">
-                <div class="row">
+                <div class="row flex-lg-row flex-column-reverse align-items-center">
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                         <div class="whatweare_img">
                             <img class="img-fluid" src="assets/home2/whatweare-img.png" alt="img">
                         </div>
                     </div>
-
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                         <div class="whatweare_right">
-                            <div class="section_heading mb-5">
+                            <div class="section_heading mb_32">
                                 <button class="about_btn text-white">
                                     <img src="/assets/home2/top_categories.png" alt="">
                                     What we are
                                 </button>
 
                                 <h2 class="category_title text-white">
-                                    We Offer The Best <br>
+                                    We Offer The Best <br class="">
                                     <span class="text-clr-primaryColor">
                                         Carrier
                                     </span>
@@ -473,21 +520,396 @@
                                 </p>
                             </div>
 
-                            <div class="offer_item d-flex gap-3 mb-3">
+                            <div class="d-flex flex-column " style="gap: 24px;margin-bottom: 48px;">
+                                <div
+                                    class="offer_item d-flex flex-lg-row flex-column justify-content-lg-start justify-content-center align-items-start text-lg-start text-center gap-3">
+
+                                    <div class="offer_item_img">
+                                        <img class="pt-2" src="assets/home2/whatweare-icon1.png" alt="icon">
+                                    </div>
+                                    <div class="offer_item_content">
+                                        <h2 class=" text-white">
+                                            Industry Expert Mentor
+                                        </h2>
+
+                                        <p class="fs_18 text-clr-textColor">
+                                            Certainly! An "Industry-Proven Trainer" is a professional who has
+                                            demonstrated their expertise and effectiveness in
+                                            training
+                                            individuals or teams within a specific industry.
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div
+                                    class="offer_item d-flex flex-lg-row flex-column justify-content-lg-start justify-content-center align-items-start text-lg-start text-center gap-3">
+
+                                    <div class="offer_item_img">
+                                        <img class="pt-2" src="assets/home2/whatweare-icon2.png" alt="icon">
+                                    </div>
+                                    <div class="offer_item_content">
+                                        <h2 class="fs-4 text-white">
+                                            Up-to-Date Course Content
+                                        </h2>
+
+                                        <p class="fs_18 text-clr-textColor">
+                                            I'd be happy to provide you with some information on creating up-to-date
+                                            course
+                                            content. Creating and maintaining
+                                            current course content is crucial for ensuring that students receive the
+                                            most
+                                            relevant and valuable education.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="offer_item d-flex flex-lg-row flex-column justify-content-lg-start justify-content-center align-items-start text-lg-start text-center gap-3">
+                                    <div class="offer_item_img">
+                                        <img class="pt-2" src="assets/home2/whatweare-icon3.png" alt="icon">
+                                    </div>
+                                    <div class="offer_item_content">
+                                        <h2 class="fs-4 text-white">
+                                            Biggest Student Community
+                                        </h2>
+
+                                        <p class="fs_18 text-clr-textColor">
+                                            As of my last knowledge update in September 2021, I don't have access to
+                                            real-time data or the ability to browse the
+                                            internet, so I can't provide information on the biggest student community or
+                                            organization that may have emerged after
+                                            that date.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="d-flex justify-content-lg-start justify-content-center mt-lg-0 mt-4 mb-lg-0 mb-4">
+                                <a href="About.html">
+                                    <button class="free_workshop_btn border_white">Know more
+                                        <span class="d_block_nohover">
+                                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                                xmlns="http://www.w3. org/2000/svg">
+                                                <path d="M20.5003 12.4998L4.50024 12.4998" stroke="#131C1E"
+                                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path
+                                                    d="M15.5003 17.5C15.5003 17.5 20.5002 13.8176 20.5002 12.5C20.5003 11.1824 15.5002 7.5 15.5002 7.5"
+                                                    stroke="#131C1E" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                        </span>
+                                        <img class="d_block_hover" src="/assets/whitearrow.png" alt="">
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- what we are /-end -->
+
+        <!-- featured course start -->
+        <div class="shadow_yellow1" style="overflow-x: hidden;">
+            <section class="home2Feature_course container-fluid p-0">
+                <div class="featured_wrapper mb_130">
+                    <button class="about_btn mb_24"><img src="/assets/star.png" alt="star"> Popular
+                        Courses</button>
+                    <h1 class="mb_12" style="color: #131C1E;">Browse Popular <br class="d-lg-none d-block">
+                        Category</h1>
+                    <p class="color_74 d-lg-block d-none">Choose from 213,000 online video courses with <br>
+                        new additions published every month</p>
+                    <div class="featured_buttons">
+                        <button data-filter="*"
+                            class="grey_btn feature_green_btn custom-button1 active">Feature</button>
+                        <button data-filter=".recent" class="grey_btn custom-button1">Recent</button>
+                        <button data-filter=".design" class="grey_btn custom-button1">Design</button>
+                        <button data-filter=".data-science" class="grey_btn custom-button1 d-lg-block d-none">Data
+                            Science</button>
+                        <button data-filter=".marketing"
+                            class="grey_btn  custom-button1 d-lg-block d-none">Marketing</button>
+                        <button data-filter=".development"
+                            class="grey_btn custom-button1 d-lg-block d-none">Development</button>
+                    </div>
+
+                    <div class="container">
+                        <div class="row mb_48 blogall">
+                            <div class="col-lg-4 recent">
+                                <div class="featured_card">
+                                    <div class="position-relative">
+                                        <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
+                                        <div class="home2_course_timing">
+                                            <img src="/assets/time.png" alt="">20 hour
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
+                                        <a href="Course1.html">
+                                            <h3 class="mb_30">Web Development : <br>
+                                                The Complete Programming
+                                                Course</h3>
+                                        </a>
+                                        <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <button class="rating">
+                                                    <img class="w-100" src="/assets/home1/start.png" alt="">
+                                                    <span>4.8</span>
+                                                </button>
+                                                <p class="rating_number">(4563)</p>
+
+                                            </div>
+                                            <button class="price_btn">$134</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 data-science design development">
+                                <div class="featured_card">
+                                    <div class="position-relative">
+                                        <img class="w-100 mb_18" src="/assets/home1/blog2.webp" alt="">
+                                        <div class="home2_course_timing">
+                                            <img src="/assets/time.png" alt="">20 hour
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
+                                        <a href="Course1.html">
+                                            <h3 class="mb_30">Web Development : <br>
+                                                The Complete Programming
+                                                Course</h3>
+                                        </a>
+                                        <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <button class="rating">
+                                                    <img class="w-100" src="/assets/home1/start.png" alt="">
+                                                    <span>4.8</span>
+                                                </button>
+                                                <p class="rating_number">(4563)</p>
+
+                                            </div>
+                                            <button class="price_btn">$134</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 data-science ">
+                                <div class="featured_card">
+                                    <div class="position-relative">
+                                        <img class="w-100 mb_18" src="/assets/home1/blog3.webp" alt="">
+                                        <div class="home2_course_timing">
+                                            <img src="/assets/time.png" alt="">20 hour
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
+                                        <a href="Course1.html">
+                                            <h3 class="mb_30">Web Development : <br>
+                                                The Complete Programming
+                                                Course</h3>
+                                        </a>
+                                        <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <button class="rating">
+                                                    <img class="w-100" src="/assets/home1/start.png" alt="">
+                                                    <span>4.8</span>
+                                                </button>
+                                                <p class="rating_number">(4563)</p>
+
+                                            </div>
+                                            <button class="price_btn">$134</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 recent development marketing d-lg-block d-none">
+                                <div class="featured_card">
+                                    <div class="position-relative">
+                                        <img class="w-100 mb_18" src="/assets/home1/blog4.webp" alt="">
+                                        <div class="home2_course_timing">
+                                            <img src="/assets/time.png" alt="">20 hour
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
+                                        <a href="Course1.html">
+                                            <h3 class="mb_30">Web Development : <br>
+                                                The Complete Programming
+                                                Course</h3>
+                                        </a>
+                                        <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <button class="rating">
+                                                    <img class="w-100" src="/assets/home1/start.png" alt="">
+                                                    <span>4.8</span>
+                                                </button>
+                                                <p class="rating_number">(4563)</p>
+
+                                            </div>
+                                            <button class="price_btn">$134</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  data-science d-lg-block d-none">
+                                <div class="featured_card">
+                                    <div class="position-relative">
+                                        <img class="w-100 mb_18" src="/assets/home1/blog5.avif" alt="">
+                                        <div class="home2_course_timing">
+                                            <img src="/assets/time.png" alt="">20 hour
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
+                                        <a href="Course1.html">
+                                            <h3 class="mb_30">Web Development : <br>
+                                                The Complete Programming
+                                                Course</h3>
+                                        </a>
+                                        <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <button class="rating">
+                                                    <img class="w-100" src="/assets/home1/start.png" alt="">
+                                                    <span>4.8</span>
+                                                </button>
+                                                <p class="rating_number">(4563)</p>
+
+                                            </div>
+                                            <button class="price_btn">$134</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 recent development  design d-lg-block d-none">
+                                <div class="featured_card">
+                                    <div class="position-relative">
+                                        <img class="w-100 mb_18" src="/assets/home1/blog3.webp" alt="">
+                                        <div class="home2_course_timing">
+                                            <img src="/assets/time.png" alt="">20 hour
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
+                                        <a href="Course1.html">
+                                            <h3 class="mb_30">Web Development : <br>
+                                                The Complete Programming
+                                                Course</h3>
+                                        </a>
+                                        <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <button class="rating">
+                                                    <img class="w-100" src="/assets/home1/start.png" alt="">
+                                                    <span>4.8</span>
+                                                </button>
+                                                <p class="rating_number">(4563)</p>
+
+                                            </div>
+                                            <button class="price_btn">$134</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--  -->
+                    <a href="/Course1.html">
+                        <button class=" mb_24  explore_courses_btn">
+                            Explore All Course
+                            <img src="/assets/whitearrow.png" alt="">
+                        </button>
+                    </a>
+                </div>
+            </section>
+        </div>
+        <!-- featured course end -->
+        <!-- workshop section start -->
+        <section class="bg_primary workshop_wrapper" style="overflow-x: hidden;">
+            <div class="container">
+                <div class="row alig-items-center">
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                        <div class="workshop">
+                            <div class="centerd">
+
+                                <button class="free_workshop_btn"><img src="/assets/star-workshop.png"
+                                        alt="star">Workshop
+                                    for free</button>
+                            </div>
+                            <h2>Participate in Our <br class="d-lg-block d-none">
+                                Free <span>Workshops</span></h2>
+                            <p>Come to our "Free Workshop" event to learn more, obtain<br class="d-lg-block d-none">
+                                fresh perspectives, and meet others who share your interests.<br
+                                    class="d-lg-block d-none">
+                                Our knowledgeable speakers will offer insightful commentary <br
+                                    class="d-lg-block d-none">
+                                on a variety of subjects.</p>
+                            <div class="centerd mb-lg-0 mb-4">
+                                <a href="Course1.html">
+
+                                    <button class="explore_course_btn ">Explore All Course <img src="/assets/right.png"
+                                            alt=""></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                        <img class="img-fluid" src="/assets/workshop.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- workshop section end -->
+        <!-- We Provide Best -->
+        <section class="mt_130 we_provide" style="overflow-x: hidden;">
+            <div class="container">
+                <div class="row align-items-center  flex-lg-row flex-column-reverse">
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                        <div class="whatweare_img">
+                            <img class="img-fluid" src="assets/providebest-banner.png" alt="img">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                        <div class="whatweare_right">
+                            <div class="section_heading mb-5">
+                                <button class="about_btn text-white">
+                                    <img src="/assets/home2/top_categories.png" alt="">
+                                    About us
+                                </button>
+
+                                <h2 class="category_title text_dark">
+                                    We Provide Best <br>
+                                    <span class="text-clr-primaryColor">
+                                        Online Classes
+                                    </span>
+                                </h2>
+
+                                <p class="fs_18 fw-normal text-clr-textColor">
+                                    Learning from an online event involves several key steps. Firstly, it's important to
+                                    research and choose an event that aligns with your learning objectives and
+                                    interests. Once you've registered for the event, make sure to review the agenda and
+                                    schedule to plan your time effectively.
+                                </p>
+                            </div>
+
+                            <div class="offer_item d-flex align-items-center gap-3 mb-3">
 
                                 <div class="offer_item_img">
                                     <img class="pt-2" src="assets/home2/whatweare-icon1.png" alt="icon">
                                 </div>
-                                <div class="offer_item_content pb-5">
-                                    <h2 class="fs-4 text-white pb-3">
-                                        Industry Expert Mentor
+                                <div class="offer_item_content">
+                                    <h2 class="fs-4 text_dark">
+                                        Learning
                                     </h2>
 
                                     <p class="fs_18 text-clr-textColor">
-                                        Certainly! An "Industry-Proven Trainer" is a professional who has
-                                        demonstrated their expertise and effectiveness in
-                                        training
-                                        individuals or teams within a specific industry.
+                                        Learning is a lifelong journey that empowers individuals to
+                                        acquire new knowledge, develop skills, and grow personally.
                                     </p>
                                 </div>
 
@@ -498,16 +920,14 @@
                                 <div class="offer_item_img">
                                     <img class="pt-2" src="assets/home2/whatweare-icon2.png" alt="icon">
                                 </div>
-                                <div class="offer_item_content pb-5">
-                                    <h2 class="fs-4 text-white pb-3">
-                                        Up-to-Date Course Content
+                                <div class="offer_item_content">
+                                    <h2 class="fs-4 text_dark ">
+                                        Instruction
                                     </h2>
 
                                     <p class="fs_18 text-clr-textColor">
-                                        I'd be happy to provide you with some information on creating up-to-date course
-                                        content. Creating and maintaining
-                                        current course content is crucial for ensuring that students receive the most
-                                        relevant and valuable education.
+                                        Learning is a lifelong journey that empowers individuals to
+                                        acquire new knowledge, develop skills, and grow personally.
                                     </p>
                                 </div>
 
@@ -517,34 +937,26 @@
                                 <div class="offer_item_img">
                                     <img class="pt-2" src="assets/home2/whatweare-icon3.png" alt="icon">
                                 </div>
-                                <div class="offer_item_content pb-5">
-                                    <h2 class="fs-4 text-white pb-3">
-                                        Biggest Student Community
+                                <div class="offer_item_content">
+                                    <h2 class="fs-4 text_dark">
+                                        Progress
                                     </h2>
 
                                     <p class="fs_18 text-clr-textColor">
-                                        As of my last knowledge update in September 2021, I don't have access to
-                                        real-time data or the ability to browse the
-                                        internet, so I can't provide information on the biggest student community or
-                                        organization that may have emerged after
-                                        that date.
+                                        Learning is a lifelong journey that empowers individuals to
+                                        acquire new knowledge, develop skills, and grow personally.
                                     </p>
                                 </div>
                             </div>
 
-
-                            <button class="whatweare-btn">
-                                Know more
-                                <span>
-                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M20.5003 12.4998L4.50024 12.4998" stroke="#131C1E" stroke-width="1.5" stroke-linecap="round"
-                                            stroke-linejoin="round" />
-                                        <path d="M15.5003 17.5C15.5003 17.5 20.5002 13.8176 20.5002 12.5C20.5003 11.1824 15.5002 7.5 15.5002 7.5"
-                                            stroke="#131C1E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
-
-                                </span>
-                            </button>
+                            <div class="centerd mt-lg-5 mt-5">
+                                <a href="About.html">
+                                    <button class=" mb_24  about_btn py-4">
+                                        Know more
+                                        <img src="/assets/whitearrow.png" alt="">
+                                    </button>
+                                </a>
+                            </div>
                         </div>
                     </div>
 
@@ -553,6 +965,130 @@
         </section>
         <!-- what we are /-end -->
 
+        <section class="home3_bg mt_130 mb_130" style="overflow-x: hidden;">
+            <div class="container">
+                <div class="item">
+                    <div class="text-center">
+                        <div class="testimonial_wrapper">
+                            <button class="about_btn mb_24 text-center"><img src="/assets/test-start.png" alt="">
+                                Testimonials</button>
+                        </div>
+                        <h2 class="common_heading mb-3">
+                            Our Students <span style="color:#6663FF;">Feedback</span>
+                        </h2>
+                        <p class="common_para">87% of people learning for professional development report career
+                            benefits <br> like getting a promotion starting a new career in every world</p>
+                        <div class=" slick-slider row mt_32 home2_testimonial_slider" style="padding-bottom: 50px;">
+                            <div class="slide col-lg-4">
+                                <div class="test_card">
+                                    <div class="mb_30 d-flex">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                    </div>
+                                    <p class="common_para text-lg-start text-center">"This method is very flexible for
+                                        me who works even outside the city of Bandung. I have access to interactive and
+                                        flexible learning. "</p>
+                                    <div class="d-flex flex-lg-row flex-column gap_10 mt_51 align-items-center">
+                                        <img src="/assets/blog/pp.png" alt="">
+                                        <div class="profile_details_test text-lg-start text-center">
+                                            <h4 style="color: #6663FF;">Geraldine D. Anspach</h4>
+                                            <p>UI/UX Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide col-lg-4 mb-lg-0 mb-4 mt-lg-0 mt-4">
+                                <div class="test_card">
+                                    <div class="mb_30 d-flex">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                    </div>
+                                    <p class="common_para text-lg-start text-center">"This method is very flexible for
+                                        me who works even outside the city of Bandung. I have access to interactive and
+                                        flexible learning. "</p>
+                                    <div class="d-flex flex-lg-row flex-column gap_10 mt_51 align-items-center">
+                                        <img src="/assets/blog/pp.png" alt="">
+                                        <div class="profile_details_test text-lg-start text-center">
+                                            <h4 style="color: #6663FF;">Geraldine D. Anspach</h4>
+                                            <p>UI/UX Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide col-lg-4">
+                                <div class="test_card">
+                                    <div class="mb_30 d-flex">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                    </div>
+                                    <p class="common_para text-lg-start text-center">"This method is very flexible for
+                                        me who works even outside the city of Bandung. I have access to interactive and
+                                        flexible learning. "</p>
+                                    <div class="d-flex flex-lg-row flex-column gap_10 mt_51 align-items-center">
+                                        <img src="/assets/blog/pp.png" alt="">
+                                        <div class="profile_details_test text-lg-start text-center">
+                                            <h4 style="color: #6663FF;">Geraldine D. Anspach</h4>
+                                            <p>UI/UX Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide col-lg-4">
+                                <div class="test_card">
+                                    <div class="mb_30 d-flex">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                    </div>
+                                    <p class="common_para text-lg-start text-center">"This method is very flexible for
+                                        me who works even outside the city of Bandung. I have access to interactive and
+                                        flexible learning. "</p>
+                                    <div class="d-flex flex-lg-row flex-column gap_10 mt_51 align-items-center">
+                                        <img src="/assets/blog/pp.png" alt="">
+                                        <div class="profile_details_test text-lg-start text-center">
+                                            <h4 style="color: #6663FF;">Geraldine D. Anspach</h4>
+                                            <p>UI/UX Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- membership -->
+
+
+        <!-- membership start -->
+        <section class="container mb_130 ps-0 pe-0">
+            <div class="membership_wrapper home2_membership">
+                <h1 class="mb_12 "><span>Join Membership</span> And <br>
+                    Connect To Every Member</h1>
+                <p>Learn how to take the right decission in critical time to get succes and how to overcome bad times.
+                </p>
+                <div class="position-relative">
+                    <input type="text" name="" id="" placeholder="Enter your email address">
+                    <button class="email_arrow">
+                        <img src="/assets/arrow-right-circle.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+        </section>
+        <!-- membership end -->
     </main>
 
     <footer>
@@ -636,7 +1172,23 @@
         </div>
     </footer>
 </body>
-
+<script src="./js/home2WhatweareSlider.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/js/filter.js"></script>
+<script src="/js/home2ActiveButtons.js"></script>
+<script src="/js/jquery-1.12.4.min.js"></script>
+<script src="/js/isotop.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+<!-- slick  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </html>

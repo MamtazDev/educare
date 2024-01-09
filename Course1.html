@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Educare</title>
+      <title>Educare</title>  <link rel="shortcut icon" href="/assets/small-logo-green.png" type="image/x-icon">
+
 
     <!-- bootstrap link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
@@ -19,48 +20,57 @@
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/aboutUs.css">
     <!-- my css -->
+    <!-- aos -->
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<body class="about archive">
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
-                    <img class="img-fluid logoImg" src="./assets/greenlogo1.png" alt="Logo" />
+                    <img class="img-fluid logoImg" src="./assets/home1/greenlogo1.png" alt="Logo" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <img src="./assets/mi_menu.png" alt="Menu" />
+                    <img src="./assets/menu1.png" alt="Menu" />
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto text-center">
                         <li class="nav-item dropdown">
-                            <a class="nav-link active dropdown-toggle" href="index.html" id="navbarDropdown"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Home
+                            <a class="nav-link  dropdown-toggle d-flex align-items-center gap-2 justify-content-center"
+                                href="index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>Home</span> <i class="fa mt-1">&#xf107;</i>
+
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="home2.html">Home 2</a></li>
-                                <li><a class="dropdown-item" href="home3.html">Home 3</a></li>
+                                <li><a class="dropdown-item" href="index.html">Home 1</a></li>
+                                <li><a class="dropdown-item" href="Home2.html">Home 2</a></li>
+                                <li><a class="dropdown-item" href="Home3.html">Home 3</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link  dropdown-toggle" href="About.html" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                        <li class="nav-item">
+                            <a class="nav-link  d-flex align-items-center gap-2  " href="About.html">
                                 About
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="home2.html">Home 2</a></li>
-                                <li><a class="dropdown-item" href="home3.html">Home 3</a></li>
-                            </ul>
+
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link  dropdown-toggle" href="Course.html" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Course
+                            <a class="nav-link  dropdown-toggle active  d-flex align-items-center gap-2 justify-content-center"
+                                href="Course.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>
+                                    Course
+                                </span> <i class="fa mt-1">&#xf107;</i>
+
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="Course1.html">Course 1</a></li>
@@ -71,15 +81,18 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Pages
+                            <a class="nav-link dropdown-toggle  d-flex align-items-center gap-2 justify-content-center"
+                                href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>
+                                    Pages
+                                </span> <i class="fa mt-1">&#xf107;</i>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="/EventsGrid.html">Events Grid</a></li>
                                 <li><a class="dropdown-item" href="/EventsList.html">Events List</a></li>
                                 <li><a class="dropdown-item" href="/EventsDetails.html">Events Details</a></li>
-                                <li><a class="dropdown-item" href="/Gallary.html">Gallery</a></li>
+                                <li><a class="dropdown-item" href="Gallary.html">Gallery</a></li>
                                 <li><a class="dropdown-item" href="/Testimonial.html">Testimonial</a></li>
                                 <li><a class="dropdown-item" href="/ContactUs.html">Contact Us</a></li>
                                 <li><a class="dropdown-item" href="/404.html">404 page</a></li>
@@ -87,22 +100,25 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Blog
+                            <a class="nav-link dropdown-toggle  d-flex align-items-center gap-2 justify-content-center"
+                                href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>
+                                    Blog
+                                </span> <i class="fa mt-1">&#xf107;</i>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="/Blog.html">Blog</a></li>
-                                <li><a class="dropdown-item" href="/Blog.html">Blog Details</a></li>
-                                <li><a class="dropdown-item" href="#">Page 2</a></li>
+                                <li><a class="dropdown-item" href="/BlogDetails.html">Blog Details</a></li>
+
                             </ul>
                         </li>
 
                     </ul>
                     <form class="d-flex gap-4 authBtn">
-                        <a href="SignUp.html" class="" type="submit">Login</a>
+                        <a href="login.html" class="" type="submit">Login</a>
                         <button class="signup_button">
-                            <a href="Login.html" class="" type="submit"><img src="/assets/user-circle.png" alt="">
+                            <a href="signup.html" class="" type="submit"><img src="/assets/home1/user-circle.png" alt="">
                                 Create Account</a>
                         </button>
                     </form>
@@ -111,27 +127,226 @@
         </nav>
     </header>
     <main>
-        <!-- banner section start -->
-        <section>
-
-
-
+        <!-- section header start -->
+        <section class="">
+            <div class="sectionHeader_wrapper shadow_wrapper">
+                <h3>Archives: Courses <span>1</span></h3>
+                <div class="d-flex align-items-center justify-content-center ">
+                    <p>Home</p>
+                    <img src="/assets/about/arrow-right.png" class="sectinHeader_arrow" alt="">
+                    <p>Course</p>
+                </div>
+            </div>
         </section>
+        <!-- section header end -->
 
+        <!-- featured course start -->
+        <section class="container p-0">
+            <div class="featured_wrapper pb-0">
+                <div style="padding-left: 24px; padding-right: 24px;"
+                    class="d-flex justify-content-lg-between justify-content-start gap-lg-0 gap-4 flex-wrap  align-items-center  w-100 archive_course_wrapper">
+                    <p>Showing <span>1</span> - <span>12</span> Of <span>15 </span>Results</p>
+                    <div class="d-flex">
+                        <input class="form-control" placeholder="Search by keyword" type="text">
+                        <button><img src="/assets/about/search.png" alt=""></button>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row mb_48">
+                        <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                            <div class="featured_card">
+                                <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
+                                <div>
+                                    <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
+                                    <a href="Course1.html">
 
-        <!-- banner section end -->
+                                        <h3 class="mb_30">Web Development : <br>
+                                            The Complete Programming
+                                            Course</h3>
+                                    </a>
+                                    <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <button class="rating">
+                                                <img class="w-100" src="/assets/home1/start.png" alt="">
+                                                <span>4.8</span>
+                                            </button>
+                                            <p class="rating_number">(4563)</p>
 
+                                        </div>
+                                        <button class="price_btn">$134</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                            <div class="featured_card">
+                                <img class="w-100 mb_18" src="/assets/home1/blog3.webp" alt="">
+                                <div>
+                                    <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
+                                    <a href="Course1.html">
 
+                                        <h3 class="mb_30">Web Development : <br>
+                                            The Complete Programming
+                                            Course</h3>
+                                    </a>
+                                    <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <button class="rating">
+                                                <img class="w-100" src="/assets/home1/start.png" alt="">
+                                                <span>4.8</span>
+                                            </button>
+                                            <p class="rating_number">(4563)</p>
 
+                                        </div>
+                                        <button class="price_btn">$134</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                            <div class="featured_card">
+                                <img class="w-100 mb_18" src="/assets/home1/blog2.webp" alt="">
+                                <div>
+                                    <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
+                                    <a href="Course1.html">
+
+                                        <h3 class="mb_30">Web Development : <br>
+                                            The Complete Programming
+                                            Course</h3>
+                                    </a>
+                                    <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <button class="rating">
+                                                <img class="w-100" src="/assets/home1/start.png" alt="">
+                                                <span>4.8</span>
+                                            </button>
+                                            <p class="rating_number">(4563)</p>
+
+                                        </div>
+                                        <button class="price_btn">$134</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 d-lg-block d-none" data-aos="fade-up" data-aos-duration="1000"
+                            data-aos-delay="200">
+                            <div class="featured_card">
+                                <img class="w-100 mb_18" src="/assets/home1/blog3.webp" alt="">
+                                <div>
+                                    <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
+                                    <a href="Course1.html">
+
+                                        <h3 class="mb_30">Web Development : <br>
+                                            The Complete Programming
+                                            Course</h3>
+                                    </a>
+                                    <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <button class="rating">
+                                                <img class="w-100" src="/assets/home1/start.png" alt="">
+                                                <span>4.8</span>
+                                            </button>
+                                            <p class="rating_number">(4563)</p>
+
+                                        </div>
+                                        <button class="price_btn">$134</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 d-lg-block d-none" data-aos="fade-up" data-aos-duration="1000"
+                            data-aos-delay="200">
+                            <div class="featured_card">
+                                <img class="w-100 mb_18" src="/assets/home1/blog4.webp" alt="">
+                                <div>
+                                    <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
+                                    <a href="Course1.html">
+
+                                        <h3 class="mb_30">Web Development : <br>
+                                            The Complete Programming
+                                            Course</h3>
+                                    </a>
+                                    <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <button class="rating">
+                                                <img class="w-100" src="/assets/home1/start.png" alt="">
+                                                <span>4.8</span>
+                                            </button>
+                                            <p class="rating_number">(4563)</p>
+
+                                        </div>
+                                        <button class="price_btn">$134</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 d-lg-block d-none" data-aos="fade-up" data-aos-duration="1000"
+                            data-aos-delay="200">
+                            <div class="featured_card">
+                                <img class="w-100 mb_18" src="/assets/home1/blog5.avif" alt="">
+                                <div>
+                                    <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
+                                    <a href="Course1.html">
+
+                                        <h3 class="mb_30">Web Development : <br>
+                                            The Complete Programming
+                                            Course</h3>
+                                    </a>
+                                    <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <button class="rating">
+                                                <img class="w-100" src="/assets/home1/start.png" alt="">
+                                                <span>4.8</span>
+                                            </button>
+                                            <p class="rating_number">(4563)</p>
+
+                                        </div>
+                                        <button class="price_btn">$134</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <a href="/Course1.html">
+                    <button class=" mb_24  explore_courses_btn">
+                        Explore All Course
+                        <img src="/assets/about/ticketarrow.png" alt="">
+                    </button>
+                </a>
+            </div>
+        </section>
+        <!-- featured course end -->
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center align-items-center gap-3">
+                <li class="page-item disabled">
+                    <a class="page-link"><img src="/assets/about/left.png" alt=""></a>
+                </li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#"><img src="/assets/about/right.png" alt=""></a>
+                </li>
+            </ul>
+        </nav>
     </main>
-
-    <footer>
+    <footer class="mt_130">
         <div class="container">
             <div class="row gy-3">
                 <div class="col-lg-3">
                     <div class="text-center text-lg-start">
                         <a href="index.html">
-                            <img class="img-fluid" src="./assets/FOOTERLOGO.png" alt="Logo">
+                            <img class="img-fluid" src="./assets/home1/FOOTERLOGO.png" alt="Logo">
                         </a>
                         <p class="mt-3 mb-4">
                             It is a long established fact that a reader
@@ -142,16 +357,16 @@
                         <div class="footerEnd text-center text-md-start">
                             <div
                                 class="socialLink d-flex justify-content-center justify-content-md-start align-items-center ">
-                                <a href="#" class="footer_icon d-block overflow-hidden"><img src="./assets/finsta.png"
-                                        alt="instagram"></a>
                                 <a href="#" class="footer_icon d-block overflow-hidden"><img
-                                        src="./assets/f-facebook.png" alt="facebook"></a>
-                                <a href="#" class="footer_icon d-block overflow-hidden"><img src="./assets/ftwitter.png"
-                                        alt="Twitter"></a>
-                                <a href="#" class="footer_icon d-block overflow-hidden"><img src="./assets/flinkdin.png"
-                                        alt="Linkdin"></a>
-                                <a href="#" class="footer_icon d-block overflow-hidden"><img src="./assets/fyoutube.png"
-                                        alt="Youtube"></a>
+                                        src="./assets/home1/finsta.png" alt="instagram"></a>
+                                <a href="#" class="footer_icon d-block overflow-hidden"><img
+                                        src="./assets/home1/f-facebook.png" alt="facebook"></a>
+                                <a href="#" class="footer_icon d-block overflow-hidden"><img
+                                        src="./assets/home1/ftwitter.png" alt="Twitter"></a>
+                                <a href="#" class="footer_icon d-block overflow-hidden"><img
+                                        src="./assets/home1/flinkdin.png" alt="Linkdin"></a>
+                                <a href="#" class="footer_icon d-block overflow-hidden"><img
+                                        src="./assets/home1/fyoutube.png" alt="Youtube"></a>
                             </div>
 
                         </div>
@@ -161,20 +376,20 @@
                 <div class="col-md-3 col-lg-2">
                     <ul class="text-center text-md-start">
                         <li>Links</li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Upcoming Events</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="EventsGrid.html">Upcoming Events</a></li>
                         <li><a href="#">FAQ Question</a></li>
-                        <li><a href="#">Testimonial</a></li>
+                        <li><a href="Testimonial.html">Testimonial</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 col-lg-2">
                     <ul class="text-center text-md-start">
                         <li>Uselink</li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="ContactUs.html">Contact Us</a></li>
                         <li><a href="#">Pricing Plan</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Instructor</a></li>
+                        <li><a href="Gallary.html">Gallery</a></li>
+                        <li><a href="instructor.html">Instructor</a></li>
                         <li><a href="#">Pruchese</a></li>
                     </ul>
                 </div>
@@ -183,11 +398,11 @@
                         <li class="d-block mb-3">Contact Info</li>
                         <li>
                             <a href="#" class="d-flex flex-lg-row flex-column gap-2 align-items-center"><img
-                                    src="/assets/location.png" alt="location"> 275 Quadra Street Victoria <br>
+                                    src="/assets/home1/location.png" alt="location"> 275 Quadra Street Victoria <br>
                                 Road, New York</a>
                         </li>
                         <li class="d-flex flex-lg-row flex-column align-items-center gap-2">
-                            <img src="/assets/call.png" alt="call">
+                            <img src="/assets/home1/call.png" alt="call">
                             <div>
                                 <a href="#">+1 (237) 382-2839</a>
                                 <a href="#">+1(237) 382-2840</a>
@@ -195,7 +410,7 @@
                         </li>
                         <li>
                             <a href="#" class="d-flex flex-lg-row flex-column gap-2 align-items-center"> <img
-                                    src="/assets/gmail.png" alt="gmail"> youremailaddress@example.com</a>
+                                    src="/assets/home1/gmail.png" alt="gmail"> youremailaddress@example.com</a>
                         </li>
                     </ul>
                 </div>
@@ -206,7 +421,10 @@
         </div>
     </footer>
 </body>
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </html>

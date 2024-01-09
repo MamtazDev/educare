@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Educare</title>
+      <title>Educare</title>  <link rel="shortcut icon" href="/assets/small-logo-green.png" type="image/x-icon">
+
 
     <!-- bootstrap link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
@@ -19,48 +20,59 @@
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/aboutUs.css">
+    <link rel="stylesheet" href="css/Blog.css">
+    <link rel="stylesheet" href="css/testimonial2.css">
     <!-- my css -->
-
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="about archive">
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
-                    <img class="img-fluid logoImg" src="./assets/greenlogo1.png" alt="Logo" />
+                    <img class="img-fluid logoImg" src="./assets/home1/greenlogo1.png" alt="Logo" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <img src="./assets/mi_menu.png" alt="Menu" />
+                    <img src="./assets/menu1.png" alt="Menu" />
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto text-center">
                         <li class="nav-item dropdown">
-                            <a class="nav-link active dropdown-toggle" href="index.html" id="navbarDropdown"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Home
+                            <a class="nav-link  dropdown-toggle d-flex align-items-center gap-2 justify-content-center"
+                                href="index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>Home</span> <i class="fa mt-1">&#xf107;</i>
+
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="home2.html">Home 2</a></li>
-                                <li><a class="dropdown-item" href="home3.html">Home 3</a></li>
+                                <li><a class="dropdown-item" href="index.html">Home 1</a></li>
+                                <li><a class="dropdown-item" href="Home2.html">Home 2</a></li>
+                                <li><a class="dropdown-item" href="Home3.html">Home 3</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link  dropdown-toggle" href="About.html" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                        <li class="nav-item">
+                            <a class="nav-link  d-flex align-items-center gap-2  " href="About.html">
                                 About
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="home2.html">Home 2</a></li>
-                                <li><a class="dropdown-item" href="home3.html">Home 3</a></li>
-                            </ul>
+
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link  dropdown-toggle" href="Course.html" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Course
+                            <a class="nav-link  dropdown-toggle  d-flex align-items-center gap-2 justify-content-center"
+                                href="Course.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>
+                                    Course
+                                </span> <i class="fa mt-1">&#xf107;</i>
+
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="Course1.html">Course 1</a></li>
@@ -71,15 +83,18 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Pages
+                            <a class="nav-link dropdown-toggle  active d-flex align-items-center gap-2 justify-content-center"
+                                href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>
+                                    Pages
+                                </span> <i class="fa mt-1">&#xf107;</i>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="/EventsGrid.html">Events Grid</a></li>
                                 <li><a class="dropdown-item" href="/EventsList.html">Events List</a></li>
                                 <li><a class="dropdown-item" href="/EventsDetails.html">Events Details</a></li>
-                                <li><a class="dropdown-item" href="/Gallary.html">Gallery</a></li>
+                                <li><a class="dropdown-item" href="Gallary.html">Gallery</a></li>
                                 <li><a class="dropdown-item" href="/Testimonial.html">Testimonial</a></li>
                                 <li><a class="dropdown-item" href="/ContactUs.html">Contact Us</a></li>
                                 <li><a class="dropdown-item" href="/404.html">404 page</a></li>
@@ -87,22 +102,25 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Blog
+                            <a class="nav-link dropdown-toggle  d-flex align-items-center gap-2 justify-content-center"
+                                href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>
+                                    Blog
+                                </span> <i class="fa mt-1">&#xf107;</i>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="/Blog.html">Blog</a></li>
-                                <li><a class="dropdown-item" href="/Blog.html">Blog Details</a></li>
-                                <li><a class="dropdown-item" href="#">Page 2</a></li>
+                                <li><a class="dropdown-item" href="/BlogDetails.html">Blog Details</a></li>
+
                             </ul>
                         </li>
 
                     </ul>
                     <form class="d-flex gap-4 authBtn">
-                        <a href="SignUp.html" class="" type="submit">Login</a>
+                        <a href="login.html" class="" type="submit">Login</a>
                         <button class="signup_button">
-                            <a href="Login.html" class="" type="submit"><img src="/assets/user-circle.png" alt="">
+                            <a href="signup.html" class="" type="submit"><img src="/assets/home1/user-circle.png" alt="">
                                 Create Account</a>
                         </button>
                     </form>
@@ -110,28 +128,365 @@
             </div>
         </nav>
     </header>
+
     <main>
-        <!-- banner section start -->
-        <section>
-
-
-
+        <!-- section header start -->
+        <section class="">
+            <div class="sectionHeader_wrapper shadow_wrapper">
+                <h3>Testimonial</h3>
+                <div class="d-flex alig-items-center justify-content-center ">
+                    <p>Home</p>
+                    <img src="/assets/about/arrow-right.png" class="sectinHeader_arrow" alt="">
+                    <p>Testimonial</p>
+                </div>
+            </div>
         </section>
+        <!-- section header end -->
+
+        <!-- Our Students Feedback start -->
+        
+        <!-- Our Students Feedback end -->
+
+        <!-- Our Students Feedback start -->
+        <section class="card_testimonial_slider community_wrapper mb_130 " style="overflow-x: hidden;">
+            <div class="container ">
+                <div class="slick-slider_testimonial">
+                    <div class="slide">
+                        <div class=" row align-items-center p-0">
+                            <div class="col-lg-6">
+                                <div class="testimonial_wrapper">
+                                    <button class="about_btn mb_24 d-lg-none d-block text-center d-flex"><img
+                                            src="/assets/home1/greenstart.png" alt=""> Testimonials</button>
+                                    <img class="img-fluid" src="/assets/home1/feedback.png" alt="about">
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6 flex-grow-1 text-lg-start text-center p-0">
+                                <button class="about_btn mb_24 d-lg-flex justify-content-center  d-none "><img
+                                        src="/assets/home1/greenstart.png" alt="">
+                                    Testimonials</button>
+
+                                <h1 class="mb_24">Our Students <span class="green_text">Feedback</span></h1>
+
+                                <p class="greyText mb_32">"Educare is revolutionizing the education sector. The site is
+                                    creative
+                                    and
+                                    interesting, and the content is of the highest caliber. I value the convenience
+                                    of learning from anywhere, and the tailored learning environment has
+                                    kept me motivated and on task. The instructors are supportive and
+                                    knowledgeable.</p>
+                                <!-- buttons -->
+                                <div class="feedback_profile">
+                                    <div class="d-flex align-items-center profile_details">
+                                        <img src="/assets/home1/st1.png" alt="">
+                                        <div class="text-lg-start text-center">
+                                            <h4>Geraldine D. Anspach</h4>
+                                            <p>UI/UX Designer</p>
+                                            <div
+                                                class="d-flex alig-items-center justify-content-lg-start justify-content-center">
+                                                <img src="/assets/home1/start.png" alt="">
+                                                <img src="/assets/home1/start.png" alt="">
+                                                <img src="/assets/home1/start.png" alt="">
+                                                <img src="/assets/home1/start.png" alt="">
+                                                <img src="/assets/home1/start.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <div class=" row align-items-center p-0">
+                            <div class="col-lg-6">
+                                <div class="testimonial_wrapper">
+                                    <button class="about_btn mb_24 d-lg-none d-block text-center d-flex"><img
+                                            src="/assets/home1/greenstart.png" alt=""> Testimonials</button>
+                                    <img class="img-fluid" src="/assets/home1/feedback.png" alt="about">
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6 flex-grow-1 text-lg-start text-center p-0">
+                                <button class="about_btn mb_24 d-lg-flex justify-content-center  d-none "><img
+                                        src="/assets/home1/greenstart.png" alt="">
+                                    Testimonials</button>
+
+                                <h1 class="mb_24">Our Students <span class="green_text">Feedback</span></h1>
+
+                                <p class="greyText mb_32">"Educare is revolutionizing the education sector. The site is
+                                    creative
+                                    and
+                                    interesting, and the content is of the highest caliber. I value the convenience
+                                    of learning from anywhere, and the tailored learning environment has
+                                    kept me motivated and on task. The instructors are supportive and
+                                    knowledgeable.</p>
+                                <!-- buttons -->
+                                <div class="feedback_profile">
+                                    <div class="d-flex align-items-center profile_details">
+                                        <img src="/assets/home1/st1.png" alt="">
+                                        <div class="text-lg-start text-center">
+                                            <h4>Geraldine D. Anspach</h4>
+                                            <p>UI/UX Designer</p>
+                                            <div
+                                                class="d-flex alig-items-center justify-content-lg-start justify-content-center">
+                                                <img src="/assets/home1/start.png" alt="">
+                                                <img src="/assets/home1/start.png" alt="">
+                                                <img src="/assets/home1/start.png" alt="">
+                                                <img src="/assets/home1/start.png" alt="">
+                                                <img src="/assets/home1/start.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <div class=" row align-items-center p-0">
+                            <div class="col-lg-6">
+                                <div class="testimonial_wrapper">
+                                    <button class="about_btn mb_24 d-lg-none d-block text-center d-flex"><img
+                                            src="/assets/home1/greenstart.png" alt=""> Testimonials</button>
+                                    <img class="img-fluid" src="/assets/home1/feedback.png" alt="about">
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6 flex-grow-1 text-lg-start text-center p-0">
+                                <button class="about_btn mb_24 d-lg-flex justify-content-center  d-none "><img
+                                        src="/assets/home1/greenstart.png" alt="">
+                                    Testimonials</button>
+
+                                <h1 class="mb_24">Our Students <span class="green_text">Feedback</span></h1>
+
+                                <p class="greyText mb_32">"Educare is revolutionizing the education sector. The site is
+                                    creative
+                                    and
+                                    interesting, and the content is of the highest caliber. I value the convenience
+                                    of learning from anywhere, and the tailored learning environment has
+                                    kept me motivated and on task. The instructors are supportive and
+                                    knowledgeable.</p>
+                                <!-- buttons -->
+                                <div class="feedback_profile">
+                                    <div class="d-flex align-items-center profile_details">
+                                        <img src="/assets/home1/st1.png" alt="">
+                                        <div class="text-lg-start text-center">
+                                            <h4>Geraldine D. Anspach</h4>
+                                            <p>UI/UX Designer</p>
+                                            <div
+                                                class="d-flex alig-items-center justify-content-lg-start justify-content-center">
+                                                <img src="/assets/home1/start.png" alt="">
+                                                <img src="/assets/home1/start.png" alt="">
+                                                <img src="/assets/home1/start.png" alt="">
+                                                <img src="/assets/home1/start.png" alt="">
+                                                <img src="/assets/home1/start.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
 
 
-        <!-- banner section end -->
+                </div>
+        </section>
+        <!-- Our Students Feedback end -->
 
+     
+        <section class="testimonial home3_bg  mb_130 pb-5" style="overflow-x: hidden;">
+            <div class="container">
+                <div class="item">
+                    <div class="text-center">
+                        <div class="testimonial_wrapper">
+                            <button class="about_btn mb_24 text-center"><img src="/assets/home1/greenstart.png" alt="">
+                                Testimonials</button>
+                        </div>
+                        <h2 class="common_heading mb-3">
+                            Our Students Feedback
+                        </h2>
+                        <p class="common_para">87% of people learning for professional development report career
+                            benefits <br> like getting a promotion starting a new career in every world</p>
+                        <div class=" slick-slider row mt_32">
+                            <div class="slide col-lg-4">
+                                <div class="test_card">
+                                    <div class="mb_30 d-flex">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                    </div>
+                                    <p class="common_para text-lg-start text-center">"This method is very flexible for
+                                        me who works even outside the city of Bandung. I have access to interactive and
+                                        flexible learning. "</p>
+                                    <div class="d-flex flex-lg-row flex-column gap_10 mt_51 align-items-center">
+                                        <img src="/assets/blog/pp.png" alt="">
+                                        <div class="profile_details_test text-lg-start text-center">
+                                            <h4>Geraldine D. Anspach</h4>
+                                            <p>UI/UX Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide col-lg-4 mb-lg-0 mb-4 mt-lg-0 mt-4">
+                                <div class="test_card">
+                                    <div class="mb_30 d-flex">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                    </div>
+                                    <p class="common_para text-lg-start text-center">"This method is very flexible for
+                                        me who works even outside the city of Bandung. I have access to interactive and
+                                        flexible learning. "</p>
+                                    <div class="d-flex flex-lg-row flex-column gap_10 mt_51 align-items-center">
+                                        <img src="/assets/blog/pp.png" alt="">
+                                        <div class="profile_details_test text-lg-start text-center">
+                                            <h4>Geraldine D. Anspach</h4>
+                                            <p>UI/UX Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide col-lg-4">
+                                <div class="test_card">
+                                    <div class="mb_30 d-flex">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                    </div>
+                                    <p class="common_para text-lg-start text-center">"This method is very flexible for
+                                        me who works even outside the city of Bandung. I have access to interactive and
+                                        flexible learning. "</p>
+                                    <div class="d-flex flex-lg-row flex-column gap_10 mt_51 align-items-center">
+                                        <img src="/assets/blog/pp.png" alt="">
+                                        <div class="profile_details_test text-lg-start text-center">
+                                            <h4>Geraldine D. Anspach</h4>
+                                            <p>UI/UX Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide col-lg-4">
+                                <div class="test_card">
+                                    <div class="mb_30 d-flex">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                        <img src="/assets/blog/star.png" alt="">
+                                    </div>
+                                    <p class="common_para text-lg-start text-center">"This method is very flexible for
+                                        me who works even outside the city of Bandung. I have access to interactive and
+                                        flexible learning. "</p>
+                                    <div class="d-flex flex-lg-row flex-column gap_10 mt_51 align-items-center">
+                                        <img src="/assets/blog/pp.png" alt="">
+                                        <div class="profile_details_test text-lg-start text-center">
+                                            <h4>Geraldine D. Anspach</h4>
+                                            <p>UI/UX Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- testimonial section start -->
+        <section class="testimonial2 home3_bg mb_130 pb-5" style="overflow-x: hidden;">
+            <div class="container slick-slider_test2 ">
+                <div class="">
+                    <div class="slide text-center">
+                        <div class="testimonial_wrapper">
+                            <button class="about_btn mb_24 text-center"><img src="/assets/home1/greenstart.png" alt="">
+                                Testimonials</button>
+                        </div>
+                        <h2 class="common_heading">
+                            Our Students Feedback
+                        </h2>
+                        <p class="common_para mt_61">"Educare is revolutionizing the education sector. The site is
+                            creative
+                            and <br>
+                            interesting, and the content is of the highest caliber. I value the convenience <br>
+                            of learning from anywhere, and the tailored learning environment has <br>
+                            kept me motivated and on task. The instructors are supportive and
+                            knowledgeable.</p>
+                        <div class="d-flex justify-content-center">
+                            <img class="img-fluid mt_56" src="/assets/home3/testi1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="text-center">
+                        <div class="testimonial_wrapper">
+                            <button class="about_btn mb_24 text-center"><img src="/assets/home1/greenstart.png" alt="">
+                                Testimonials</button>
+                        </div>
+                        <h2 class="common_heading">
+                            Our Students Feedback
+                        </h2>
+                        <p class="common_para mt_61">"Educare is revolutionizing the education sector. The site is
+                            creative
+                            and <br>
+                            interesting, and the content is of the highest caliber. I value the convenience <br>
+                            of learning from anywhere, and the tailored learning environment has <br>
+                            kept me motivated and on task. The instructors are supportive and
+                            knowledgeable.</p>
+                        <div class="d-flex justify-content-center">
+                            <img class="img-fluid mt_56" src="/assets/home3/testi1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="text-center">
+                        <div class="testimonial_wrapper">
+                            <button class="about_btn mb_24 text-center"><img src="/assets/home1/greenstart.png" alt="">
+                                Testimonials</button>
+                        </div>
+                        <h2 class="common_heading">
+                            Our Students Feedback
+                        </h2>
+                        <p class="common_para mt_61">"Educare is revolutionizing the education sector. The site is
+                            creative
+                            and <br>
+                            interesting, and the content is of the highest caliber. I value the convenience <br>
+                            of learning from anywhere, and the tailored learning environment has <br>
+                            kept me motivated and on task. The instructors are supportive and
+                            knowledgeable.</p>
+                        <div class="d-flex justify-content-center">
+                            <img class="img-fluid mt_56" src="/assets/home3/testi1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- testimonial section end -->
 
     </main>
 
-    <footer>
+    <footer class="mt_130">
         <div class="container">
             <div class="row gy-3">
                 <div class="col-lg-3">
                     <div class="text-center text-lg-start">
                         <a href="index.html">
-                            <img class="img-fluid" src="./assets/FOOTERLOGO.png" alt="Logo">
+                            <img class="img-fluid" src="./assets/home1/FOOTERLOGO.png" alt="Logo">
                         </a>
                         <p class="mt-3 mb-4">
                             It is a long established fact that a reader
@@ -142,16 +497,16 @@
                         <div class="footerEnd text-center text-md-start">
                             <div
                                 class="socialLink d-flex justify-content-center justify-content-md-start align-items-center ">
-                                <a href="#" class="footer_icon d-block overflow-hidden"><img src="./assets/finsta.png"
-                                        alt="instagram"></a>
                                 <a href="#" class="footer_icon d-block overflow-hidden"><img
-                                        src="./assets/f-facebook.png" alt="facebook"></a>
-                                <a href="#" class="footer_icon d-block overflow-hidden"><img src="./assets/ftwitter.png"
-                                        alt="Twitter"></a>
-                                <a href="#" class="footer_icon d-block overflow-hidden"><img src="./assets/flinkdin.png"
-                                        alt="Linkdin"></a>
-                                <a href="#" class="footer_icon d-block overflow-hidden"><img src="./assets/fyoutube.png"
-                                        alt="Youtube"></a>
+                                        src="./assets/home1/finsta.png" alt="instagram"></a>
+                                <a href="#" class="footer_icon d-block overflow-hidden"><img
+                                        src="./assets/home1/f-facebook.png" alt="facebook"></a>
+                                <a href="#" class="footer_icon d-block overflow-hidden"><img
+                                        src="./assets/home1/ftwitter.png" alt="Twitter"></a>
+                                <a href="#" class="footer_icon d-block overflow-hidden"><img
+                                        src="./assets/home1/flinkdin.png" alt="Linkdin"></a>
+                                <a href="#" class="footer_icon d-block overflow-hidden"><img
+                                        src="./assets/home1/fyoutube.png" alt="Youtube"></a>
                             </div>
 
                         </div>
@@ -161,20 +516,20 @@
                 <div class="col-md-3 col-lg-2">
                     <ul class="text-center text-md-start">
                         <li>Links</li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Upcoming Events</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="EventsGrid.html">Upcoming Events</a></li>
                         <li><a href="#">FAQ Question</a></li>
-                        <li><a href="#">Testimonial</a></li>
+                        <li><a href="Testimonial.html">Testimonial</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 col-lg-2">
                     <ul class="text-center text-md-start">
                         <li>Uselink</li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="ContactUs.html">Contact Us</a></li>
                         <li><a href="#">Pricing Plan</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Instructor</a></li>
+                        <li><a href="Gallary.html">Gallery</a></li>
+                        <li><a href="instructor.html">Instructor</a></li>
                         <li><a href="#">Pruchese</a></li>
                     </ul>
                 </div>
@@ -183,11 +538,11 @@
                         <li class="d-block mb-3">Contact Info</li>
                         <li>
                             <a href="#" class="d-flex flex-lg-row flex-column gap-2 align-items-center"><img
-                                    src="/assets/location.png" alt="location"> 275 Quadra Street Victoria <br>
+                                    src="/assets/home1/location.png" alt="location"> 275 Quadra Street Victoria <br>
                                 Road, New York</a>
                         </li>
                         <li class="d-flex flex-lg-row flex-column align-items-center gap-2">
-                            <img src="/assets/call.png" alt="call">
+                            <img src="/assets/home1/call.png" alt="call">
                             <div>
                                 <a href="#">+1 (237) 382-2839</a>
                                 <a href="#">+1(237) 382-2840</a>
@@ -195,7 +550,7 @@
                         </li>
                         <li>
                             <a href="#" class="d-flex flex-lg-row flex-column gap-2 align-items-center"> <img
-                                    src="/assets/gmail.png" alt="gmail"> youremailaddress@example.com</a>
+                                    src="/assets/home1/gmail.png" alt="gmail"> youremailaddress@example.com</a>
                         </li>
                     </ul>
                 </div>
@@ -208,5 +563,18 @@
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="./js/home2WhatweareSlider.js"></script>
+<script src="./js/testimonial2.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<!-- slick  -->
+<script src="/js/testimonialSlider.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- slick  -->
 
 </html>

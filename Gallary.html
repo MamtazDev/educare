@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Educare</title>
+      <title>Educare</title>  <link rel="shortcut icon" href="/assets/small-logo-green.png" type="image/x-icon">
+
 
     <!-- bootstrap link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
@@ -19,48 +20,54 @@
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/aboutUs.css">
+    <link rel="stylesheet" href="css/gallary.css">
     <!-- my css -->
-
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="about archive">
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
-                    <img class="img-fluid logoImg" src="./assets/greenlogo1.png" alt="Logo" />
+                    <img class="img-fluid logoImg" src="./assets/home1/greenlogo1.png" alt="Logo" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <img src="./assets/mi_menu.png" alt="Menu" />
+                    <img src="./assets/menu1.png" alt="Menu" />
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto text-center">
                         <li class="nav-item dropdown">
-                            <a class="nav-link active dropdown-toggle" href="index.html" id="navbarDropdown"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Home
+                            <a class="nav-link  dropdown-toggle d-flex align-items-center gap-2 justify-content-center"
+                                href="index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>Home</span> <i class="fa mt-1">&#xf107;</i>
+
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="home2.html">Home 2</a></li>
-                                <li><a class="dropdown-item" href="home3.html">Home 3</a></li>
+                                <li><a class="dropdown-item" href="index.html">Home 1</a></li>
+                                <li><a class="dropdown-item" href="Home2.html">Home 2</a></li>
+                                <li><a class="dropdown-item" href="Home3.html">Home 3</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link  dropdown-toggle" href="About.html" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                        <li class="nav-item">
+                            <a class="nav-link  d-flex align-items-center gap-2  " href="About.html">
                                 About
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="home2.html">Home 2</a></li>
-                                <li><a class="dropdown-item" href="home3.html">Home 3</a></li>
-                            </ul>
+
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link  dropdown-toggle" href="Course.html" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Course
+                            <a class="nav-link  dropdown-toggle  d-flex align-items-center gap-2 justify-content-center"
+                                href="Course.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>
+                                    Course
+                                </span> <i class="fa mt-1">&#xf107;</i>
+
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="Course1.html">Course 1</a></li>
@@ -71,15 +78,18 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Pages
+                            <a class="nav-link dropdown-toggle active d-flex align-items-center gap-2 justify-content-center"
+                                href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>
+                                    Pages
+                                </span> <i class="fa mt-1">&#xf107;</i>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="/EventsGrid.html">Events Grid</a></li>
                                 <li><a class="dropdown-item" href="/EventsList.html">Events List</a></li>
                                 <li><a class="dropdown-item" href="/EventsDetails.html">Events Details</a></li>
-                                <li><a class="dropdown-item" href="/Gallary.html">Gallery</a></li>
+                                <li><a class="dropdown-item" href="Gallary.html">Gallery</a></li>
                                 <li><a class="dropdown-item" href="/Testimonial.html">Testimonial</a></li>
                                 <li><a class="dropdown-item" href="/ContactUs.html">Contact Us</a></li>
                                 <li><a class="dropdown-item" href="/404.html">404 page</a></li>
@@ -87,22 +97,25 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Blog
+                            <a class="nav-link dropdown-toggle  d-flex align-items-center gap-2 justify-content-center"
+                                href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>
+                                    Blog
+                                </span> <i class="fa mt-1">&#xf107;</i>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="/Blog.html">Blog</a></li>
-                                <li><a class="dropdown-item" href="/Blog.html">Blog Details</a></li>
-                                <li><a class="dropdown-item" href="#">Page 2</a></li>
+                                <li><a class="dropdown-item" href="/BlogDetails.html">Blog Details</a></li>
+
                             </ul>
                         </li>
 
                     </ul>
                     <form class="d-flex gap-4 authBtn">
-                        <a href="SignUp.html" class="" type="submit">Login</a>
+                        <a href="login.html" class="" type="submit">Login</a>
                         <button class="signup_button">
-                            <a href="Login.html" class="" type="submit"><img src="/assets/user-circle.png" alt="">
+                            <a href="signup.html" class="" type="submit"><img src="/assets/home1/user-circle.png" alt="">
                                 Create Account</a>
                         </button>
                     </form>
@@ -110,28 +123,69 @@
             </div>
         </nav>
     </header>
+
     <main>
-        <!-- banner section start -->
+        <!-- section header start -->
+        <section class="">
+            <div class="sectionHeader_wrapper shadow_wrapper">
+                <h3>Gallery Grid</h3>
+                <div class="d-flex alig-items-center justify-content-center ">
+                    <p>Home</p>
+                    <img src="/assets/about/arrow-right.png" class="sectinHeader_arrow" alt="">
+                    <p>Gallery Grid</p>
+                </div>
+            </div>
+        </section>
+        <!-- section header end -->
         <section>
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-between">
+                    <div>
+                        <h3>Gallery Grid</h3>
+                    </div>
+                    <div class="gallary">
+                        <div class="featured_buttons">
+                            <button data-filter="*" class="grey_btn feature_green_btn">All</button>
+                            <button data-filter=".trending" class="grey_btn ">Trending</button>
+                            <button data-filter=".popularity" class="grey_btn">Popularity</button>
+                            <button data-filter=".feature" class="grey_btn ">Featured</button>
+                        </div>
 
+                    </div>
+                </div>
 
+                <div class="gallary_wrapper ">
+                    <div class="row gallaryAll">
+                        <div class="col-lg-4 feature popularity trending " data-aos="fade-right"
+                            data-aos-duration="1000" data-aos-delay="200">
+                            <img class="img-fluid  gap-4 " src="/assets/gallary/g1.png" alt="">
+                        </div>
+                        <div class="col-lg-4 feature popularity trending ">
+                            <img data-aos="fade-top" data-aos-duration="1000" data-aos-delay="200"
+                                class="img-fluid  gap-4" src="/assets/gallary/g2.png" alt="">
+                            <img data-aos="fade-bottom" data-aos-duration="1000" data-aos-delay="200" class="img-fluid"
+                                src="/assets/gallary/g4.png" alt="">
+                        </div>
+                        <div class="col-lg-4 feature ">
+                            <img data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" class="img-fluid  gap-4" src="/assets/gallary/g3.png" alt="">
+                            <img data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" class="img-fluid" src="/assets/gallary/g5.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
 
         </section>
 
-
-        <!-- banner section end -->
-
-
-
     </main>
 
-    <footer>
+    <footer class="mt_130">
         <div class="container">
             <div class="row gy-3">
                 <div class="col-lg-3">
                     <div class="text-center text-lg-start">
                         <a href="index.html">
-                            <img class="img-fluid" src="./assets/FOOTERLOGO.png" alt="Logo">
+                            <img class="img-fluid" src="./assets/home1/FOOTERLOGO.png" alt="Logo">
                         </a>
                         <p class="mt-3 mb-4">
                             It is a long established fact that a reader
@@ -142,16 +196,16 @@
                         <div class="footerEnd text-center text-md-start">
                             <div
                                 class="socialLink d-flex justify-content-center justify-content-md-start align-items-center ">
-                                <a href="#" class="footer_icon d-block overflow-hidden"><img src="./assets/finsta.png"
-                                        alt="instagram"></a>
                                 <a href="#" class="footer_icon d-block overflow-hidden"><img
-                                        src="./assets/f-facebook.png" alt="facebook"></a>
-                                <a href="#" class="footer_icon d-block overflow-hidden"><img src="./assets/ftwitter.png"
-                                        alt="Twitter"></a>
-                                <a href="#" class="footer_icon d-block overflow-hidden"><img src="./assets/flinkdin.png"
-                                        alt="Linkdin"></a>
-                                <a href="#" class="footer_icon d-block overflow-hidden"><img src="./assets/fyoutube.png"
-                                        alt="Youtube"></a>
+                                        src="./assets/home1/finsta.png" alt="instagram"></a>
+                                <a href="#" class="footer_icon d-block overflow-hidden"><img
+                                        src="./assets/home1/f-facebook.png" alt="facebook"></a>
+                                <a href="#" class="footer_icon d-block overflow-hidden"><img
+                                        src="./assets/home1/ftwitter.png" alt="Twitter"></a>
+                                <a href="#" class="footer_icon d-block overflow-hidden"><img
+                                        src="./assets/home1/flinkdin.png" alt="Linkdin"></a>
+                                <a href="#" class="footer_icon d-block overflow-hidden"><img
+                                        src="./assets/home1/fyoutube.png" alt="Youtube"></a>
                             </div>
 
                         </div>
@@ -161,20 +215,20 @@
                 <div class="col-md-3 col-lg-2">
                     <ul class="text-center text-md-start">
                         <li>Links</li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Upcoming Events</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="EventsGrid.html">Upcoming Events</a></li>
                         <li><a href="#">FAQ Question</a></li>
-                        <li><a href="#">Testimonial</a></li>
+                        <li><a href="Testimonial.html">Testimonial</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 col-lg-2">
                     <ul class="text-center text-md-start">
                         <li>Uselink</li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="ContactUs.html">Contact Us</a></li>
                         <li><a href="#">Pricing Plan</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Instructor</a></li>
+                        <li><a href="Gallary.html">Gallery</a></li>
+                        <li><a href="instructor.html">Instructor</a></li>
                         <li><a href="#">Pruchese</a></li>
                     </ul>
                 </div>
@@ -183,11 +237,11 @@
                         <li class="d-block mb-3">Contact Info</li>
                         <li>
                             <a href="#" class="d-flex flex-lg-row flex-column gap-2 align-items-center"><img
-                                    src="/assets/location.png" alt="location"> 275 Quadra Street Victoria <br>
+                                    src="/assets/home1/location.png" alt="location"> 275 Quadra Street Victoria <br>
                                 Road, New York</a>
                         </li>
                         <li class="d-flex flex-lg-row flex-column align-items-center gap-2">
-                            <img src="/assets/call.png" alt="call">
+                            <img src="/assets/home1/call.png" alt="call">
                             <div>
                                 <a href="#">+1 (237) 382-2839</a>
                                 <a href="#">+1(237) 382-2840</a>
@@ -195,7 +249,7 @@
                         </li>
                         <li>
                             <a href="#" class="d-flex flex-lg-row flex-column gap-2 align-items-center"> <img
-                                    src="/assets/gmail.png" alt="gmail"> youremailaddress@example.com</a>
+                                    src="/assets/home1/gmail.png" alt="gmail"> youremailaddress@example.com</a>
                         </li>
                     </ul>
                 </div>
@@ -208,5 +262,16 @@
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/js/filter.js"></script>
+<script src="/js/jquery-1.12.4.min.js"></script>
+<script src="/js/isotop.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
 
 </html>

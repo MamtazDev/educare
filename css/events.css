@@ -1,0 +1,277 @@
+.ticket_btn {
+    display: flex;
+    width: 166px;
+    height: 57px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    border: 1px solid var(--other-color-option-other-color-4-stroke, #EEE);
+    color: var(--Color-Option-Neutral-color-1, #131C1E);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    text-transform: capitalize;
+}
+
+.event_date {
+    position: absolute;
+    top: 0;
+    border-radius: 0px 5px 5px 0px;
+    background: var(--other-color-option-other-color-2-stroke, #464646);
+    color: var(--Color-Option-Neutral-color-2, #FFF);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 6px;
+    left: 7px;
+
+}
+
+/* .events_card_wr:hover .event_date{
+    background:var(--primaryColor);
+    
+}
+.events_card_wr:hover .ticket_btn{
+    background-color: #131C1E;
+    color: white;
+    
+} */
+
+/* events list */
+.event_list_cards .events_card_wrapper .events_card {
+    background-color: white;
+}
+
+.events_card {
+    background-color: var(--neutralColor2);
+    transition: ease-in-out 0.3s;
+
+}
+
+.events_card .events_title {
+    color: var(--neutralColor);
+    transition: ease-in-out 0.3s;
+}
+
+.events_card .grey_text_1 {
+    color: var(--neutralColor);
+    transition: ease-in-out 0.3s;
+}
+
+/* event_details_wrapper */
+.events_parent {
+    /* margin-top: -100px; */
+    position: relative;
+}
+
+.event_details_wrapper {
+    padding: 48px 58px 48px 58px;
+    border-radius: 18px;
+    background: var(--neutralColor2);
+    box-shadow: 0px 20px 20px 0px rgba(147, 147, 147, 0.08);
+    max-width: 1095px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+
+}
+
+.event_details_wrapper h1 {
+    color: var(--Color-Option-Neutral-color-1, #131C1E);
+
+    /* H2/H2(Subtitle Bold) */
+    font-family: 'Syne', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    border-bottom: 1px solid #EEE;
+    margin-bottom: 24px;
+}
+
+.event_details_wrapper h3 {
+    color: var(--Color-Option-Neutral-color-1, #131C1E);
+
+    /* H3/H3 (Subtitle Semibold) */
+    font-family: 'Syne', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 20px;
+    margin-top: 32px;
+}
+
+.mt_48 {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.gap_24 {
+    gap: 24px;
+}
+
+.event_details_wrapper .details_txt {
+    color: var(--Color-Option-Text-Color-1, #747474);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+}
+
+.event_details_wrapper .elements p {
+    color: var(--other-color-option-other-color-2-stroke, #464646);
+
+    /* B1/Body 1 (Regular) */
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+}
+
+.hr_design {
+    border-bottom: 1px solid #EEE;
+    color: #EEE;
+    margin: 32px 0;
+}
+.hr_design1 {
+    border-bottom: 1px solid #EEE;
+    color: #EEE;
+    margin: 32px 0;
+    width:50%;
+}
+
+.vanue_timing h4 {
+    color: var(--neutralColor);
+    font-family: Syne;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 12px;
+}
+
+.vanue_timing p {
+    color: #747474;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.add_calender_btn {
+    display: inline-flex;
+    height: 57px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 11px;
+    border: 1px solid #EEE;
+    color: var(--neutralColor);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.social_links {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.price_border_btn {
+    display: flex;
+    width: 202px;
+    height: 57px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    border: 1px solid var(--Color-Option-Primary-Color, #B6EC3D);
+    background: var(--Color-Option-Neutral-color-2, #FFF);
+    color: var(--Color-Option-Neutral-color-1, #131C1E);
+
+    /* B2/Body 2 (Medium) */
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 24px */
+}
+
+
+.price_btn {
+    display: flex;
+    width: 202px;
+    height: 57px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 11px;
+    background: var(--primaryColor);
+    color: var(--neutralColor);
+    /* B2/Body 2 (Medium) */
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 24px */
+}
+
+.event_details_padding {
+    margin-top: 130px;
+}
+
+@media(max-width:768px) {
+    .event_details_padding {
+        margin-top: 44px;
+    }
+
+    .event_details_wrapper h1 {
+        font-size: 18px;
+    }
+
+    .event_details_wrapper {
+        padding: 20px 30px 48px 18px;
+        margin-top: -33px;
+    }
+
+    .events_parent {
+        margin: 0 12px;
+    }
+
+    .event_details_wrapper h3 {
+        font-size: 18px;
+    }
+
+    .event_details_wrapper .elements p,
+    .event_details_wrapper .details_txt,
+    .vanue_timing p,
+    .add_calender_btn {
+        font-size: 14px;
+    }
+
+    .vanue_timing h4 {
+        font-size: 18px;
+    }
+}

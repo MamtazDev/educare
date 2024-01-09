@@ -1,0 +1,86 @@
+.form-control:focus {
+    border-color: var(--buttonColor) !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.login_left_wrapper .email_input {
+    max-width: 453px !important;
+    width: 100% !important;
+    height: 56px !important;
+}
+
+
+.welcome_div p {
+    color: var(--buttonColor);
+    font-family: 'Syne', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 8px !important;
+}
+
+.welcome_div h6 {
+    color: var(--textColor);
+    font-family: ' Syne', sans-serif !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 150%;
+    margin-bottom: 25px !important;
+}
+.login_img{
+    height: 100vh !important;
+    width: 100%;
+}
+
+.backBtn {
+    color: var(--buttonColor);
+    font-family: ' Syne', sans-serif !important;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.login_btn {
+    border-radius: 11px;
+    background: var(--primaryColor);
+    padding: 14px 0px;
+    color: var(--initialColor);
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    margin-top: 24px;
+    width: 100% !important;
+}
+
+
+.small_Area {
+    max-width: 450px;
+    width: 100%;
+    margin: auto;
+}
+
+@media only screen and (max-width:768px) {
+    .small_Area {
+        padding: 200px 24px;
+    }
+
+    .welcome_div p {
+        font-size: 28px;
+    }
+
+    .welcome_div h6 {
+        font-size: 16px;
+    }
+
+    .forget {
+        font-size: 13px;
+    }
+
+    .mb_56 {
+        margin-bottom: 24px !important;
+    }
+}

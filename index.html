@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Educare</title>
+    <link rel="shortcut icon" href="/assets/small-logo-green.png" type="image/x-icon">
+
+    <link rel="shortcut icon" href="/assets/small-logo-green.png" type="image/x-icon">
 
     <!-- bootstrap link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
@@ -23,16 +26,18 @@
     <link rel="stylesheet" href="/components/buttons/buttons.css">
     <!-- my css -->
 
-    <!-- owl carousal cdn -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/home1/owl.carousel.min.css">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/home1/owl.theme.default.min.css">
-    <!-- owl carousal cdn end -->
-
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="position-relative">
+<body class="position-relative home1">
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container">
@@ -42,34 +47,37 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <img src="./assets/home1/mi_menu.png" alt="Menu" />
+                    <img src="./assets/menu1.png" alt="Menu" />
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto text-center">
                         <li class="nav-item dropdown">
-                            <a class="nav-link active dropdown-toggle" href="index.html" id="navbarDropdown"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Home
+                            <a class="nav-link active dropdown-toggle d-flex align-items-center gap-2 justify-content-center"
+                                href="index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>Home</span> <i class="fa mt-1">&#xf107;</i>
+
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="home2.html">Home 2</a></li>
-                                <li><a class="dropdown-item" href="home3.html">Home 3</a></li>
+                                <li><a class="dropdown-item" href="index.html">Home 1</a></li>
+                                <li><a class="dropdown-item" href="Home2.html">Home 2</a></li>
+                                <li><a class="dropdown-item" href="Home3.html">Home 3</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link  dropdown-toggle" href="About.html" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                        <li class="nav-item">
+                            <a class="nav-link  d-flex align-items-center gap-2  " href="About.html">
                                 About
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="home2.html">Home 2</a></li>
-                                <li><a class="dropdown-item" href="home3.html">Home 3</a></li>
-                            </ul>
+
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link  dropdown-toggle" href="Course.html" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Course
+                            <a class="nav-link  dropdown-toggle  d-flex align-items-center gap-2 justify-content-center"
+                                href="Course.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>
+                                    Course
+                                </span> <i class="fa mt-1">&#xf107;</i>
+
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="Course1.html">Course 1</a></li>
@@ -80,9 +88,12 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Pages
+                            <a class="nav-link dropdown-toggle  d-flex align-items-center gap-2 justify-content-center"
+                                href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>
+                                    Pages
+                                </span> <i class="fa mt-1">&#xf107;</i>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="/EventsGrid.html">Events Grid</a></li>
@@ -96,22 +107,26 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Blog
+                            <a class="nav-link dropdown-toggle  d-flex align-items-center gap-2 justify-content-center"
+                                href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>
+                                    Blog
+                                </span> <i class="fa mt-1">&#xf107;</i>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="/Blog.html">Blog</a></li>
-                                <li><a class="dropdown-item" href="/Blog.html">Blog Details</a></li>
-                                <li><a class="dropdown-item" href="#">Page 2</a></li>
+                                <li><a class="dropdown-item" href="/BlogDetails.html">Blog Details</a></li>
+
                             </ul>
                         </li>
 
                     </ul>
                     <form class="d-flex gap-4 authBtn">
-                        <a href="SignUp.html" class="" type="submit">Login</a>
+                        <a href="login.html" class="" type="submit">Login</a>
                         <button class="signup_button">
-                            <a href="Login.html" class="" type="submit"><img src="/assets/home1/user-circle.png" alt="">
+                            <a href="signup.html" class="" type="submit"><img src="/assets/home1/user-circle.png"
+                                    alt="">
                                 Create Account</a>
                         </button>
                     </form>
@@ -124,9 +139,9 @@
         <!-- banner section start -->
         <section class="shadow_green">
             <div class="banner_wrapper">
-                <div class="container mt_80 ">
+                <div class="container  ">
                     <div class="row gap-lg-0 gap-5 align-items-center">
-                        <div class="col-lg-7">
+                        <div class="col-lg-7" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                             <h1 class="banner_title text-lg-start text-center">Find the <span>Perfect</span> <br
                                     class="d-lg-block d-none">
                                 Course and develop <br class="d-lg-block d-none">
@@ -139,18 +154,43 @@
 
                             <div class="d-flex gap-4 justify-content-lg-start justify-content-center">
                                 <button class="greenButton">Become a Student</button>
-                                <button class="bannerWatchBtn"><img src="/assets/home1/banner_playvideoicon.png" alt="">
-                                    <span>Watch Demo</span></button>
+                                <button type="button" class="bannerWatchBtn" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal"><img src="/assets/home1/banner_playvideoicon.png"
+                                        alt="">
+                                    Watch
+                                    Demo</button>
+
                             </div>
                         </div>
-                        <div class="col-lg-5">
-                            <img class="img-fluid" src="/assets/home1/banner1.png" alt="banner">
+                        <div class="col-lg-5 position-relative" data-aos="fade-right" data-aos-duration="1000"
+                            data-aos-delay="200">
+                            <img class="img-fluid " src="/assets/home1/banner1.png" alt="banner">
+                            <img class="img_rotate" src="/assets/bannerrotate.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered  modal-xl">
+                <div class="modal-content position-relative">
+                    <div class="modal-header p-0">
+                        <button type="button" class=" video_close_btn" data-bs-dismiss="modal" aria-label="Close"><i
+                                class="fa-solid fa-xmark"></i></button>
+                    </div>
+                    <div class="modal-body p-0 modal_video_h">
+                        <iframe width="100%" height="100%"
+                            src="https://www.youtube.com/embed/TjPFZaMe2yw?si=yejP3jrWfR9Ff6OI"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
         <!-- banner section end -->
 
         <!-- trusted by start-->
@@ -259,8 +299,6 @@
                             </div>
 
                         </div>
-
-
                     </div>
                 </div>
             </div>
@@ -268,13 +306,14 @@
         <!-- trusted by end-->
 
         <!-- how it works start -->
-        <section>
+        <section class="shadow_green1">
             <div class="container mb_130">
                 <p class="sectionHeader text-center"><span class="txt_curve howItWorks_title">How it’s work</span>
                 </p>
                 <div class="howItWorks_wrapper mt_68 flex-wrap">
                     <div class="">
-                        <div class="text-center works_wrapper">
+                        <div class="text-center works_wrapper" data-aos="fade-up" data-aos-duration="1000"
+                            data-aos-delay="200">
                             <div class="works_img" style="background-color: #E1FF9E;">
                                 <img src="/assets/home1/how1.png" alt="signup">
                             </div>
@@ -284,8 +323,8 @@
                                 but the bulk have suffered</p>
                         </div>
                     </div>
-                    <div class="">
-                        <div class="text-center works_wrapper">
+                    <div class="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <div class="text-center works_wrapper wrapper_2">
                             <div class="works_img" style="background-color: #FFEDB6;">
                                 <img src="/assets/home1/how2.png" alt="choose">
                             </div>
@@ -296,7 +335,8 @@
                         </div>
                     </div>
                     <div class="">
-                        <div class="text-center works_wrapper">
+                        <div class="text-center works_wrapper" data-aos="fade-up" data-aos-duration="1000"
+                            data-aos-delay="200">
                             <div class="works_img" style="background-color: #FFCBC4;">
                                 <img src="/assets/home1/how3.png" alt="secuirity">
                             </div>
@@ -307,7 +347,8 @@
                         </div>
                     </div>
                     <div class="">
-                        <div class="text-center works_wrapper1">
+                        <div class="text-center works_wrapper1" data-aos="fade-up" data-aos-duration="1000"
+                            data-aos-delay="200">
                             <div class="works_img" style="background-color: #C7CCFF;">
                                 <img src="/assets/home1/how4.png" alt="happy">
                             </div>
@@ -325,17 +366,20 @@
         <section class="community_wrapper mb_130">
             <div class="container">
                 <div class="row align-items-center community_rows">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                         <div>
                             <img class="img-fluid" src="/assets/home1/home1about.png" alt="about">
                         </div>
-
                     </div>
-                    <div class="col-lg-6 flex-grow-1 text-lg-start text-center">
-                        <button class="about_btn mb_24"><img src="/assets/home1/greenstart.png" alt=""> About
-                            us</button>
+                    <div class="col-lg-6 flex-grow-1 text-lg-start text-center" data-aos="fade-right"
+                        data-aos-duration="1000" data-aos-delay="200">
+                        <a href="About.html">
+                            <button class="about_btn mb_24"><img src="/assets/home1/greenstart.png" alt=""> About
+                                us</button>
+                        </a>
 
-                        <h1 class="mb_24">Establishing a <span class="green_text">Community</span> <br class="">
+                        <h1 class="mb_24">
+                            Establishing a <span class="green_text">Community</span> <br class="d-lg-block d-none">
                             of Lifelong Learners</h1>
 
                         <p class="greyText mb_32">Learning from an online event involves several key steps. Firstly,
@@ -374,159 +418,166 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- buttons -->
                         <div class="community_btns">
-                            <button class="know_more_btn fs18400"><span>Know more</span><img
-                                    src="/assets/home1/rightArrow.png" alt=""></button>
-                            <button class="phone_btn fs18400"><img src="/assets/home1/phone.png" alt=""> <span>+288 394
+                            <a href="About.html"> <button class="know_more_btn fs18400"><span>Know more</span>
+                                    <img class="hover_img" src="/assets/home1/rightArrow.png" alt="">
+                                    <img class="hover_img_block" src="/assets/whitearrow.png" alt="">
+                                </button></a>
+                            <button class="phone_btn fs18400">
+                                <img class="hover_img" src="/assets/home1/phone.png" alt="">
+                                <img class="hover_img_block" src="/assets/call-black.png" alt="">
+
+                                <span>+288 394
                                     2783</span></button>
                         </div>
                     </div>
 
                 </div>
-
-
-
             </div>
         </section>
         <!-- establishing a community end -->
 
         <!-- Browse Popular Category start -->
-        <section class="popular_categoris">
-            <div class="container mb_130">
-                <button class="about_btn">
-                    <img src="/assets/home1/greenstart.png" alt="">
-                    Top Categories
-                </button>
-
-                <h2 class="category_title">
-                    Browse Popular <br> Category
-                </h2>
-
-                <div class="row">
-                    <div class="col-lg-3">
-                        <div class="card_wrapper position-relative mb-4 mb-lg-0">
-                            <div class="cat_card">
-                                <div class="card_img">
-                                    <img src="/assets/home1/cat1.png" alt="Category1">
-                                </div>
-
-                                <div class="card_content">
-                                    <h3>UI/UX Design</h3>
-                                    <p>
-                                        In the digital realm where user interaction shapes the foundation of success,
-                                        UI/UXdesign.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="link_arrow position-absolute ">
-                                <a href="#" class="link-icon d-none">
-                                    <img src="/assets/home1/black-link.png" alt="icon">
-                                </a>
-
-                                <a href="#" class="linkIconTwo">
-                                    <img src="/assets/home1/link-2.png" alt="icon">
-                                </a>
-
-                            </div>
-                        </div>
+        <div class="shadow_green_both">
+            <section class="shadow_green1 popular_categoris">
+                <div class="container mb_130">
+                    <div class="text-lg-start text-center">
+                        <a href="Course1.html"> <button class="about_btn">
+                                <img src="/assets/home1/greenstart.png" alt="">
+                                Top Categories
+                            </button></a>
 
                     </div>
+                    <h2 class="category_title">
+                        Browse Popular <br> Category
+                    </h2>
 
-                    <div class="col-lg-3">
-                        <div class="card_wrapper position-relative mb-4 mb-lg-0">
-                            <div class="cat_card">
-                                <div class="card_img">
-                                    <img src="/assets/home1/cat2.png" alt="Category1">
+                    <div class="row">
+                        <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                            <div class="card_wrapper position-relative mb-4 mb-lg-0">
+                                <div class="cat_card">
+                                    <div class="card_img">
+                                        <img class="w-100" src="/assets/home1/cat1.png" alt="Category1">
+                                    </div>
+
+                                    <div class="card_content">
+                                        <h3>UI/UX Design</h3>
+                                        <p>
+                                            In the digital realm where user interaction shapes the foundation of
+                                            success,
+                                            UI/UXdesign.
+                                        </p>
+                                    </div>
                                 </div>
+                                <div class="link_arrow position-absolute ">
+                                    <a href="/Course1.html" class="link-icon d-none">
+                                        <img src="/assets/home1/black-link.png" alt="icon">
+                                    </a>
 
-                                <div class="card_content">
-                                    <h3>Data Science</h3>
-                                    <p>
-                                        Data science is a multidisciplinary
-                                        field that combines techniques
-                                        from statistics, mathematics.
-                                    </p>
+                                    <a href="Course1.html" class="linkIconTwo">
+                                        <img src="/assets/home1/link-2.png" alt="icon">
+                                    </a>
+
                                 </div>
                             </div>
-                            <div class="link_arrow position-absolute ">
-                                <a href="#" class="link-icon d-none">
-                                    <img src="/assets/home1/black-link.png" alt="icon">
-                                </a>
 
-                                <a href="#" class="linkIconTwo">
-                                    <img src="/assets/home1/link-2.png" alt="icon">
-                                </a>
-
-                            </div>
                         </div>
 
-                    </div>
+                        <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                            <div class="card_wrapper position-relative mb-4 mb-lg-0">
+                                <div class="cat_card">
+                                    <div class="card_img">
+                                        <img class="w-100" src="/assets/home1/cat2.png" alt="Category1">
+                                    </div>
 
-                    <div class="col-lg-3">
-                        <div class="card_wrapper position-relative mb-4 mb-lg-0">
-                            <div class="cat_card">
-                                <div class="card_img">
-                                    <img src="/assets/home1/cat3.png" alt="Category1">
+                                    <div class="card_content">
+                                        <h3>Data Science</h3>
+                                        <p>
+                                            Data science is a multidisciplinary
+                                            field that combines techniques
+                                            from statistics, mathematics.
+                                        </p>
+                                    </div>
                                 </div>
+                                <div class="link_arrow position-absolute ">
+                                    <a href="Course1.html" class="link-icon d-none">
+                                        <img src="/assets/home1/black-link.png" alt="icon">
+                                    </a>
 
-                                <div class="card_content">
-                                    <h3>Web development</h3>
-                                    <p>
-                                        web development is the process of
-                                        creating and maintaining
-                                        websites or web applications.
-                                    </p>
+                                    <a href="Course1.html" class="linkIconTwo">
+                                        <img src="/assets/home1/link-2.png" alt="icon">
+                                    </a>
+
                                 </div>
                             </div>
-                            <div class="link_arrow position-absolute ">
-                                <a href="#" class="link-icon d-none">
-                                    <img src="/assets/home1/black-link.png" alt="icon">
-                                </a>
 
-                                <a href="#" class="linkIconTwo">
-                                    <img src="/assets/home1/link-2.png" alt="icon">
-                                </a>
-
-                            </div>
                         </div>
 
-                    </div>
+                        <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                            <div class="card_wrapper position-relative mb-4 mb-lg-0">
+                                <div class="cat_card">
+                                    <div class="card_img">
+                                        <img class="w-100" src="/assets/home1/cat3.png" alt="Category1">
+                                    </div>
 
-                    <div class="col-lg-3">
-                        <div class="card_wrapper position-relative mb-4 mb-lg-0">
-                            <div class="cat_card">
-                                <div class="card_img">
-                                    <img src="/assets/home1/cat4.png" alt="Category1">
+                                    <div class="card_content">
+                                        <h3>Web development</h3>
+                                        <p>
+                                            web development is the process of
+                                            creating and maintaining
+                                            websites or web applications.
+                                        </p>
+                                    </div>
                                 </div>
+                                <div class="link_arrow position-absolute ">
+                                    <a href="Course1.html" class="link-icon d-none">
+                                        <img src="/assets/home1/black-link.png" alt="icon">
+                                    </a>
 
-                                <div class="card_content">
-                                    <h3>
-                                        Strategy & Research
-                                    </h3>
-                                    <p>
-                                        Strategy is a high-level plan or
-                                        approach designed to achieve
-                                        specific goals or objectives.
-                                    </p>
+                                    <a href="Course1.html" class="linkIconTwo">
+                                        <img src="/assets/home1/link-2.png" alt="icon">
+                                    </a>
+
                                 </div>
                             </div>
-                            <div class="link_arrow position-absolute ">
-                                <a href="#" class="link-icon d-none">
-                                    <img src="/assets/home1/black-link.png" alt="icon">
-                                </a>
 
-                                <a href="#" class="linkIconTwo">
-                                    <img src="/assets/home1/link-2.png" alt="icon">
-                                </a>
-
-                            </div>
                         </div>
 
+                        <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                            <div class="card_wrapper position-relative mb-4 mb-lg-0">
+                                <div class="cat_card">
+                                    <div class="card_img">
+                                        <img class="w-100" src="/assets/home1/cat4.png" alt="Category1">
+                                    </div>
+
+                                    <div class="card_content">
+                                        <h3>
+                                            Strategy & Research
+                                        </h3>
+                                        <p>
+                                            Strategy is a high-level plan or
+                                            approach designed to achieve
+                                            specific goals or objectives.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="link_arrow position-absolute ">
+                                    <a href="Course1.html" class="link-icon d-none">
+                                        <img src="/assets/home1/black-link.png" alt="icon">
+                                    </a>
+
+                                    <a href="Course1.html" class="linkIconTwo">
+                                        <img src="/assets/home1/link-2.png" alt="icon">
+                                    </a>
+
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
         <!-- Browse Popular Category end -->
 
         <!-- featured course start -->
@@ -538,24 +589,26 @@
                 <p class="color_BC">Choose from 213,000 online video courses with <br>
                     new additions published every month</p>
                 <div class="featured_buttons">
-                    <button class="green_btn feature_green_btn">Feature</button>
-                    <button class="grey_btn">Resent</button>
-                    <button class="grey_btn">Design</button>
-                    <button class="grey_btn d-lg-block d-none">Data Science</button>
-                    <button class="grey_btn d-lg-block d-none">Marketing</button>
-                    <button class="grey_btn d-lg-block d-none">Development</button>
+                    <button data-filter="*" class="grey_btn feature_green_btn custom-button active">Feature</button>
+                    <button data-filter=".recent" class="grey_btn custom-button">Recent</button>
+                    <button data-filter=".design" class="grey_btn custom-button">Design</button>
+                    <button data-filter=".data-science" class="grey_btn custom-button d_none_sm">Data Science</button>
+                    <button data-filter=".marketing" class="grey_btn  custom-button d_none_sm">Marketing</button>
+                    <button data-filter=".development" class="grey_btn custom-button d_none_sm">Development</button>
                 </div>
 
                 <div class="container">
-                    <div class="row mb_48">
-                        <div class="col-lg-4">
+                    <div class=" row mb_48 blogall">
+                        <div class="col-lg-4 design data-science">
                             <div class="featured_card">
                                 <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
                                 <div>
                                     <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
-                                    <h3 class="mb_30">Web Development : <br>
-                                        The Complete Programming
-                                        Course</h3>
+                                    <h3 class="mb_30"> <a href="Course1.html">
+                                            <h3 class="mb_30">Web Development : <br>
+                                                The Complete Programming
+                                                Course</h3>
+                                        </a></h3>
                                     <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
                                     <div class="d-flex justify-content-between">
                                         <div class="d-flex align-items-center gap-2">
@@ -571,14 +624,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 development">
                             <div class="featured_card">
-                                <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
+                                <img class="w-100 mb_18" src="/assets/home1/blog2.webp" alt="">
                                 <div>
                                     <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
-                                    <h3 class="mb_30">Web Development : <br>
-                                        The Complete Programming
-                                        Course</h3>
+                                    <h3 class="mb_30"> <a href="Course1.html">
+                                            <h3 class="mb_30">Web Development : <br>
+                                                The Complete Programming
+                                                Course</h3>
+                                        </a></h3>
                                     <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
                                     <div class="d-flex justify-content-between">
                                         <div class="d-flex align-items-center gap-2">
@@ -594,14 +649,17 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 marketing  recent">
+
                             <div class="featured_card">
-                                <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
+                                <img class="w-100 mb_18" src="/assets/home1/blog3.webp" alt="">
                                 <div>
                                     <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
-                                    <h3 class="mb_30">Web Development : <br>
-                                        The Complete Programming
-                                        Course</h3>
+                                    <h3 class="mb_30"> <a href="Course1.html">
+                                            <h3 class="mb_30">Web Development : <br>
+                                                The Complete Programming
+                                                Course</h3>
+                                        </a></h3>
                                     <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
                                     <div class="d-flex justify-content-between">
                                         <div class="d-flex align-items-center gap-2">
@@ -617,14 +675,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 d-lg-block d-none">
+                        <div class="col-lg-4  marketing data-science">
                             <div class="featured_card">
-                                <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
+                                <img class="w-100 mb_18" src="/assets/home1/blog4.webp" alt="">
                                 <div>
                                     <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
-                                    <h3 class="mb_30">Web Development : <br>
-                                        The Complete Programming
-                                        Course</h3>
+                                    <h3 class="mb_30"> <a href="Course1.html">
+                                            <h3 class="mb_30">Web Development : <br>
+                                                The Complete Programming
+                                                Course</h3>
+                                        </a></h3>
                                     <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
                                     <div class="d-flex justify-content-between">
                                         <div class="d-flex align-items-center gap-2">
@@ -640,14 +700,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 d-lg-block d-none">
+                        <div class="col-lg-4 development">
                             <div class="featured_card">
-                                <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
+                                <img class="w-100 mb_18" src="/assets/home1/blog5.avif" alt="">
                                 <div>
                                     <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
-                                    <h3 class="mb_30">Web Development : <br>
-                                        The Complete Programming
-                                        Course</h3>
+                                    <a href="Course1.html">
+                                        <h3 class="mb_30">Web Development : <br>
+                                            The Complete Programming
+                                            Course</h3>
+                                    </a>
                                     <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
                                     <div class="d-flex justify-content-between">
                                         <div class="d-flex align-items-center gap-2">
@@ -663,14 +725,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 d-lg-block d-none">
+                        <div class="col-lg-4 development">
                             <div class="featured_card">
-                                <img class="w-100 mb_18" src="/assets/home1/f1.png" alt="">
+                                <img class="w-100 mb_18" src="/assets/home1/blog5.avif" alt="">
                                 <div>
                                     <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
-                                    <h3 class="mb_30">Web Development : <br>
-                                        The Complete Programming
-                                        Course</h3>
+                                    <a href="Course1.html">
+                                        <h3 class="mb_30">Web Development : <br>
+                                            The Complete Programming
+                                            Course</h3>
+                                    </a>
                                     <p class="rating_number mb_45">By <strong>Joye Boot</strong></p>
                                     <div class="d-flex justify-content-between">
                                         <div class="d-flex align-items-center gap-2">
@@ -688,142 +752,296 @@
                         </div>
                     </div>
                 </div>
-                <!--  -->
-                <button class="green_btn explore_courses">
-                    <span> Explore All Course</span>
-                    <img src="/assets/home1/arrowright1.png" alt="">
-                </button>
-
+                <a href="Course1.html"> <button class="green_btn explore_courses">
+                        <span> Explore All Course</span>
+                        <img src="/assets/home1/arrowright1.png" alt="">
+                    </button></a>
             </div>
-
-
-
-
         </section>
         <!-- featured course end -->
 
         <!-- instructor section start -->
-        <section class="container p-0">
-            <div class="instructor_wrapper mb_130">
-                <div class="text-lg-start text-center">
-                    <button class="about_btn mb_24"><img src="/assets/home1/greenstart.png" alt="star">Skill
-                        Instructor</button>
-                    <h2>Introduce Our <br class="d-lg-none d-block"> Life Instructor</h2>
-                </div>
-
-                <div class="">
-                    <div class="row mb_48 m-0">
-
-                        <div class="col-lg-4">
-                            <div class="">
-                                <img class="img-fluid" src="/assets/home1/i1.png" alt="">
-                                <div class="position-relative">
-                                    <div class="info_links">
-                                        <img class="img-fluid" src="/assets/home1/dribble.png" alt="">
-                                        <img class="img-fluid" src="/assets/home1/insta.png" alt="">
-                                        <img class="img-fluid" src="/assets/home1/twitter.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="instructor_wrapper">
-                                <h3>Jimmy Sullivan</h3>
-                                <p>UI/UX Designer</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="">
-                                <img class="img-fluid" src="/assets/home1/i2.png" alt="">
-                                <div class="position-relative">
-                                    <div class="info_links">
-                                        <img class="img-fluid" src="/assets/home1/dribble.png" alt="">
-                                        <img class="img-fluid" src="/assets/home1/insta.png" alt="">
-                                        <img class="img-fluid" src="/assets/home1/twitter.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="instructor_wrapper">
-                                <h3>Jimmy Sullivan</h3>
-                                <p>UI/UX Designer</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="">
-                                <img class="img-fluid" src="/assets/home1/i3.png" alt="">
-                                <div class="position-relative">
-                                    <div class="info_links">
-                                        <img class="img-fluid" src="/assets/home1/dribble.png" alt="">
-                                        <img class="img-fluid" src="/assets/home1/insta.png" alt="">
-                                        <img class="img-fluid" src="/assets/home1/twitter.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="instructor_wrapper">
-                                <h3>Jimmy Sullivan</h3>
-                                <p>UI/UX Designer</p>
-                            </div>
-                        </div>
-
+        <div class="shadow_green_both">
+            <section class="container p-0 ">
+                <div class="instructor_wrapper mb_130">
+                    <div class="text-lg-start text-center">
+                        <a href="instructor.html">
+                            <button class="about_btn mb_24"><img src="/assets/home1/greenstart.png" alt="star">Skill
+                                Instructor</button>
+                        </a>
+                        <h2>Introduce Our <br class="d-lg-none d-block"> Life Instructor</h2>
                     </div>
-                </div>
-
-            </div>
-
-
-
-
-        </section>
-        <!-- instructor section end -->
-
-        <!-- Our Students Feedback start -->
-        <section class="community_wrapper mb_130">
-            <div class="container">
-                <div class="row align-items-center p-0">
-                    <div class="col-lg-6">
-                        <div class="testimonial_wrapper">
-                            <button class="about_btn mb_24 d-lg-none d-block text-center"><img
-                                    src="/assets/home1/greenstart.png" alt=""> Testimonials</button>
-                            <img class="img-fluid" src="/assets/home1/feedback.png" alt="about">
-                        </div>
-
-                    </div>
-                    <div class="col-lg-6 flex-grow-1 text-lg-start text-center p-0">
-                        <button class="about_btn mb_24 d-lg-block d-none"><img src="/assets/home1/greenstart.png"
-                                alt="">
-                            Testimonials</button>
-
-                        <h1 class="mb_24">Our Students <span class="green_text">Feedback</span></h1>
-
-                        <p class="greyText mb_32">"Educare is revolutionizing the education sector. The site is creative
-                            and
-                            interesting, and the content is of the highest caliber. I value the convenience
-                            of learning from anywhere, and the tailored learning environment has
-                            kept me motivated and on task. The instructors are supportive and
-                            knowledgeable.</p>
-
-
-                        <!-- buttons -->
-                        <div class="feedback_profile">
-                            <div class="d-flex align-items-center profile_details">
-                                <img src="/assets/home1/st1.png" alt="">
-                                <div class="text-center">
-                                    <h4>Geraldine D. Anspach</h4>
+                    <div>
+                        <div class="slick-slider row mb_48 m-0">
+                            <div class="slide col-lg-4">
+                                <div class="">
+                                    <img class="img-fluid img_hover" src="/assets/home1/i3.png" alt="">
+                                    <div class="position-relative">
+                                        <div class="info_links">
+                                            <a href="https://dribbble.com">
+                                                <img class="img-fluid" src="/assets/home1/dribble.png" alt="">
+                                            </a>
+                                            <a href="https://www.instagram.com/">
+                                                <img class="img-fluid" src="/assets/home1/insta.png" alt="">
+                                            </a>
+                                            <a href="https://twitter.com/">
+                                                <img class="img-fluid" src="/assets/home1/twitter.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instructor_wrapper">
+                                    <a href="instructor.html">
+                                        <h3>Jimmy Sullivan</h3>
+                                    </a>
                                     <p>UI/UX Designer</p>
-                                    <div>
-                                        <img src="/assets/home1/start.png" alt="">
-                                        <img src="/assets/home1/start.png" alt="">
-                                        <img src="/assets/home1/start.png" alt="">
-                                        <img src="/assets/home1/start.png" alt="">
-                                        <img src="/assets/home1/start.png" alt="">
+
+                                </div>
+                            </div>
+                            <div class="slide col-lg-4">
+                                <div class="">
+                                    <img class="img-fluid img_hover" src="/assets/home1/i2.png" alt="">
+                                    <div class="position-relative">
+                                        <div class="info_links">
+                                            <a href="https://dribbble.com">
+                                                <img class="img-fluid" src="/assets/home1/dribble.png" alt="">
+                                            </a>
+                                            <a href="https://www.instagram.com/">
+                                                <img class="img-fluid" src="/assets/home1/insta.png" alt="">
+                                            </a>
+                                            <a href="https://twitter.com/">
+                                                <img class="img-fluid" src="/assets/home1/twitter.png" alt="">
+                                            </a>
+                                        </div>
                                     </div>
+                                </div>
+                                <div class="instructor_wrapper">
+                                    <a href="instructor.html">
+                                        <h3>Jimmy Sullivan</h3>
+                                    </a>
+                                    <p>UI/UX Designer</p>
+                                </div>
+                            </div>
+                            <div class="slide col-lg-4">
+                                <div class="">
+                                    <img class="img-fluid img_hover" src="/assets/home1/i3.png" alt="">
+                                    <div class="position-relative">
+                                        <div class="info_links">
+                                            <a href="https://dribbble.com">
+                                                <img class="img-fluid" src="/assets/home1/dribble.png" alt="">
+                                            </a>
+                                            <a href="https://www.instagram.com/">
+                                                <img class="img-fluid" src="/assets/home1/insta.png" alt="">
+                                            </a>
+                                            <a href="https://twitter.com/">
+                                                <img class="img-fluid" src="/assets/home1/twitter.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instructor_wrapper">
+                                    <a href="instructor.html">
+                                        <h3>Jimmy Sullivan</h3>
+                                    </a>
+                                    <p>UI/UX Designer</p>
+                                </div>
+                            </div>
+                            <div class="slide col-lg-4">
+                                <div class="">
+                                    <img class="img-fluid img_hover" src="/assets/home1/i2.png" alt="">
+                                    <div class="position-relative">
+                                        <div class="info_links">
+                                            <a href="https://dribbble.com">
+                                                <img class="img-fluid" src="/assets/home1/dribble.png" alt="">
+                                            </a>
+                                            <a href="https://www.instagram.com/">
+                                                <img class="img-fluid" src="/assets/home1/insta.png" alt="">
+                                            </a>
+                                            <a href="https://twitter.com/">
+                                                <img class="img-fluid" src="/assets/home1/twitter.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instructor_wrapper">
+                                    <a href="instructor.html">
+                                        <h3>Jimmy Sullivan</h3>
+                                    </a>
+                                    <p>UI/UX Designer</p>
+                                </div>
+                            </div>
+                            <div class="slide col-lg-4">
+                                <div class="">
+                                    <img class="img-fluid img_hover" src="/assets/home1/i3.png" alt="">
+                                    <div class="position-relative">
+                                        <div class="info_links">
+                                            <a href="https://dribbble.com">
+                                                <img class="img-fluid" src="/assets/home1/dribble.png" alt="">
+                                            </a>
+                                            <a href="https://www.instagram.com/">
+                                                <img class="img-fluid" src="/assets/home1/insta.png" alt="">
+                                            </a>
+                                            <a href="https://twitter.com/">
+                                                <img class="img-fluid" src="/assets/home1/twitter.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instructor_wrapper">
+                                    <a href="instructor.html">
+                                        <h3>Jimmy Sullivan</h3>
+                                    </a>
+                                    <p>UI/UX Designer</p>
                                 </div>
                             </div>
 
                         </div>
-
                     </div>
 
+                </div>
+            </section>
+        </div>
+        <!-- instructor section end -->
+        <!-- Our Students Feedback start -->
+        <section class="community_wrapper mb_130 slider_margin1" style="overflow: hidden;">
+            <div class="container ">
+                <div class="slick-slider_testimonial">
+                    <div class="slide">
+                        <div class=" row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="testimonial_wrapper">
+                                    <button class="about_btn mb_24 d-lg-none d-block text-center d-flex"><img
+                                            src="/assets/home1/greenstart.png" alt=""> Testimonials</button>
+                                    <img class="img-fluid" src="/assets/home1/feedback.png" alt="about">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 flex-grow-1 text-lg-start text-center p-0">
+                                <button class="about_btn mb_24 d-lg-flex justify-content-center  d-none "><img
+                                        src="/assets/home1/greenstart.png" alt="">
+                                    Testimonials</button>
+                                <h1 class="mb_24">Our Students <span class="green_text">Feedback</span></h1>
+
+                                <p class="greyText mb_32">"Educare is revolutionizing the education sector. The site is
+                                    creative
+                                    and
+                                    interesting, and the content is of the highest caliber. I value the convenience
+                                    of learning from anywhere, and the tailored learning environment has
+                                    kept me motivated and on task. The instructors are supportive and
+                                    knowledgeable.</p>
+                                <div class="feedback_profile">
+                                    <div class="d-flex align-items-center profile_details">
+                                        <img src="/assets/home1/st1.png" alt="">
+                                        <div class="text-lg-start text-center">
+                                            <h4>Geraldine D. Anspach</h4>
+                                            <p>UI/UX Designer</p>
+                                            <div
+                                                class="d-flex alig-items-center justify-content-lg-start justify-content-center">
+                                                <img src="/assets/home1/start.png" alt="">
+                                                <img src="/assets/home1/start.png" alt="">
+                                                <img src="/assets/home1/start.png" alt="">
+                                                <img src="/assets/home1/start.png" alt="">
+                                                <img src="/assets/home1/start.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class=" row align-items-center p-0">
+                            <div class="col-lg-6">
+                                <div class="testimonial_wrapper">
+                                    <button class="about_btn mb_24 d-lg-none d-block text-center d-flex"><img
+                                            src="/assets/home1/greenstart.png" alt=""> Testimonials</button>
+                                    <img class="img-fluid" src="/assets/home1/feedback.png" alt="about">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 flex-grow-1 text-lg-start text-center p-0">
+                                <button class="about_btn mb_24 d-lg-flex justify-content-center  d-none "><img
+                                        src="/assets/home1/greenstart.png" alt="">
+                                    Testimonials</button>
+
+                                <h1 class="mb_24">Our Students <span class="green_text">Feedback</span></h1>
+
+                                <p class="greyText mb_32">"Educare is revolutionizing the education sector. The site is
+                                    creative
+                                    and
+                                    interesting, and the content is of the highest caliber. I value the convenience
+                                    of learning from anywhere, and the tailored learning environment has
+                                    kept me motivated and on task. The instructors are supportive and
+                                    knowledgeable.</p>
+                                <div class="feedback_profile">
+                                    <div class="d-flex align-items-center profile_details">
+                                        <img src="/assets/home1/st1.png" alt="">
+                                        <div class="text-lg-start text-center">
+                                            <h4>Geraldine D. Anspach</h4>
+                                            <p>UI/UX Designer</p>
+                                            <div
+                                                class="d-flex alig-items-center justify-content-lg-start justify-content-center">
+                                                <img src="/assets/home1/start.png" alt="">
+                                                <img src="/assets/home1/start.png" alt="">
+                                                <img src="/assets/home1/start.png" alt="">
+                                                <img src="/assets/home1/start.png" alt="">
+                                                <img src="/assets/home1/start.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <div class=" row align-items-center p-0">
+                            <div class="col-lg-6">
+                                <div class="testimonial_wrapper">
+                                    <button class="about_btn mb_24 d-lg-none d-block text-center d-flex"><img
+                                            src="/assets/home1/greenstart.png" alt=""> Testimonials</button>
+                                    <img class="img-fluid" src="/assets/home1/feedback.png" alt="about">
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6 flex-grow-1 text-lg-start text-center p-0">
+                                <button class="about_btn mb_24 d-lg-flex justify-content-center  d-none "><img
+                                        src="/assets/home1/greenstart.png" alt="">
+                                    Testimonials</button>
+
+                                <h1 class="mb_24">Our Students <span class="green_text">Feedback</span></h1>
+
+                                <p class="greyText mb_32">"Educare is revolutionizing the education sector. The site is
+                                    creative
+                                    and
+                                    interesting, and the content is of the highest caliber. I value the convenience
+                                    of learning from anywhere, and the tailored learning environment has
+                                    kept me motivated and on task. The instructors are supportive and
+                                    knowledgeable.</p>
+                                <div class="feedback_profile">
+                                    <div class="d-flex align-items-center profile_details">
+                                        <img src="/assets/home1/st1.png" alt="">
+                                        <div class="text-lg-start text-center">
+                                            <h4>Geraldine D. Anspach</h4>
+                                            <p>UI/UX Designer</p>
+                                            <div
+                                                class="d-flex alig-items-center justify-content-lg-start justify-content-center">
+                                                <img src="/assets/home1/start.png" alt="">
+                                                <img src="/assets/home1/start.png" alt="">
+                                                <img src="/assets/home1/start.png" alt="">
+                                                <img src="/assets/home1/start.png" alt="">
+                                                <img src="/assets/home1/start.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
 
 
                 </div>
@@ -831,82 +1049,100 @@
         <!-- Our Students Feedback end -->
 
         <!-- Our Latest Blog start -->
-        <section class="ourlatest_blog" style="overflow: hidden;">
-            <div class="container">
-                <div class=" blog_wrapper mb_130">
-
-                    <div class="text-center">
-                        <button class="about_btn mb_24">
-                            <img src="/assets/home1/greenstart.png" alt="">Blog
-                        </button>
-                        <h1 class="mb_24">Our Latest Blog</h1>
-                    </div>
-
-                    <div id="owl-demo" class="owl-carousel owl-theme">
-                        <div class="item row">
-                            <div class="col-lg-6">
-                                <div class="blog_card">
-                                    <img class="img-fluid mb_24" src="/assets/home1/blog1.png " alt="">
-                                    <div class="blog_date">
-                                        <button>26 Jan, 2023</button>
-                                    </div>
-                                    <div class="">
-                                        <h4>The Art Of Taking Right Decission <br>
-                                            To Success</h4>
-                                        <p>Learn how to take the right decission in critical time to get succes and
-                                            <br>
-                                            how to overcome bad times.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6">
-                                <div class="blog_card">
-
-                                    <img class="img-fluid mb_24" src="/assets/home1/blog2.png " alt="">
-
-                                    <div class="blog_date">
-                                        <button>26 Jan, 2023</button>
-                                    </div>
-
-
-
-                                    <div class="">
-                                        <h4>The Art Of Taking Right Decission <br>
-                                            To Success</h4>
-                                        <p>Learn how to take the right decission in critical time to get succes and
-                                            <br>
-                                            how to overcome bad times.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
+        <div class="shadow_green_both">
+            <section class="ourlatest_blog">
+                <div class="container">
+                    <div class=" blog_wrapper mb_130">
+                        <div class="text-center">
+                            <button class="about_btn mb_24">
+                                <img src="/assets/home1/greenstart.png" alt="">Blog
+                            </button>
+                            <h1 class="mb_24 blog_title">Our Latest Blog</h1>
                         </div>
-                        <div class="item row">
-                            <div class="col-lg-6">
+                        <div class="slick-slider_blog row">
+                            <div class="slide col-lg-6">
                                 <div class="blog_card">
                                     <img class="img-fluid mb_24" src="/assets/home1/blog1.png " alt="">
                                     <div class="blog_date">
                                         <button>26 Jan, 2023</button>
                                     </div>
                                     <div class="">
-                                        <h4>The Art Of Taking Right Decission <br>
-                                            To Success</h4>
-                                        <p>Learn how to take the right decission in critical time to get succes and
-                                            <br>
+                                        <a href="BlogDetails.html">
+                                            <h4>The Art Of Taking Right Decission <br class="d-lg-block d-none">
+                                                To Success</h4>
+                                        </a>
+                                        <p class="text-lg-start text-center">Learn how to take the right decission in
+                                            critical time to get succes and
+                                            <br class="d-lg-block d-none">
                                             how to overcome bad times.
                                         </p>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-lg-6">
+                            <div class="slide col-lg-6">
                                 <div class="blog_card">
+                                    <img class="img-fluid mb_24" src="/assets/home1/blog2.png " alt="">
 
+                                    <div class="blog_date">
+                                        <button>26 Jan, 2023</button>
+                                    </div>
+                                    <div class="">
+                                        <a href="BlogDetails.html">
+                                            <h4>The Art Of Taking Right Decission <br class="d-lg-block d-none">
+                                                To Success</h4>
+                                        </a>
+                                        <p class="text-lg-start text-center"> Learn how to take the right decission in
+                                            critical time to get succes and
+                                            <br class="d-lg-block d-none">
+                                            how to overcome bad times.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide col-lg-6">
+                                <div class="blog_card">
+                                    <img class="img-fluid mb_24" src="/assets/home1/blog2.png " alt="">
+
+                                    <div class="blog_date">
+                                        <button>26 Jan, 2023</button>
+                                    </div>
+                                    <div class="">
+                                        <a href="BlogDetails.html">
+                                            <h4>The Art Of Taking Right Decission <br class="d-lg-block d-none">
+                                                To Success</h4>
+                                        </a>
+                                        <p class="text-lg-start text-center"> Learn how to take the right decission in
+                                            critical time to get succes and
+                                            <br class="d-lg-block d-none">
+                                            how to overcome bad times.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide col-lg-6">
+                                <div class="blog_card">
+                                    <img class="img-fluid mb_24" src="/assets/home1/blog2.png " alt="">
+
+                                    <div class="blog_date">
+                                        <button>26 Jan, 2023</button>
+                                    </div>
+
+                                    <div class="">
+                                        <a href="BlogDetails.html">
+                                            <h4>The Art Of Taking Right Decission <br class="d-lg-block d-none">
+                                                To Success</h4>
+                                        </a>
+                                        <p class="text-lg-start text-center"> Learn how to take the right decission in
+                                            critical time to get succes and
+                                            <br class="d-lg-block d-none">
+                                            how to overcome bad times.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide col-lg-6">
+                                <div class="blog_card">
                                     <img class="img-fluid mb_24" src="/assets/home1/blog2.png " alt="">
 
                                     <div class="blog_date">
@@ -916,90 +1152,47 @@
 
 
                                     <div class="">
-                                        <h4>The Art Of Taking Right Decission <br>
-                                            To Success</h4>
-                                        <p>Learn how to take the right decission in critical time to get succes and
-                                            <br>
+                                        <a href="BlogDetails.html">
+                                            <h4>The Art Of Taking Right Decission <br class="d-lg-block d-none">
+                                                To Success</h4>
+                                        </a>
+                                        <p class="text-lg-start text-center"> Learn how to take the right decission in
+                                            critical time to get succes and
+                                            <br class="d-lg-block d-none">
                                             how to overcome bad times.
                                         </p>
                                     </div>
                                 </div>
                             </div>
-
-
-
-                        </div>
-                        <div class="item row">
-                            <div class="col-lg-6">
-                                <div class="blog_card">
-                                    <img class="img-fluid mb_24" src="/assets/home1/blog1.png " alt="">
-                                    <div class="blog_date">
-                                        <button>26 Jan, 2023</button>
-                                    </div>
-                                    <div class="">
-                                        <h4>The Art Of Taking Right Decission <br>
-                                            To Success</h4>
-                                        <p>Learn how to take the right decission in critical time to get succes and
-                                            <br>
-                                            how to overcome bad times.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6">
-                                <div class="blog_card">
-
-                                    <img class="img-fluid mb_24" src="/assets/home1/blog2.png " alt="">
-
-                                    <div class="blog_date">
-                                        <button>26 Jan, 2023</button>
-                                    </div>
-
-
-
-                                    <div class="">
-                                        <h4>The Art Of Taking Right Decission <br>
-                                            To Success</h4>
-                                        <p>Learn how to take the right decission in critical time to get succes and
-                                            <br>
-                                            how to overcome bad times.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
                         </div>
                     </div>
-
                 </div>
-
-
-            </div>
-        </section>
+            </section>
+        </div>
         <!-- Our Latest Blog end -->
 
         <!-- membership start -->
-        <section class="container mb_130">
-            <div class="membership_wrapper">
-                <h1 class="mb_12">Join Membership And <br>
-                    Connect To Every Member</h1>
-                <p>Learn how to take the right decission in critical time to get succes and how to overcome bad times.
-                </p>
-                <div class="position-relative">
-                    <input type="text" name="" id="" placeholder="Enter your email address">
-                    <button class="email_arrow">
-                        <img src="/assets/home1/arrow-right-circle.png" alt="">
-                    </button>
+        <div class="shadow_green1 
+        slider_margin">
+            <section class="home1 container mb_130 ps-0 pe-0">
+                <div class="membership_wrapper">
+                    <h1 class="mb_12">Join Membership And <br class="d-lg-block d-none">
+                        Connect To Every Member</h1>
+                    <p>Learn how to take the right decission in critical time to get succes and how to overcome bad
+                        times.
+                    </p>
+                    <div class="position-relative">
+                        <input type="text" name="" id="" placeholder="Enter your email address">
+                        <button class="email_arrow">
+                            <img src="/assets/home1/arrow-right-circle.png" alt="">
+                        </button>
+                    </div>
                 </div>
-            </div>
 
-        </section>
+            </section>
+        </div>
         <!-- membership end -->
     </main>
-
     <footer>
         <div class="container">
             <div class="row gy-3">
@@ -1036,20 +1229,20 @@
                 <div class="col-md-3 col-lg-2">
                     <ul class="text-center text-md-start">
                         <li>Links</li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Upcoming Events</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="EventsGrid.html">Upcoming Events</a></li>
                         <li><a href="#">FAQ Question</a></li>
-                        <li><a href="#">Testimonial</a></li>
+                        <li><a href="Testimonial.html">Testimonial</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 col-lg-2">
                     <ul class="text-center text-md-start">
                         <li>Uselink</li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="ContactUs.html">Contact Us</a></li>
                         <li><a href="#">Pricing Plan</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Instructor</a></li>
+                        <li><a href="Gallary.html">Gallery</a></li>
+                        <li><a href="instructor.html">Instructor</a></li>
                         <li><a href="#">Pruchese</a></li>
                     </ul>
                 </div>
@@ -1080,14 +1273,34 @@
                 Reserved</p>
         </div>
     </footer>
-
 </body>
+<!--  -->
+
+<script type="text/javascript"></script>
+<script src="/js/instructorslider.js"></script>
+<script src="/js/BlogSlider.js"></script>
+<script src="/js/testimonialSlider.js"></script>
+<script src="./js/active_link.js"></script>
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- isotop -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="./js/BlogSlider.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+<script src="/js/filter.js"></script>
+<script src="/js/jquery-1.12.4.min.js"></script>
+<script src="/js/isotop.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+<!-- slick  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- slick  -->
 
 </html>
