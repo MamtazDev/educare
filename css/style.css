@@ -24,8 +24,8 @@
 
 //------------------------------------home 1------------------------------
 
-
 */
+
 [data-aos="new-animation"] {
   opacity: 0;
   transition-property: transform, opacity;
@@ -78,6 +78,7 @@
   background: #97c532;
   border-radius: 10px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: #aff31d;
 }
@@ -752,12 +753,14 @@ footer hr {
 .modal-header button {
   position: absolute;
   color: white;
-  right: 0;
+  right: 20px;
+  top: 13px;
   z-index: 1;
   padding: 0;
   font-size: 23px;
 }
-.modal_video_h{
+
+.modal_video_h {
   height: 700px;
 }
 
@@ -801,14 +804,10 @@ footer hr {
 
 /* responsive start */
 @media (max-width:768px) {
-  .modal_video_h{
+  .modal_video_h {
     height: 400px;
   }
-<<<<<<< HEAD
 
-=======
-
->>>>>>> 342cce280499bde0887749bcc81d24f74a7bf0c3
   .mt_130 {
     margin-top: 50px;
   }
@@ -841,11 +840,7 @@ footer hr {
 
   }
 
-<<<<<<< HEAD
   /*
-=======
-  /*
->>>>>>> 342cce280499bde0887749bcc81d24f74a7bf0c3
   .contact_wrapper .col-lg-6 {
     padding-left: 0;
     padding-right: 0
@@ -1290,11 +1285,7 @@ h1 {
 
 /* membership end */
 
-<<<<<<< HEAD
 /*
-=======
-/*
->>>>>>> 342cce280499bde0887749bcc81d24f74a7bf0c3
 .owl-carousel .owl-dots.disabled,
 .owl-carousel .owl-nav.disabled {
   display: block !important;
@@ -1918,4 +1909,8 @@ h1 {
   top: 100%;
   height: inherit;
   background-color: #f8f6f6;
+}
+
+div#exampleModal{
+  background-color: #0000009c;
 }

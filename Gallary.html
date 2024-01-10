@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Educare</title>  <link rel="shortcut icon" href="/assets/small-logo-green.png" type="image/x-icon">
-
+    <title>Educare</title>
+    <link rel="shortcut icon" href="/assets/small-logo-green.png" type="image/x-icon">
 
     <!-- bootstrap link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
@@ -23,8 +23,8 @@
     <link rel="stylesheet" href="css/aboutUs.css">
     <link rel="stylesheet" href="css/gallary.css">
     <!-- my css -->
-    <!-- aos -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- import aos -->
+    <link href="css/animate.css" rel="stylesheet">
 </head>
 
 <body class="about archive">
@@ -115,7 +115,8 @@
                     <form class="d-flex gap-4 authBtn">
                         <a href="login.html" class="" type="submit">Login</a>
                         <button class="signup_button">
-                            <a href="signup.html" class="" type="submit"><img src="/assets/home1/user-circle.png" alt="">
+                            <a href="signup.html" class="" type="submit"><img src="/assets/home1/user-circle.png"
+                                    alt="">
                                 Create Account</a>
                         </button>
                     </form>
@@ -128,8 +129,9 @@
         <!-- section header start -->
         <section class="">
             <div class="sectionHeader_wrapper shadow_wrapper">
-                <h3>Gallery Grid</h3>
-                <div class="d-flex alig-items-center justify-content-center ">
+                <h3 class="wow fadeInUp" data-wow-duration="1.05s" data-wow-delay="100ms">Gallery Grid</h3>
+                <div class="d-flex alig-items-center justify-content-center wow fadeInUp" data-wow-duration="1.05s"
+                    data-wow-delay="200ms">
                     <p>Home</p>
                     <img src="/assets/about/arrow-right.png" class="sectinHeader_arrow" alt="">
                     <p>Gallery Grid</p>
@@ -140,10 +142,10 @@
         <section>
             <div class="container">
                 <div class="d-flex flex-wrap align-items-center justify-content-between">
-                    <div>
+                    <div class="wow fadeInUp" data-wow-duration="1.05s" data-wow-delay="300ms">
                         <h3>Gallery Grid</h3>
                     </div>
-                    <div class="gallary">
+                    <div class="gallary wow fadeInUp" data-wow-duration="1.05s" data-wow-delay="400ms">
                         <div class="featured_buttons">
                             <button data-filter="*" class="grey_btn feature_green_btn">All</button>
                             <button data-filter=".trending" class="grey_btn ">Trending</button>
@@ -156,19 +158,23 @@
 
                 <div class="gallary_wrapper ">
                     <div class="row gallaryAll">
-                        <div class="col-lg-4 feature popularity trending " data-aos="fade-right"
-                            data-aos-duration="1000" data-aos-delay="200">
-                            <img class="img-fluid  gap-4 " src="/assets/gallary/g1.png" alt="">
-                        </div>
                         <div class="col-lg-4 feature popularity trending ">
-                            <img data-aos="fade-top" data-aos-duration="1000" data-aos-delay="200"
-                                class="img-fluid  gap-4" src="/assets/gallary/g2.png" alt="">
-                            <img data-aos="fade-bottom" data-aos-duration="1000" data-aos-delay="200" class="img-fluid"
+                            <img class="img-fluid  gap-4 wow fadeInUp" data-wow-duration="1.05s" data-wow-delay="100ms"
+                                src="/assets/gallary/g1.png" alt="">
+                        </div>
+
+                        <div class="col-lg-4 feature popularity trending ">
+                            <img class="img-fluid  gap-4 wow fadeInUp" data-wow-duration="1.05s" data-wow-delay="200ms"
+                                src="/assets/gallary/g2.png" alt="">
+
+                            <img class="img-fluid wow fadeInUp" data-wow-duration="1.05s" data-wow-delay="300ms"
                                 src="/assets/gallary/g4.png" alt="">
                         </div>
                         <div class="col-lg-4 feature ">
-                            <img data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" class="img-fluid  gap-4" src="/assets/gallary/g3.png" alt="">
-                            <img data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" class="img-fluid" src="/assets/gallary/g5.png" alt="">
+                            <img class="img-fluid  gap-4 wow fadeInUp" data-wow-duration="1.05s" data-wow-delay="400ms"
+                                src="/assets/gallary/g3.png" alt="">
+                            <img class="img-fluid wow fadeInUp" data-wow-duration="1.05s" data-wow-delay="500ms"
+                                src="/assets/gallary/g5.png" alt="">
                         </div>
                     </div>
 
@@ -248,30 +254,34 @@
                             </div>
                         </li>
                         <li>
-                            <a href="#" class="d-flex flex-lg-row flex-column gap-2 align-items-center"> <img
-                                    src="/assets/home1/gmail.png" alt="gmail"> youremailaddress@example.com</a>
+                            <a href="#" class="d-flex flex-lg-row flex-column gap-2 align-items-center">
+                                <img src="/assets/home1/gmail.png" alt="gmail"> youremailaddress@example.com</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <hr>
-            <p class="text-center">Copyright 2023 Educare | Developed By Opedia Technologies Limited, All Rights
+            <p class="text-center">
+                Copyright 2023 Educare | Developed By Opedia Technologies Limited, All Rights
                 Reserved</p>
         </div>
     </footer>
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init();
-</script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="/js/filter.js"></script>
 <script src="/js/jquery-1.12.4.min.js"></script>
 <script src="/js/isotop.min.js"></script>
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+<!-- import wow aos -->
+<script src="js/script.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<!-- script -/end -->
 
 
 </html>

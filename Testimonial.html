@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Educare</title>  <link rel="shortcut icon" href="/assets/small-logo-green.png" type="image/x-icon">
-
+    <title>Educare</title>
+    <link rel="shortcut icon" href="/assets/small-logo-green.png" type="image/x-icon">
 
     <!-- bootstrap link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
@@ -28,8 +28,10 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
-    <!-- aos -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- import aos -->
+    <link href="css/animate.css" rel="stylesheet">
+
 </head>
 
 <body class="about archive">
@@ -120,7 +122,8 @@
                     <form class="d-flex gap-4 authBtn">
                         <a href="login.html" class="" type="submit">Login</a>
                         <button class="signup_button">
-                            <a href="signup.html" class="" type="submit"><img src="/assets/home1/user-circle.png" alt="">
+                            <a href="signup.html" class="" type="submit"><img src="/assets/home1/user-circle.png"
+                                    alt="">
                                 Create Account</a>
                         </button>
                     </form>
@@ -133,8 +136,9 @@
         <!-- section header start -->
         <section class="">
             <div class="sectionHeader_wrapper shadow_wrapper">
-                <h3>Testimonial</h3>
-                <div class="d-flex alig-items-center justify-content-center ">
+                <h3 class="wow fadeInUp" data-wow-duration="1.05s" data-wow-delay="100ms">Testimonial</h3>
+                <div class="d-flex alig-items-center justify-content-center wow fadeInUp" data-wow-duration="1.05s"
+                    data-wow-delay="200ms">
                     <p>Home</p>
                     <img src="/assets/about/arrow-right.png" class="sectinHeader_arrow" alt="">
                     <p>Testimonial</p>
@@ -144,7 +148,7 @@
         <!-- section header end -->
 
         <!-- Our Students Feedback start -->
-        
+
         <!-- Our Students Feedback end -->
 
         <!-- Our Students Feedback start -->
@@ -155,8 +159,9 @@
                         <div class=" row align-items-center p-0">
                             <div class="col-lg-6">
                                 <div class="testimonial_wrapper">
-                                    <button class="about_btn mb_24 d-lg-none d-block text-center d-flex"><img
-                                            src="/assets/home1/greenstart.png" alt=""> Testimonials</button>
+                                    <button class="about_btn mb_24 d-lg-none d-block text-center d-flex">
+                                        <img src="/assets/home1/greenstart.png" alt="testimonial-img"> Testimonials
+                                    </button>
                                     <img class="img-fluid" src="/assets/home1/feedback.png" alt="about">
                                 </div>
 
@@ -303,19 +308,20 @@
         </section>
         <!-- Our Students Feedback end -->
 
-     
+
         <section class="testimonial home3_bg  mb_130 pb-5" style="overflow-x: hidden;">
             <div class="container">
                 <div class="item">
                     <div class="text-center">
-                        <div class="testimonial_wrapper">
-                            <button class="about_btn mb_24 text-center"><img src="/assets/home1/greenstart.png" alt="">
+                        <div class="testimonial_wrapper wow fadeInUp" data-wow-duration="1.05s" data-wow-delay="100ms">
+                            <button class="about_btn mb_24 text-center">
+                                <img src="/assets/home1/greenstart.png" alt="">
                                 Testimonials</button>
                         </div>
-                        <h2 class="common_heading mb-3">
+                        <h2 class="common_heading mb-3 wow fadeInUp" data-wow-duration="1.05s" data-wow-delay="200ms">
                             Our Students Feedback
                         </h2>
-                        <p class="common_para">87% of people learning for professional development report career
+                        <p class="common_para wow fadeInUp" data-wow-duration="1.05s" data-wow-delay="300ms">87% of people learning for professional development report career
                             benefits <br> like getting a promotion starting a new career in every world</p>
                         <div class=" slick-slider row mt_32">
                             <div class="slide col-lg-4">
@@ -572,9 +578,14 @@
 </script>
 <!-- slick  -->
 <script src="/js/testimonialSlider.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
-    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 <!-- slick  -->
+<!-- import wow aos -->
+<script src="js/script.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<!-- script -/end -->
 
 </html>

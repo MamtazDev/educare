@@ -51,6 +51,10 @@
     border-radius: 10px;
 }
 
+::-webkit-scrollbar-thumb:hover {
+    background: #9896ff;
+}
+
 /* Header Start */
 .shadow_yellow,
 .shadow_yellow1 {
@@ -1208,4 +1212,24 @@ header {
     .workshop h2 {
         font-size: 24px;
     }
+}
+
+
+
+.dropdown-menu {
+    border: none;
+    display: block;
+    transform: scale(1) !important;
+    height: 0px;
+    overflow: hidden;
+    padding: 0px;
+    top: 180px;
+    transition: all .5s;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    top: 100%;
+    height: inherit;
+    background-color: #f8f6f6;
 }
