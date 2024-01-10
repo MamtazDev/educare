@@ -910,14 +910,34 @@ footer hr {
   transition: ease-in-out 0.3s;
 }
 
+.greenButton {
+  /* background-color: #4CAF50; */
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  background-size: 200% 100%;
+}
+
 .greenButton:hover {
-  background-color: #EEE;
+  color: white;
+  background-position: -100% 0;
+  background-image: linear-gradient(to right, #4CAF50 50%, #409c43 50%);
+}
+
+
+.bannerWatchBtn{
+
 }
 
 .about_btn {
   transition: ease-in-out 0.3s;
   border: 1px solid #B6EC3D;
-
 }
 
 .about_btn:hover {
@@ -1758,6 +1778,7 @@ h1 {
 .ourlatest_blog .slick-prev:before,
 .ourlatest_blog .slick-next:before {
   color: #131C1E !important;
+  font-family: 'Outfit', sans-serif;
   display: flex;
   width: 126px;
   height: 57px;
@@ -1911,6 +1932,6 @@ h1 {
   background-color: #f8f6f6;
 }
 
-div#exampleModal{
+div#exampleModal {
   background-color: #0000009c;
 }
