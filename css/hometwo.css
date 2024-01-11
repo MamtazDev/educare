@@ -1159,6 +1159,8 @@ header {
 
     }
 
+
+
     .qualites .qualites_wrapper {
         padding: 35px 55px;
     }
@@ -1216,7 +1218,7 @@ header {
 
 
 
-.dropdown-menu {
+/* .dropdown-menu {
     border: none;
     display: block;
     transform: scale(1) !important;
@@ -1232,4 +1234,52 @@ header {
     top: 100%;
     height: inherit;
     background-color: #f8f6f6;
+} */
+
+
+.greenButton {
+    transition: 0.3s;
+    background-size: 200% 100%;
+}
+
+.greenButton:hover {
+    color: white;
+    background-position: -100% 0;
+    background-image: linear-gradient(to right, #6663FF 50%, #8d8bfa 50%);
+}
+
+.signup_button {
+    transition: 0.3s;
+    background-size: 200% 100%;
+}
+
+.signup_button:hover {
+    color: white;
+    background-position: -100% 0;
+    background-image: linear-gradient(to right, #131C1E 50%, #454949 50%);
+}
+
+.free_workshop_btn {
+    transition: 0.3s;
+    background-size: 200% 100%;
+}
+
+.free_workshop_btn:hover {
+    background-position: -100% 0;
+    background-image: linear-gradient(to right, #e9cf81 50%, #FFD452 50%);
+}
+
+.featured_card_img {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.featured_card img {
+    border-radius: 40px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.featured_card img:hover {
+    transform: scale(1.2);
 }
