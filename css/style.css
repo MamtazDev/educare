@@ -1075,7 +1075,7 @@ footer hr {
 }
 
 .featured_card img {
-  border-radius: 40px;
+  border-radius: 10px;
   overflow: hidden;
   transition: 0.2s;
 }
@@ -1746,8 +1746,6 @@ h1 {
   transition: all 0.4s ease-out;
 }
 
-
-
 /* blog slider */
 /* community_wrapper slider */
 .community_wrapper .slick-dots li button:before {
@@ -1762,7 +1760,6 @@ h1 {
 
 /* community_wrapper slider */
 
-
 .ourlatest_blog .slick-next {
   right: 138px !important;
 }
@@ -1774,8 +1771,6 @@ h1 {
 .ourlatest_blog .slick-next:before {
   content: "Next" !important;
   color: black;
-
-
 }
 
 .ourlatest_blog .slick-prev:before {
@@ -1838,7 +1833,6 @@ h1 {
 .slick-dots {
   bottom: -70px !important;
 }
-
 
 @media(max-width:768px) {
   .slider_margin1 {
