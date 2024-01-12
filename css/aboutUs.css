@@ -373,7 +373,9 @@
 
 }
 
-
 .featured_card img{
     border-radius: 10px;
+}
+.featured_card:hover img{
+    transform: scale(1) !important;
 }

@@ -515,7 +515,7 @@
 }
 
 .banner_images span {
-    color: var(--Color-Option-Neutral-color-2, #FFF);
+    color: #FFF;
     font-family: Outfit;
     font-size: 16px;
     font-style: normal;
@@ -525,7 +525,7 @@
 }
 
 .banner_images p {
-    color: var(--Color-Option-Text-Color-2, #BCBCBC);
+    color: #BCBCBC;
     font-family: Outfit;
     font-size: 16px;
     font-style: normal;

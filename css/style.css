@@ -1081,7 +1081,7 @@ footer hr {
 }
 
 .featured_card img:hover {
-  transform: scale(1.2);
+  transform: scale(1) !important;
 }
 
 .featured_card h3 {
@@ -1306,11 +1306,19 @@ h1 {
   margin: auto;
 }
 
-.email_arrow {
+/* .email_arrow {
   position: absolute;
   top: 2px;
-  right: 37%;
+  right: 37% !important;
+} */
+
+#email_arrow{
+  background-image: url(../assets/home1/arrow-right-circle.png);
+  background-repeat: no-repeat;
+  background-position: right center;
 }
+
+
 
 
 /* membership end */
