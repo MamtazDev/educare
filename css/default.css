@@ -27,7 +27,7 @@ body {
     color: var(--primaryColor);
 }
 
-F .membership_wrapper {
+.membership_wrapper {
     padding: 24px;
 }
 
@@ -35,8 +35,6 @@ F .membership_wrapper {
     background-color: #6663FF !important;
     color: white;
 }
-
-
 
 .custom-button {
     padding: 10px;
@@ -46,7 +44,6 @@ F .membership_wrapper {
     border: none;
     cursor: pointer;
 }
-
 
 .custom-button.active {
     background-color: #B6EC3D;
@@ -58,7 +55,6 @@ F .membership_wrapper {
     top: 2px;
     right: 0%;
 }
-
 
 .color_BC {
     color: var(--textColor);
@@ -91,8 +87,6 @@ p {
     padding: 0;
 }
 
-
-
 ul {
     list-style: none;
     padding: 0;
@@ -115,7 +109,6 @@ a {
 :focus {
     outline: none;
 }
-
 
 .container {
     max-width: 1420px;
@@ -406,14 +399,7 @@ input {
     border: 1px solid var(--neutralColor2);
     color: var(--neutralColor2);
 }
-
-
-
 /* common buttons design */
-
-
-
-
 
 /* Design Text and SectionHeader Class Start */
 .sectionHeader {
@@ -460,8 +446,6 @@ input {
     .membership_wrapper {
         padding: 26px 24px !important;
     }
-
-
 }
 
 .green_text {
@@ -486,7 +470,6 @@ input {
     border-style: solid;
     border-color: var(--primaryColor) transparent transparent transparent;
     border-radius: 45% 45% 0 0;
-
 }
 
 .txt_curve_yellow::after {
@@ -530,8 +513,6 @@ input {
         border-radius: 45% 45% 0 0;
     }
 }
-
-
 
 /*  Theme default css  end */
 

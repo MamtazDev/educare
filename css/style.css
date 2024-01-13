@@ -200,7 +200,6 @@
     gap: 25px;
     justify-content: center;
     align-items: center;
-
   }
 
   .authBtn a {
@@ -324,7 +323,6 @@ footer input {
   padding-left: 30px;
 }
 
-
 footer input::placeholder {
   color: var(--initialColor);
   font-size: 16px;
@@ -357,7 +355,6 @@ footer hr {
   margin-top: 0;
   margin-bottom: 50px;
 }
-
 
 /* Footer Responsive Start */
 @media only screen and (max-width:1335px) {
@@ -437,14 +434,12 @@ footer hr {
 /* Footer Responsive End */
 /* Footer End */
 
-
 /* banner start  */
 .img_rotate {
   position: absolute;
-  left: -35px;
+  left: -7%;
   top: 50%;
   animation: animName 5s linear infinite;
-
 }
 
 @keyframes animName {
@@ -460,7 +455,6 @@ footer hr {
 /* animation for tag */
 .tagAnimation {
   animation: tagAni 5s linear infinite;
-
 }
 
 @keyframes tagAni {
@@ -472,8 +466,6 @@ footer hr {
     transform: rotate(360deg);
   }
 }
-
-
 
 .banner_wrapper {
   margin-top: 130px;
@@ -543,7 +535,6 @@ footer hr {
   z-index: -1;
 }
 
-
 .shadow_green1:after {
   position: absolute;
   content: "";
@@ -606,7 +597,6 @@ footer hr {
 }
 
 /* trusted by end */
-
 
 /* how it works start */
 .howItWorks_title {
@@ -928,7 +918,6 @@ footer hr {
   background-image: linear-gradient(to right, #c3f063 50%, #B6EC3D 50%);
 }
 
-
 .about_btn {
   transition: ease-in-out 0.3s;
   border: 1px solid #B6EC3D;
@@ -945,6 +934,7 @@ footer hr {
   display: block;
   transition: ease-in-out 0.3s;
 }
+
 .phone_btn:hover {
   color: black;
   background-color: white;
@@ -1074,14 +1064,14 @@ footer hr {
   border-radius: 10px;
 }
 
-.featured_card img {
+.featured_card_img img {
   border-radius: 10px;
   overflow: hidden;
   transition: 0.2s;
 }
 
-.featured_card img:hover {
-  transform: scale(1) !important;
+.featured_card_img img:hover {
+  transform: scale(1.5) !important;
 }
 
 .featured_card h3 {
@@ -1203,7 +1193,6 @@ footer hr {
   font-weight: 600;
   line-height: 150%;
   margin-bottom: 4px;
-
 }
 
 .feedback_profile p {
@@ -1312,14 +1301,11 @@ h1 {
   right: 37% !important;
 } */
 
-#email_arrow{
+#email_arrow {
   background-image: url(../assets/home1/arrow-right-circle.png);
   background-repeat: no-repeat;
   background-position: right center;
 }
-
-
-
 
 /* membership end */
 
@@ -1362,7 +1348,6 @@ h1 {
   margin-bottom: 24px;
 }
 
-
 .owl-next::after {
   content: url('/assets/arrowright1.png');
   position: absolute;
@@ -1388,6 +1373,7 @@ h1 {
   background-color: transparent !important;
   margin: 0;
 }
+
 .owl-theme .owl-dots .owl-dot span{
   width: 18px;
   height: 18px;
@@ -1396,8 +1382,6 @@ h1 {
 .owl-stage {
   transform: unset !important;
 }
-
-
 
 /* responsive design */
 /* extablishing a community */
@@ -1439,7 +1423,6 @@ h1 {
     flex-wrap: wrap;
   }
 
-
   .featured_wrapper {
     padding: 48px 0;
   }
@@ -1465,7 +1448,6 @@ h1 {
   .rating span {
     font-size: 20px;
   }
-
 
   /* explore course start */
   .explore_courses {
@@ -1500,7 +1482,6 @@ h1 {
     right: -8px !important;
     bottom: 5px !important;
     gap: 14px !important;
-
   }
 
   .col-lg-4 {
@@ -1547,20 +1528,6 @@ h1 {
   /* student feedback end */
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* testimonial */
 .border_bottom {
   border-bottom: 1px solid #464646;
@@ -1603,7 +1570,6 @@ h1 {
   gap: 10px;
 }
 
-
 /* contact us */
 .contact_wrapper {
   border-radius: 15px;
@@ -1634,18 +1600,15 @@ h1 {
 
 .contact_wrapper .common_heading p {
   color: var(--Color-Option-Text-Color-1, #747474);
-
   /* B2/Body 2 (Regular) */
   font-family: Outfit;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-
 }
 
 .contact_form {
   margin-top: 40px;
-
 }
 
 .contact_form label {
@@ -2010,6 +1973,125 @@ div#exampleModal {
   background-image: linear-gradient(to right, #131C1E 50%, #454949 50%);
 }
 
-
-
 /* button hover -/end */
+
+@keyframes ldio-h7umb8v2c05 {
+  0% {
+    opacity: 1
+  }
+
+  100% {
+    opacity: 0
+  }
+}
+
+.ldio-h7umb8v2c05 div {
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  animation: ldio-h7umb8v2c05 linear 1s infinite;
+  background: #ffffff;
+  width: 12px;
+  height: 24px;
+  border-radius: 6px / 12px;
+  transform-origin: 6px 52px;
+  transform: translate(-50%, -50%);
+}
+
+.ldio-h7umb8v2c05 div:nth-child(1) {
+  transform: rotate(0deg);
+  animation-delay: -0.9166666666666666s;
+  background: #ffffff;
+}
+
+.ldio-h7umb8v2c05 div:nth-child(2) {
+  transform: rotate(30deg);
+  animation-delay: -0.8333333333333334s;
+  background: #ffffff;
+}
+
+.ldio-h7umb8v2c05 div:nth-child(3) {
+  transform: rotate(60deg);
+  animation-delay: -0.75s;
+  background: #ffffff;
+}
+
+.ldio-h7umb8v2c05 div:nth-child(4) {
+  transform: rotate(90deg);
+  animation-delay: -0.6666666666666666s;
+  background: #ffffff;
+}
+
+.ldio-h7umb8v2c05 div:nth-child(5) {
+  transform: rotate(120deg);
+  animation-delay: -0.5833333333333334s;
+  background: #ffffff;
+}
+
+.ldio-h7umb8v2c05 div:nth-child(6) {
+  transform: rotate(150deg);
+  animation-delay: -0.5s;
+  background: #ffffff;
+}
+
+.ldio-h7umb8v2c05 div:nth-child(7) {
+  transform: rotate(180deg);
+  animation-delay: -0.4166666666666667s;
+  background: #ffffff;
+}
+
+.ldio-h7umb8v2c05 div:nth-child(8) {
+  transform: rotate(210deg);
+  animation-delay: -0.3333333333333333s;
+  background: #ffffff;
+}
+
+.ldio-h7umb8v2c05 div:nth-child(9) {
+  transform: rotate(240deg);
+  animation-delay: -0.25s;
+  background: #ffffff;
+}
+
+.ldio-h7umb8v2c05 div:nth-child(10) {
+  transform: rotate(270deg);
+  animation-delay: -0.16666666666666666s;
+  background: #ffffff;
+}
+
+.ldio-h7umb8v2c05 div:nth-child(11) {
+  transform: rotate(300deg);
+  animation-delay: -0.08333333333333333s;
+  background: #ffffff;
+}
+
+.ldio-h7umb8v2c05 div:nth-child(12) {
+  transform: rotate(330deg);
+  animation-delay: 0s;
+  background: #ffffff;
+}
+
+.loadingio-spinner-spinner-sftw2cww3dg {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #b6ec3d;
+}
+
+.ldio-h7umb8v2c05 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+  /* see note above */
+}
+
+.ldio-h7umb8v2c05 div {
+  box-sizing: content-box;
+}
+
+/* generated by https://loading.io/ */

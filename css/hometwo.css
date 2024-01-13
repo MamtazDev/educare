@@ -1090,11 +1090,9 @@ header {
     display: block;
 }
 
-
 .free_workshop_btn:hover .d_block_nohover {
     display: none;
 }
-
 
 @media(width:768px) {
     .whatweare {
@@ -1159,8 +1157,6 @@ header {
 
     }
 
-
-
     .qualites .qualites_wrapper {
         padding: 35px 55px;
     }
@@ -1216,8 +1212,6 @@ header {
     }
 }
 
-
-
 /* .dropdown-menu {
     border: none;
     display: block;
@@ -1235,7 +1229,6 @@ header {
     height: inherit;
     background-color: #f8f6f6;
 } */
-
 
 .greenButton {
     transition: 0.3s;
@@ -1267,19 +1260,4 @@ header {
 .free_workshop_btn:hover {
     background-position: -100% 0;
     background-image: linear-gradient(to right, #e9cf81 50%, #FFD452 50%);
-}
-
-.featured_card_img {
-    overflow: hidden;
-    border-radius: 10px;
-}
-
-.featured_card img {
-    border-radius: 40px;
-    overflow: hidden;
-    transition: 0.2s;
-}
-
-.featured_card img:hover {
-    transform: scale(1.2);
 }
