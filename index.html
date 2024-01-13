@@ -29,10 +29,11 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.clou.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
     <!-- import aos -->
     <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
 
@@ -177,7 +178,9 @@
                 <div class="container">
                     <div class="row gap-lg-0 gap-5 align-items-center">
                         <div class="col-lg-7">
-                            <div class="banner_info">
+                            <div class="banner_info" data-aos="fade-right" data-aos-offset="200" data-aos-delay="50"
+                                data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
+                                data-aos-once="false">
                                 <h1 class="banner_title text-lg-start text-center">
                                     Find the <span>Perfect</span>
                                     <br class="d-lg-block d-none">
@@ -210,7 +213,9 @@
                         </div>
 
                         <div class="col-lg-5">
-                            <div>
+                            <div data-aos="fade-left" data-aos-offset="200" data-aos-delay="50"
+                                data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
+                                data-aos-once="false">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="/assets/home1/banner1.png" alt="banner">
                                     <img class="img_rotate" src="/assets/bannerrotate.png" alt="rotate_img">
@@ -1430,6 +1435,10 @@
     new WOW().init();
 </script>
 <script src="js/script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <!-- script -/end -->
 
 </html>
