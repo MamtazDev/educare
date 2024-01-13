@@ -350,12 +350,56 @@ input {
     background-position: left bottom;
 }
 
+
+.greenButton3 {
+    display: flex;
+    width: 219px;
+    height: 57px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background: var(--secondarycolor);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    border: 1px solid transparent;
+    background: linear-gradient(to right, #ffdb71 50%, #FFD452 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+.greenButton3:hover {
+    background-position: left bottom;
+}
+
 .bannerWatchBtn {
     padding: 11px;
     border-radius: 11px;
     border: 1px solid var(--neutralColor);
     font-size: 16px;
     font-weight: 400;
+}
+
+.bannerWatchBtn3 {
+    padding: 11px;
+    border-radius: 11px;
+    border: 1px solid #6e6e6e;
+    font-size: 16px;
+    font-weight: 400;
+
+    color: white;
+    background: linear-gradient(to right, #6e6e6e 50%, #000000 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+.bannerWatchBtn3:hover {
+    background-position: left bottom;
 }
 
 .about_btn {
@@ -399,13 +443,9 @@ input {
     transition: all .5s ease-out;
 }
 
-
 .know_more_btn:hover {
     background-position: left bottom;
 }
-
-
-
 
 .phone_btn {
     display: flex;

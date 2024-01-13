@@ -917,7 +917,7 @@ footer hr {
 
 }
 
-/* .phone_btn:hover .hover_img_block {
+.phone_btn:hover .hover_img_block {
   display: block;
   transition: ease-in-out 0.3s;
 }
@@ -925,7 +925,7 @@ footer hr {
 .phone_btn:hover {
   color: black;
   background-color: white;
-} */
+}
 .blog_date button:hover {
   background-color: white;
   color: black;
@@ -1886,43 +1886,25 @@ div#exampleModal {
 
 /* button hover */
 .bannerWatchBtn {
-  transition: 0.3s;
-  background-size: 200% 100%;
+    background: linear-gradient(to right, #e7e7e7 50%, #fff 50%);
+      background-size: 200% 100%;
+      background-position: right bottom;
+      transition: all .5s ease-out;
 }
 
 .bannerWatchBtn:hover {
-  background-position: -100% 0;
-  background-image: linear-gradient(to right, #e2e2e2 50%, #f1f1f1 50%);
-  border: 1px solid transparent;
+    background-position: left bottom;
 }
-
-/* .greenButton {
-  border: 1px solid transparent;
-  border-radius: 3px;
-  background: linear-gradient(to right, purple 50%, white 50%);
-  background-size: 200% 100%;
-  background-position: right bottom;
-  transition: all .5s ease-out;
-}
-
-.greenButton:hover {
-  background-position: left bottom;
-} */
-
-
-
-
 
 .phone_btn {
-  transition: 0.3s;
-  background-size: 200% 100%;
+  background: linear-gradient(to right, #ebebeb 50%, #000000 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
 }
 
 .phone_btn:hover {
-  background-position: -100% 0;
-  background-image: linear-gradient(to right, #e2e2e2 50%, #f1f1f1 50%);
-  border: 1px solid transparent;
-  color: black;
+background-position: left bottom;
 }
 
 .phone_btn:hover .hover_img {

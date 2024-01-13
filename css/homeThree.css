@@ -119,12 +119,6 @@
 
 }
 
-.home3 .bannerWatchBtn {
-    border-radius: 11px;
-    border: 1px solid var(--neutralColor2);
-    color: var(--neutralColor2);
-}
-
 .home3 .grey2 {
     color: var(--textColor);
 }
@@ -231,6 +225,10 @@
     flex-shrink: 0;
     border-radius: 11px;
     background: var(--secondarycolor);
+    background: linear-gradient(to right, #c0a659 50%, #FFD452 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
 }
 
 .yellow_btn:hover .d_block_hover {
@@ -250,10 +248,7 @@
 }
 
 .yellow_btn:hover {
-    background-color: transparent;
-    color: #FFD452;
-    border: 1px solid #FFD452;
-    transition: ease-in 0.3s;
+    background-position: left bottom;
 }
 
 /* provide_best_wrapper end */
@@ -386,6 +381,12 @@
     background-color: var(--secondarycolor);
 }
 
+.home3 .membership_wrapper #home3_btn {
+    background-image: url(../assets/home1/arrow-right-circle.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
 @media(max-width:768px) {
 
     .home3_bg {
@@ -501,6 +502,7 @@
         flex-direction: column-reverse;
         /* margin-top: 48px !important; */
     }
+
     .banner_images p {
         margin-bottom: 12px !important;
         margin-top: 48px;
