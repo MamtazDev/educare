@@ -76,4 +76,7 @@ window.addEventListener("load", function () {
   // Show the main content
   var mainContent = document.getElementById("main-content");
   mainContent.style.display = "block";
+
+  // Scroll down by 50 pixels
+  window.scrollBy(0, 1000);
 });
