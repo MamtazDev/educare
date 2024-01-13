@@ -38,16 +38,42 @@ document.addEventListener("DOMContentLoaded", function () {
   // end if innerWidth
 });
 
-document.addEventListener("DOMContentLoaded", function () {
+// document.addEventListener("DOMContentLoaded", function () {
+//   // Hide the preloader
+//   var preloader = document.querySelector(
+//     ".loadingio-spinner-spinner-sftw2cww3dg"
+//   );
+//   preloader.style.display = "none";
+
+//   // Show the main content after a delay (e.g., 10000 milliseconds or 10 seconds)
+//   setTimeout(function () {
+//     var mainContent = document.getElementById("main-content");
+//     mainContent.style.display = "block";
+//   }, 10000); // Adjust the delay time (in milliseconds) as needed
+// });
+
+// window.addEventListener("load", function () {
+//   // Hide the preloader
+//   var preloader = document.querySelector(
+//     ".loadingio-spinner-spinner-sftw2cww3dg"
+//   );
+//   preloader.style.display = "none";
+
+//   // Show the main content after a delay (e.g., 10000 milliseconds or 10 seconds)
+//   setTimeout(function () {
+//     var mainContent = document.getElementById("main-content");
+//     mainContent.style.display = "block";
+//   }, 10000); // Adjust the delay time (in milliseconds) as needed
+// });
+
+window.addEventListener("load", function () {
   // Hide the preloader
   var preloader = document.querySelector(
     ".loadingio-spinner-spinner-sftw2cww3dg"
   );
   preloader.style.display = "none";
 
-  // Show the main content after a delay (e.g., 10000 milliseconds or 10 seconds)
-  setTimeout(function () {
-    var mainContent = document.getElementById("main-content");
-    mainContent.style.display = "block";
-  }, 10000); // Adjust the delay time (in milliseconds) as needed
+  // Show the main content
+  var mainContent = document.getElementById("main-content");
+  mainContent.style.display = "block";
 });
