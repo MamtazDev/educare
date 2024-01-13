@@ -339,6 +339,15 @@ input {
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
+    border: 1px solid transparent;
+    background: linear-gradient(to right, #b4df58 50%, #B6EC3D 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+.greenButton:hover {
+    background-position: left bottom;
 }
 
 .bannerWatchBtn {
@@ -384,8 +393,19 @@ input {
     align-items: center;
     gap: 8px;
     border-radius: 11px;
-    background: var(--neutralColor2);
+    background: linear-gradient(to right, #bbbaba 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
 }
+
+
+.know_more_btn:hover {
+    background-position: left bottom;
+}
+
+
+
 
 .phone_btn {
     display: flex;
@@ -399,6 +419,7 @@ input {
     border: 1px solid var(--neutralColor2);
     color: var(--neutralColor2);
 }
+
 /* common buttons design */
 
 /* Design Text and SectionHeader Class Start */

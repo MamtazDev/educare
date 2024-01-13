@@ -820,12 +820,13 @@ header {
     border: 1px solid #FFD452 !important;
 }
 
-.border_white:hover {
+/* .border_white:hover {
 
     border: 1px solid #fff !important;
-}
+} */
 
 .free_workshop_btn {
+        border: 1px solid transparent;
     border-radius: 11px;
     background: var(--secondary);
     padding: 10px 12px;
@@ -833,13 +834,15 @@ header {
     justify-content: center;
     align-items: center;
     gap: 8px;
-    border: 1px solid #6663FF;
+    transition: 0.3s;
+    background-size: 200% 100%;
 }
 
 .free_workshop_btn:hover {
-    background-color: transparent;
     color: white;
-    border: 1px solid white;
+    border: 1px solid transparent;
+    background-position: -100% 0;
+    background-image: linear-gradient(to right, #e9cf81 50%, #FFD452 50%);
 }
 
 .workshop_wrapper {
@@ -1230,7 +1233,7 @@ header {
     background-color: #f8f6f6;
 } */
 
-.greenButton {
+/* .greenButton {
     transition: 0.3s;
     background-size: 200% 100%;
 }
@@ -1239,7 +1242,7 @@ header {
     color: white;
     background-position: -100% 0;
     background-image: linear-gradient(to right, #6663FF 50%, #8d8bfa 50%);
-}
+} */
 
 .signup_button {
     transition: 0.3s;
@@ -1250,14 +1253,4 @@ header {
     color: white;
     background-position: -100% 0;
     background-image: linear-gradient(to right, #131C1E 50%, #454949 50%);
-}
-
-.free_workshop_btn {
-    transition: 0.3s;
-    background-size: 200% 100%;
-}
-
-.free_workshop_btn:hover {
-    background-position: -100% 0;
-    background-image: linear-gradient(to right, #e9cf81 50%, #FFD452 50%);
 }

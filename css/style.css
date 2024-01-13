@@ -865,7 +865,6 @@ footer hr {
   .know_more_btn {
     font-size: 14px;
     width: 157px;
-
   }
 
   .phone_btn {
@@ -899,24 +898,6 @@ footer hr {
   transition: ease-in-out 0.3s;
 } */
 
-.greenButton {
-  /* background-color: #4CAF50; */
-  color: black;
-  padding: 10px 20px;
-  border: none;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  transition: 0.3s;
-  background-size: 200% 100%;
-}
-
-.greenButton:hover {
-  background-position: -100% 0;
-  background-image: linear-gradient(to right, #c3f063 50%, #B6EC3D 50%);
-}
 
 .about_btn {
   transition: ease-in-out 0.3s;
@@ -1909,16 +1890,22 @@ div#exampleModal {
   border: 1px solid transparent;
 }
 
-.know_more_btn {
-  transition: 0.3s;
+/* .greenButton {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background: linear-gradient(to right, purple 50%, white 50%);
   background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
 }
 
-.know_more_btn:hover {
-  background-position: -100% 0;
-  background-image: linear-gradient(to right, #e2e2e2 50%, #f1f1f1 50%);
-  border: 1px solid transparent;
-}
+.greenButton:hover {
+  background-position: left bottom;
+} */
+
+
+
+
 
 .phone_btn {
   transition: 0.3s;
@@ -1938,17 +1925,6 @@ div#exampleModal {
 
 .phone_btn:hover .hover_img_block {
   display: block;
-}
-
-.green_btn {
-  transition: 0.3s;
-  background-size: 200% 100%;
-}
-
-.green_btn:hover {
-  color: white;
-  background-position: -100% 0;
-  background-image: linear-gradient(to right, #4CAF50 50%, #409c43 50%);
 }
 
 .explore_courses {
