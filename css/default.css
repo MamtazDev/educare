@@ -350,6 +350,31 @@ input {
     background-position: left bottom;
 }
 
+.greenButton2 {
+    display: flex;
+    width: 219px;
+    height: 57px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background: var(--primaryColor);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    border: 1px solid transparent;
+    background: linear-gradient(to right, #7876fa 50%, #6663FF 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+.greenButton2:hover {
+    background-position: left bottom;
+}
+
 
 .greenButton3 {
     display: flex;
