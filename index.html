@@ -52,7 +52,7 @@
             <div></div>
         </div>
     </div>
-  
+
 
     <!-- header -->
     <header>
@@ -181,7 +181,7 @@
                                 data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
                                 data-aos-once="ture">
                                 <h1 class="banner_title text-lg-start text-center">
-                                    Find the <span>Perfect</span>
+                                    Find the <span><small id="element">Perfect</small></span>
                                     <br class="d-lg-block d-none">
                                     Course and develop
                                     <br class="d-lg-block d-none">
@@ -1435,6 +1435,15 @@
 <script>
     AOS.init();
 </script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 <!-- script -/end -->
+<script>
+    var typed = new Typed('#element', {
+        strings: ['Perfect', 'Better', 'Flawless'],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true
+    });
+</script>
 
 </html>

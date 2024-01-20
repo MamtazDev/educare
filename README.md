@@ -1,7 +1,9 @@
 <!-- hand wave on login ,,
  animation ,
- , loader, tabs,
+ , loader,
+
+ tabs,
  scroll issue,
-  nav hover issue,
+  nav hover issue,------------?solved
   , home page banner
    perfect text changing  -->
