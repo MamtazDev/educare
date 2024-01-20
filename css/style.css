@@ -2057,7 +2057,6 @@ div#exampleModal {
 
 
 #myBtn {
-  /* display: none; */
   position: fixed;
   bottom: 20px;
   right: 30px;
@@ -2065,20 +2064,17 @@ div#exampleModal {
   font-size: 18px;
   border: none;
   outline: none;
-  /* background-color: var(--primaryColor); */
   color: white;
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
 }
-
-
-#myBtn img.vert-move {
+#myBtn i.vert-move {
   -webkit-animation: mover 1s infinite alternate;
   animation: mover 1s infinite alternate;
 }
 
-#myBtn img.vert-move {
+#myBtn i.vert-move {
   -webkit-animation: mover 1s infinite alternate;
   animation: mover 1s infinite alternate;
 }
