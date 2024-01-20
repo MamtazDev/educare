@@ -826,7 +826,7 @@ header {
 } */
 
 .free_workshop_btn {
-        border: 1px solid transparent;
+    border: 1px solid transparent;
     border-radius: 11px;
     background: var(--secondary);
     padding: 10px 12px;
@@ -888,7 +888,14 @@ header {
     font-style: normal;
     font-weight: 500;
     text-transform: capitalize;
+
 }
+
+/* .workshop .explore_course_btn:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: #131C1E;
+} */
 
 /* student feedback start */
 .testimonial_wrapper {
