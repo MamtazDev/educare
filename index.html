@@ -1308,9 +1308,7 @@
                         </p>
                         <div class="wow fadeInUp" data-wow-duration="1.05s" data-wow-delay="300ms">
                             <input type="text" name="" id="email_arrow" placeholder="Enter your email address">
-                            <!-- <button class="email_arrow"> -->
-                            <!-- <img class="email_arrow" src="/assets/home1/arrow-right-circle.png" alt=""> -->
-                            <!-- </button> -->
+
                         </div>
                     </div>
 
@@ -1403,8 +1401,35 @@
             </p>
         </div>
     </footer>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <img class="vert-move" style="width: 30px; height: 30px;" src="./assets/up-arrow.png" alt="">
+        <!-- <i class="fa-solid fa-arrow-up-from-bracket "></i> -->
+    </button>
+    <!-- <div id="myBtn" style="height:1000px;">Scroll down!</div> -->
+
+
 </body>
-<!--  -->
+
+<!--scroll to top  -->
+<script>
+    window.onscroll = function () {
+        scrollFunction();
+    };
+
+    function scrollFunction() {
+        var mybutton = document.getElementById("myBtn");
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+</script>
 
 <script type="text/javascript"></script>
 <script src="/js/instructorslider.js"></script>
@@ -1428,8 +1453,8 @@
 <!-- import wow aos -->
 <script src="js/wow.min.js"></script>
 <script>
-        new WOW().init();
-    </script>
+    new WOW().init();
+</script>
 <script src="js/script.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
