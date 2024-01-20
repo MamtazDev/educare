@@ -2,7 +2,7 @@
  animation ,-----
  , loader,
 
-tabs,
+tabs,----------solved 
 scroll issue,-------------
 nav hover issue,------------?solved
 perfect text changing ----added  -->
