@@ -322,7 +322,8 @@
                         <h2 class="common_heading mb-3 wow fadeInUp" data-wow-duration="1.05s" data-wow-delay="200ms">
                             Our Students Feedback
                         </h2>
-                        <p class="common_para wow fadeInUp" data-wow-duration="1.05s" data-wow-delay="300ms">87% of people learning for professional development report career
+                        <p class="common_para wow fadeInUp" data-wow-duration="1.05s" data-wow-delay="300ms">87% of
+                            people learning for professional development report career
                             benefits <br> like getting a promotion starting a new career in every world</p>
                         <div class=" slick-slider row mt_32">
                             <div class="slide col-lg-4">
@@ -567,26 +568,49 @@
                 Reserved</p>
         </div>
     </footer>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fa fa-arrow-up vert-move" style="color: #B6EC3D; font-size: 35px;" aria-hidden="true"></i>
+
+    </button>
+    <script>
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            var mybutton = document.getElementById("myBtn");
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./js/home2WhatweareSlider.js"></script>
+    <script src="./js/testimonial2.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- slick  -->
+    <script src="/js/testimonialSlider.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <!-- slick  -->
+    <!-- import wow aos -->
+    <script src="js/script.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!-- script -/end -->
 </body>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
-<script src="./js/home2WhatweareSlider.js"></script>
-<script src="./js/testimonial2.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init();
-</script>
-<!-- slick  -->
-<script src="/js/testimonialSlider.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-<!-- slick  -->
-<!-- import wow aos -->
-<script src="js/script.js"></script>
-<script src="js/wow.min.js"></script>
-<script>
-    new WOW().init();
-</script>
-<!-- script -/end -->
 
 </html>

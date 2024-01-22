@@ -35,7 +35,8 @@
                 <a class="navbar-brand" href="index.html">
                     <img class="img-fluid logoImg" src="./assets/home1/greenlogo1.png" alt="Logo" />
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <img src="./assets/menu1.png" alt="Menu" />
                 </button>
@@ -400,7 +401,28 @@
                 Reserved</p>
         </div>
     </footer>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fa fa-arrow-up vert-move" style="color: #B6EC3D; font-size: 35px;" aria-hidden="true"></i>
 
+    </button>
+    <script>
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            var mybutton = document.getElementById("myBtn");
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
     <!-- import wow aos -->
     <script src="js/wow.min.js"></script>
     <script>
