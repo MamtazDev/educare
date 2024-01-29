@@ -56,12 +56,12 @@
 }
 
 /* Header Start */
-.shadow_yellow,
-.shadow_yellow1 {
+.home2_wrapper .shadow_yellow,
+.home2_wrapper .shadow_yellow1 {
     position: relative;
 }
 
-.shadow_yellow:after {
+.home2_wrapper .shadow_yellow:after {
     position: absolute;
     content: "";
     max-width: 382px;
@@ -76,7 +76,7 @@
     z-index: -1 !important;
 }
 
-.shadow_yellow1:after {
+.home2_wrapper .shadow_yellow1:after {
     position: absolute;
     content: "";
     max-width: 382px;
@@ -122,16 +122,16 @@
 
 /* color end */
 
-.navbar {
+.home2_wrapper .navbar {
     padding-top: 17px;
     padding-bottom: 17px;
 }
 
-.navbar-nav {
+.home2_wrapper .navbar-nav {
     gap: 32px;
 }
 
-.nav-link {
+.home2_wrapper .nav-link {
     color: var(--neutralColor);
     font-size: 16px;
     font-weight: 400;
@@ -140,38 +140,38 @@
     font-weight: 400;
 }
 
-.dropdown-toggle::after {
+.home2_wrapper .dropdown-toggle::after {
     display: none;
 }
 
 
-.nav-item :hover {
+.home2_wrapper .nav-item :hover {
     color: var(--primaryColor);
     cursor: pointer;
 
 }
 
-.nav-link :hover {
+.home2_wrapper .nav-link :hover {
     color: var(--primaryColor);
     cursor: pointer;
 
 }
 
-.navbar-nav .nav-link.active {
+.home2_wrapper .navbar-nav .nav-link.active {
     color: var(--primaryColor);
 }
 
-.dropdown-item.active,
-.dropdown-item:active {
+.home2_wrapper .dropdown-item.active,
+.home2_wrapper .dropdown-item:active {
     color: var(--primaryColor);
 }
 
-.navbar-expand-lg .navbar-nav .nav-link {
+.home2_wrapper .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0;
 }
 
-.navbar-toggler {
+.home2_wrapper .navbar-toggler {
     border: none;
     padding: 0;
 }
@@ -180,11 +180,11 @@
     outline: none;
 }
 
-.navbar-toggler:focus {
+.home2_wrapper .navbar-toggler:focus {
     box-shadow: none;
 }
 
-.authBtn a {
+.home2_wrapper .authBtn a {
     padding: 10px;
     border-radius: 11px;
     font-size: 18px;
@@ -193,13 +193,13 @@
     border: 1px solid transparent;
 }
 
-.authBtn a:first-child {
+.home2_wrapper .authBtn a:first-child {
     background-color: transparent;
     color: var(--initialColor);
     transition: 0.6s ease-in-out;
 }
 
-.signup_button {
+.home2_wrapper .signup_button {
     border-radius: 11px;
     background: var(--color-option-neutral-color-1, #131C1E);
     box-shadow: 0px 4px 24px 0px rgba(19, 28, 30, 0.25);
@@ -209,19 +209,19 @@
 
 /* Responsive Header Start */
 @media only screen and (max-width:1170px) {
-    .navbar-nav {
+    .home2_wrapper .navbar-nav {
         gap: 25px;
     }
 }
 
 @media only screen and (max-width:1024px) {
-    .navbar-nav {
+    .home2_wrapper .navbar-nav {
         gap: 30px;
     }
 }
 
 @media only screen and (max-width:991px) {
-    .authBtn {
+    .home2_wrapper .authBtn {
         flex-direction: column;
         gap: 25px;
         justify-content: center;
@@ -229,27 +229,27 @@
 
     }
 
-    .authBtn a {
+    .home2_wrapper .authBtn a {
         width: max-content;
     }
 
-    .navbar-nav {
+    .home2_wrapper .navbar-nav {
         gap: 25px;
         padding-bottom: 25px;
     }
 
-    .signup_button {
+    .home2_wrapper .signup_button {
         width: 50%;
         margin: auto;
     }
 }
 
 @media only screen and (max-width:330px) {
-    .navbar-brand {
+    .home2_wrapper .navbar-brand {
         margin-right: 0 !important;
     }
 
-    .logoImg {
+    .home2_wrapper .logoImg {
         max-width: 200px;
     }
 }
@@ -1262,4 +1262,3 @@ header {
     background-position: -100% 0;
     background-image: linear-gradient(to right, #131C1E 50%, #454949 50%);
 }
-
