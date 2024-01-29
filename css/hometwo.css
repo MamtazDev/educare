@@ -904,9 +904,17 @@ header {
     font-style: normal;
     font-weight: 500;
     text-transform: capitalize;
-
+    border: 1px solid transparent;
+    background: linear-gradient(to right, #131C1E 50%, #131C1E 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
 }
 
+.workshop .explore_course_btn:hover {
+    background-position: left bottom;
+
+}
 
 /* .workshop .explore_course_btn:hover {
     background-color: transparent;
@@ -1278,3 +1286,8 @@ header {
     background-position: -100% 0;
     background-image: linear-gradient(to right, #131C1E 50%, #454949 50%);
 }
+
+/* .home2_wrapper .about_btn:hover {
+    background-color: white;
+    color: #6663FF;
+} */

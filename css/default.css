@@ -352,7 +352,7 @@ input {
 
 .greenButton2 {
     display: flex;
-    width: 219px;
+    /* width: 219px; */
     height: 57px;
     padding: 10px;
     justify-content: center;
@@ -440,6 +440,7 @@ input {
     font-size: 18px;
     font-weight: 400;
 }
+
 
 
 .pro_btn {
