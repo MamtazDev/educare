@@ -2136,3 +2136,9 @@ div#exampleModal {
     transform: rotate(.5turn)
   }
 }
+
+.home1 .grey_btn:hover {
+  background-color: #aff31d;
+  color: #131C1E;
+  transition: ease-in 0.3s;
+}

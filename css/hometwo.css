@@ -176,6 +176,7 @@
     padding: 0;
 }
 
+
 :focus-visible {
     outline: none;
 }
@@ -465,6 +466,21 @@ footer hr {
 
 /* Footer Responsive End */
 /* Footer End */
+
+.home2_wrapper .featured_card_img {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.home2_wrapper .featured_card_img img {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 1.9s;
+}
+
+.home2_wrapper .featured_card_img img:hover {
+    transform: scale(1.5) !important;
+}
 
 /* main css start from here */
 body {
